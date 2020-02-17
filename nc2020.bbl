@@ -1,0 +1,48 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{AdChGoHu2001}
+Adleman, L., Chang, Q., Goel, A., Huang, M.D.: Running time and program size
+  for self-assembled squares. In: Proc. STOC 2001, ACM. pp. 740--748 (2001)
+
+\bibitem{BrChDoKaSe2013}
+Bryans, N., Chiniforooshan, E., Doty, D., Kari, L., Seki, S.: The power of
+  nondeterminism in self-assembly. Theory of Computing  9,  1--29 (2013)
+
+\bibitem{EvansPhD}
+Evans, C.G.: Crystals that Count! Physical Principles and Experimental
+  Investigations of {DNA} Tile Self-Assembly. Ph.D. thesis, Caltech (2014)
+
+\bibitem{GeMeScSe2018}
+Geary, C., \'{E}tienne Meunier, P., Schabanel, N., Seki, S.: Proving the
+  {T}uring universality of oritatami cotranscriptional folding. In: Proc. ISAAC
+  2018. pp. 23:1--23:13 (2018)
+
+\bibitem{GeMeScSe2019}
+Geary, C., \'{E}tienne Meunier, P., Schabanel, N., Seki, S.: Oritatami: A
+  computational model for molecular co-transcriptional folding. Int. J. Mol.
+  Sci.  20(9),  2259 (2019)
+
+\bibitem{GearyRothemundAndersen2014}
+Geary, C., Rothemund, P.W.K., Andersen, E.S.: A single-stranded architecture
+  for cotranscriptional folding of {RNA} nanostructures. Science  345(6198),
+  799--804 (2014)
+
+\bibitem{MasudaSekiUbukata2018}
+Masuda, Y., Seki, S., Ubukata, Y.: Towards the algorithmic molecular
+  self-assembly of fractals by cotranscriptional folding. In: Proc. CIAA 2018,
+  LNCS 10977. pp. 261--273. Springer (2018)
+
+\bibitem{McClung2006}
+McClung, C.R.: Plant circadian rhythms. The Plant Cell  18,  792--803 (2006)
+
+\bibitem{Minsky1967}
+Minsky, M. (ed.): Computation: Finite and Infinite Machines. Prentice-Hall,
+  Inc. (1967)
+
+\bibitem{RothemundWinfree2000}
+Rothemund, P.W.K., Winfree, E.: The program-size complexity of self-assembled
+  squares (extended abstract). In: Proc. STOC 2000, ACM. pp. 459--468 (2000)
+
+\end{thebibliography}
