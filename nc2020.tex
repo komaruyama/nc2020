@@ -191,7 +191,11 @@ C \xrightarrow{R}^*_{w[i+2...i+k]}C', k\le \delta, C' \in \mathcal{C}_{\le \alph
 \end{equation}
 %
 Then we say that the bead $w[i+1]$ and the bonds it forms are \textit{stabilized} according to $C_{i+1}$. 
-The easiest way to understand this stabilization process should be the video available at \href{https://www.dailymotion.com/video/x3cdj35}{\texttt{https://www.dailymotion.com\slash video\slash x3cdj35}}, in which the Turing universal oritatami system by Geary et al. \cite{GeMeScSe2018}, whose delay is 3, is running.
+The easiest way to understand this stabilization process should be the video available at
+\[
+\mbox{\href{https://www.dailymotion.com/video/x3cdj35}{\texttt{https://www.dailymotion.com\slash video\slash x3cdj35}}}, 
+\]
+in which the Turing universal oritatami system by Geary et al. \cite{GeMeScSe2018}, whose delay is 3, is running.
 This video is worth watching because a directed motif called a \textit{glider}, which it features, is utilized for our infinite counter.
 Note that an arity-$\alpha$ oritatami system cannot fold any conformation of arity larger than $\alpha$. %←
 A conformation foldable by $\Xi$ is \textit{terminal} if none of its elongations is foldable by $\Xi$. 
@@ -201,7 +205,8 @@ A conformation foldable by $\Xi$ is \textit{terminal} if none of its elongations
 %Thus, the rule set is reasonably assumed non-empty. 
 
 \begin{figure*}[tb]
-\scalebox{0.6}{
+\centering
+\scalebox{0.8}{
 \begin{tikzpicture}
 
 \foreach \x in {0, 5, 10, 15} {
@@ -270,7 +275,7 @@ A conformation foldable by $\Xi$ is \textit{terminal} if none of its elongations
 \label{fig:glider}
 \end{figure*}
 
-\begin{example}[Glider\footnote{A video can be found at \href{https://www.dailymotion.com/video/x3cdj35}{\texttt{https://www.dailymotion.com/video/x3cdj35}}, which shows how a glider folds.}]
+\begin{example}[Glider\footnote{A video to show how a glider folds can be found at \href{https://www.dailymotion.com/video/x3cdj35}{\texttt{https://www.dailymotion.com/video/x3cdj35}}.}]
 	See Fig.~\ref{fig:glider} for a delay-3 oritatami system $\Xi$ to fold a motif called a glider. 
 	Its transcript is a repetition of $a \bullet b b' \bullet a$ and its rule set $R$ is $\{(a, a'), (b, b')\}$. 
 	Its seed is colored in red. 
@@ -532,14 +537,15 @@ The initial counter value is encoded as $b_{k-1}b_{k-2} \cdots b_1b_0$ in binary
 where 
 \begin{eqnarray*}
 w_{Hn} &=& \texttt{67}{-}\texttt{76}{-}\texttt{77}{-}\texttt{78}{-}\texttt{79}{-}\texttt{88}{-}\texttt{89}{-}\texttt{90}{-}\texttt{91}{-}\texttt{96},\\
-w_{Rb} &=& \texttt{97}{-}\texttt{102}{-}\texttt{103}{-}\texttt{108}{-}\texttt{109}{-}\texttt{114}{-}\texttt{115}{-}\texttt{120}{-}\texttt{121}{-}\texttt{126}{-}\texttt{127}{-}\texttt{132},\\
+w_{Rb} &=& \texttt{97}{-}\texttt{102}{-}\texttt{103}{-}\texttt{108}{-}\texttt{109}{-}\texttt{114}{-}\texttt{115}{-}\texttt{120}{-} \\
+& & {-}\texttt{121}{-}\texttt{126}{-}\texttt{127}{-}\texttt{132},\\
 w_{F0} &=& \texttt{1}{-}\texttt{10}{-}\texttt{11}{-}\texttt{12}{-}\texttt{13}{-}\texttt{22}{-}\texttt{23}{-}\texttt{24}{-}\texttt{25}{-}\texttt{30},\\
 w_{F1} &=& \texttt{1}{-}\texttt{22}{-}\texttt{23}{-}\texttt{24}{-}\texttt{25}{-}\texttt{26}{-}\texttt{27}{-}\texttt{28}{-}\texttt{29}{-}\texttt{30},\\
  w_{Lbn} &=& \texttt{31}{-}\texttt{36}{-}\texttt{37}{-}\texttt{42}{-}\texttt{43}{-}\texttt{48}{-}\texttt{49}{-}\texttt{54}{-}\texttt{55}{-}\texttt{64}{-}\texttt{65}{-}\texttt{66}.
 \end{eqnarray*}
 $w_{Hn}$, $w_{Rb}$, $w_{F0}$, $w_{F1}$, and $w_{Lbn}$ are sequences of bead types exposed downward by modules H, R, F, L when they fold into bricks \texttt{Hn}, \texttt{Rb}, \texttt{F}$b_i$, \texttt{Lbn}, respectively, which can be found in Figs.~\ref{fig:halfadders}, \ref{fig:rightturns}, \ref{fig:formatters}, and \ref{fig:leftturns}.
-For example, $w_{Hn} = \texttt{67}{-}\texttt{76}{-}\texttt{77}{-}\texttt{78}{-}\texttt{79}{-}\texttt{88}{-}\texttt{89}{-}\texttt{90}{-}\texttt{91}{-}\texttt{96}$.
-The seed is examplified for $k = 1$ and $b_0 = 0$ in Fig.~\ref{fig:counter1stzig}, where it is colord in purple.
+%For example, $w_{Hn} = \texttt{67}{-}\texttt{76}{-}\texttt{77}{-}\texttt{78}{-}\texttt{79}{-}\texttt{88}{-}\texttt{89}{-}\texttt{90}{-}\texttt{91}{-}\texttt{96}$.
+The seed is exemplified for $k = 1$ and $b_0 = 0$ in Fig.~\ref{fig:counter1stzig}, where it is colord in purple.
 %$w_{Hn} = 67{-}76{-}77{-}78{-}79{-}88{-}89{-}90{-}91{-}96$ \\
 %$w_{Rb} = 97{-}102{-}103{-}108{-}109{-}114{-}115{-}120{-}121{-}126{-}127{-}132$\\
 %$w_{Lbn} = 31{-}36{-}37{-}42{-}43{-}48{-}49{-}54{-}55{-}64{-}65{-}66$
