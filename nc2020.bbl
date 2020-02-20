@@ -14,10 +14,14 @@ Bryans, N., Chiniforooshan, E., Doty, D., Kari, L., Seki, S.: The power of
 Evans, C.G.: Crystals that Count! Physical Principles and Experimental
   Investigations of {DNA} Tile Self-Assembly. Ph.D. thesis, Caltech (2014)
 
+\bibitem{GearyAndersen2014}
+Geary, C., Andersen, E.S.: Design principles for single-stranded {RNA} origami
+  structures. In: Proc. DNA 20. LNCS, vol. 8727, pp. 1--19. Springer (2014)
+
 \bibitem{GeMeScSe2018}
 Geary, C., \'{E}tienne Meunier, P., Schabanel, N., Seki, S.: Proving the
   {T}uring universality of oritatami cotranscriptional folding. In: Proc. ISAAC
-  2018. pp. 23:1--23:13 (2018)
+  2018. LIPIcs, vol. 123, pp. 23:1--23:13 (2018)
 
 \bibitem{GeMeScSe2019}
 Geary, C., \'{E}tienne Meunier, P., Schabanel, N., Seki, S.: Oritatami: A
@@ -31,8 +35,8 @@ Geary, C., Rothemund, P.W.K., Andersen, E.S.: A single-stranded architecture
 
 \bibitem{MasudaSekiUbukata2018}
 Masuda, Y., Seki, S., Ubukata, Y.: Towards the algorithmic molecular
-  self-assembly of fractals by cotranscriptional folding. In: Proc. CIAA 2018,
-  LNCS 10977. pp. 261--273. Springer (2018)
+  self-assembly of fractals by cotranscriptional folding. In: Proc. CIAA 2018.
+  LNCS, vol. 10977, pp. 261--273. Springer (2018)
 
 \bibitem{McClung2006}
 McClung, C.R.: Plant circadian rhythms. The Plant Cell  18,  792--803 (2006)
@@ -40,6 +44,11 @@ McClung, C.R.: Plant circadian rhythms. The Plant Cell  18,  792--803 (2006)
 \bibitem{Minsky1967}
 Minsky, M. (ed.): Computation: Finite and Infinite Machines. Prentice-Hall,
   Inc. (1967)
+
+\bibitem{PchelinaSSU2020}
+Pchelina, D., Schabanel, N., Seki, S., Ubukata, Y.: Simple intrinsic simulation
+  of cellular automata in oritatami molecular folding model. In: Proc.~LATIN
+  2020. LNCS, Springer (2020), accepted
 
 \bibitem{RothemundWinfree2000}
 Rothemund, P.W.K., Winfree, E.: The program-size complexity of self-assembled

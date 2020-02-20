@@ -29,27 +29,32 @@
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces RNA origami. RNA polymerase enzyme (orange) synthesizes the temporal copy (blue) of a gene (gray spiral) out of ribonucleotides of four types A, C, G, and U.}}{1}{figure.1}}
 \newlabel{fig:rna_origami}{{1}{1}{RNA origami. RNA polymerase enzyme (orange) synthesizes the temporal copy (blue) of a gene (gray spiral) out of ribonucleotides of four types A, C, G, and U}{figure.1}{}}
+\citation{GeMeScSe2018}
+\citation{PchelinaSSU2020}
+\citation{GearyAndersen2014}
+\citation{MasudaSekiUbukata2018}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Preliminaries}{2}{section.2}}
-\newlabel{eq:OS_CF}{{1}{2}{Preliminaries}{equation.2.1}{}}
+\newlabel{sect:preliminaries}{{2}{2}{Preliminaries}{section.2}{}}
 \citation{GeMeScSe2018}
 \citation{GeMeScSe2019}
+\newlabel{eq:OS_CF}{{1}{3}{Preliminaries}{equation.2.1}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3}Folding an infinite binary counter}{3}{section.3}}
+\newlabel{sect:detail}{{3}{3}{Folding an infinite binary counter}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}General idea}{3}{subsection.3.1}}
 \@writefile{toc}{\contentsline {paragraph}{Seed and Encoding.}{3}{section*.1}}
-\newlabel{eq:zagencoding}{{2}{3}{Seed and Encoding}{equation.3.2}{}}
-\@writefile{toc}{\contentsline {paragraph}{Brick level overview}{3}{section*.2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Folding of a glider motif by a delay-3 deterministic oritatami system.}}{4}{figure.2}}
 \newlabel{fig:glider}{{2}{4}{Folding of a glider motif by a delay-3 deterministic oritatami system}{figure.2}{}}
-\@writefile{toc}{\contentsline {paragraph}{Increment of the counter}{4}{section*.3}}
-\@writefile{toc}{\contentsline {paragraph}{Bit-width expansion at an overflow}{4}{section*.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The brick automaton of infinite binary counter}}{5}{figure.3}}
-\newlabel{fig:brickautomaton}{{3}{5}{The brick automaton of infinite binary counter}{figure.3}{}}
+\newlabel{eq:zagencoding}{{2}{4}{Seed and Encoding}{equation.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Brick level overview}{4}{subsection.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Increment of the counter}{4}{subsection.3.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces A brick automaton of the proposed infinite binary counter}}{5}{figure.3}}
+\newlabel{fig:brickautomaton}{{3}{5}{A brick automaton of the proposed infinite binary counter}{figure.3}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces All the four bricks of module F: The two bricks at the top, \texttt  {Fnt} and \texttt  {Fnb}, are for zigs while the others, \texttt  {F0} and \texttt  {F1}, are for zags. }}{6}{figure.4}}
 \newlabel{fig:formatters}{{4}{6}{All the four bricks of module F: The two bricks at the top, \texttt {Fnt} and \texttt {Fnb}, are for zigs while the others, \texttt {F0} and \texttt {F1}, are for zags}{figure.4}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces All the five bricks of module L: \texttt  {Lt}, \texttt  {Lbn}, \texttt  {Lcrn}, \texttt  {Lcre}, and \texttt  {Lbe} from top left to bottom right. In zigs, L folds into either \texttt  {Lt} or \texttt  {Lbn} depending on where it starts, until the transcript reaches the left end, where L folds either into \texttt  {Lcrn} if the current value has not been overflowed, or into \texttt  {Lbe} at an overflow. In the case of overflow, the next L folds into \texttt  {Lcre}. In zags, L always folds into \texttt  {Lbn}.}}{6}{figure.5}}
 \newlabel{fig:leftturns}{{5}{6}{All the five bricks of module L: \texttt {Lt}, \texttt {Lbn}, \texttt {Lcrn}, \texttt {Lcre}, and \texttt {Lbe} from top left to bottom right. In zigs, L folds into either \texttt {Lt} or \texttt {Lbn} depending on where it starts, until the transcript reaches the left end, where L folds either into \texttt {Lcrn} if the current value has not been overflowed, or into \texttt {Lbe} at an overflow. In the case of overflow, the next L folds into \texttt {Lcre}. In zags, L always folds into \texttt {Lbn}}{figure.5}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces All the six bricks of module H: \texttt  {H00}, \texttt  {H01}, \texttt  {He1}, \texttt  {H10}, \texttt  {H11}, and \texttt  {Hn} from top left to bottom right. In zags, H always folds into \texttt  {Hn} while in zigs, it folds into one of the other five bricks.}}{6}{figure.6}}
 \newlabel{fig:halfadders}{{6}{6}{All the six bricks of module H: \texttt {H00}, \texttt {H01}, \texttt {He1}, \texttt {H10}, \texttt {H11}, and \texttt {Hn} from top left to bottom right. In zags, H always folds into \texttt {Hn} while in zigs, it folds into one of the other five bricks}{figure.6}{}}
-\@writefile{toc}{\contentsline {paragraph}{Formatting}{6}{section*.5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces All the three bricks of module R: \texttt  {Rt}, \texttt  {Rb}, and \texttt  {Rcr}. In zigs, R folds into \texttt  {Rt} or \texttt  {Rb}, depending on how high it starts. In zags, R always folds into \texttt  {Rb} until the transcript reaches the right end, where R folds into \texttt  {Rcr}.}}{6}{figure.7}}
 \newlabel{fig:rightturns}{{7}{6}{All the three bricks of module R: \texttt {Rt}, \texttt {Rb}, and \texttt {Rcr}. In zigs, R folds into \texttt {Rt} or \texttt {Rb}, depending on how high it starts. In zags, R always folds into \texttt {Rb} until the transcript reaches the right end, where R folds into \texttt {Rcr}}{figure.7}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces  The first zig. 0 is encoded as an initial value below the seed in the format \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:zagencoding}\unskip \@@italiccorr )}} with $k = 1$ (1-bit width). Being fed with carry, the zig increments the value. Module H outputs 1, or more precisely a sequence of bead types which shall be interpreted as 1 in the next zag and reformatted, as a sum and cancels the carry. }}{6}{figure.8}}
@@ -58,22 +63,27 @@
 \newlabel{fig:counter1stzag}{{9}{6}{Module L turns and start the first zag pass. Since there is a Turn Signal at the left end of the seed, when the carry is 0, module L turns and at the end of L forms Turn Signal. In zag pass, module F reads the output of module H and copies it down,}{figure.9}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces  Reach the left end with carry. Even if transcript of module L sticks to Turn Signal, it can not bind because the distance is long. }}{6}{figure.10}}
 \newlabel{fig:overflowex1}{{10}{6}{Reach the left end with carry. Even if transcript of module L sticks to Turn Signal, it can not bind because the distance is long}{figure.10}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Rule set}}{6}{table.1}}
-\newlabel{table:rule}{{1}{6}{Formatting}{table.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces  (Left) Starting from the bottom, the Turn Signal above is too far for this L to fold into \texttt  {Lcrn}. It rather folds into \texttt  {Lbe} and initiates bit expansion. (Right) Without anything around, the succeeding H folds into a glider (brick \texttt  {He1}). }}{6}{figure.11}}
-\newlabel{fig:overflowex2-3}{{11}{6}{(Left) Starting from the bottom, the Turn Signal above is too far for this L to fold into \texttt {Lcrn}. It rather folds into \texttt {Lbe} and initiates bit expansion. (Right) Without anything around, the succeeding H folds into a glider (brick \texttt {He1})}{figure.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Bit width expansion at an overflow}{6}{subsection.3.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Formatting}{7}{subsection.3.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Rule set}{7}{subsection.3.6}}
+\newlabel{table:rule}{{3.6}{7}{Rule set}{subsection.3.6}{}}
 \bibstyle{splncs03}
 \bibdata{nc2020}
 \bibcite{AdChGoHu2001}{1}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces  The succeeding R and F also fold into respective glider-like bricks. (Left) This brick of F (\texttt  {Fnb}) exposes Turn Signal \texttt  {28}{-}\texttt  {27}{-}\texttt  {22} (boxed), which is usually ``hidden" under the previous zag. (Right) The exposed \texttt  {28}{-}\texttt  {27}{-}\texttt  {22} (boxed) triggers the folding of next L into a special brick (\texttt  {Lcre}) for left carriage-return. }}{7}{figure.12}}
-\newlabel{fig:overflowex4}{{12}{7}{The succeeding R and F also fold into respective glider-like bricks. (Left) This brick of F (\texttt {Fnb}) exposes Turn Signal \texttt {28}{-}\texttt {27}{-}\texttt {22} (boxed), which is usually ``hidden" under the previous zag. (Right) The exposed \texttt {28}{-}\texttt {27}{-}\texttt {22} (boxed) triggers the folding of next L into a special brick (\texttt {Lcre}) for left carriage-return}{figure.12}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Conclusion}{7}{section.4}}
 \bibcite{BrChDoKaSe2013}{2}
 \bibcite{EvansPhD}{3}
-\bibcite{GeMeScSe2018}{4}
-\bibcite{GeMeScSe2019}{5}
-\bibcite{GearyRothemundAndersen2014}{6}
-\bibcite{MasudaSekiUbukata2018}{7}
-\bibcite{McClung2006}{8}
-\bibcite{Minsky1967}{9}
-\bibcite{RothemundWinfree2000}{10}
+\bibcite{GearyAndersen2014}{4}
+\bibcite{GeMeScSe2018}{5}
+\bibcite{GeMeScSe2019}{6}
+\bibcite{GearyRothemundAndersen2014}{7}
+\bibcite{MasudaSekiUbukata2018}{8}
+\bibcite{McClung2006}{9}
+\bibcite{Minsky1967}{10}
+\bibcite{PchelinaSSU2020}{11}
+\bibcite{RothemundWinfree2000}{12}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces  (Left) Starting from the bottom, the Turn Signal above is too far for this L to fold into \texttt  {Lcrn}. It rather folds into \texttt  {Lbe} and initiates bit expansion. (Right) Without anything around, the succeeding H folds into a glider (brick \texttt  {He1}). }}{8}{figure.11}}
+\newlabel{fig:overflowex2-3}{{11}{8}{(Left) Starting from the bottom, the Turn Signal above is too far for this L to fold into \texttt {Lcrn}. It rather folds into \texttt {Lbe} and initiates bit expansion. (Right) Without anything around, the succeeding H folds into a glider (brick \texttt {He1})}{figure.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces  The succeeding R and F also fold into respective glider-like bricks. (Left) This brick of F (\texttt  {Fnb}) exposes Turn Signal \texttt  {28}{-}\texttt  {27}{-}\texttt  {22} (boxed), which is usually ``hidden" under the previous zag. (Right) The exposed \texttt  {28}{-}\texttt  {27}{-}\texttt  {22} (boxed) triggers the folding of next L into a special brick (\texttt  {Lcre}) for left carriage-return. }}{8}{figure.12}}
+\newlabel{fig:overflowex4}{{12}{8}{The succeeding R and F also fold into respective glider-like bricks. (Left) This brick of F (\texttt {Fnb}) exposes Turn Signal \texttt {28}{-}\texttt {27}{-}\texttt {22} (boxed), which is usually ``hidden" under the previous zag. (Right) The exposed \texttt {28}{-}\texttt {27}{-}\texttt {22} (boxed) triggers the folding of next L into a special brick (\texttt {Lcre}) for left carriage-return}{figure.12}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Conclusion}{8}{section.4}}
+\newlabel{sect:discussion}{{4}{8}{Conclusion}{section.4}{}}
