@@ -360,7 +360,8 @@ A deterministic oritatami system folds into a unique terminal conformation.
 	\node[below, shift=(-90:0.8)] at (ci) {c};
 \end{tikzpicture}
 }
-\caption{A brick automaton of the proposed infinite binary counter}
+\caption{A brick automaton of the proposed infinite binary counter. 
+9 possible ways of folding the first several beads of a module being transcribed are enumerated at the bottom with labels t, b, \dots, and transitions in the brick automaton are labeled with a corresponding way of folding}
 \label{fig:brickautomaton}
 \end{figure*}
 
@@ -816,7 +817,26 @@ The succeeding R and F also fold into respective glider-like bricks.
 
 \subsection{Counting from a non-coding seed}
 
-The capability of handling overflows enables the system to launch at a simplest possible seed which encodes nothing but a Turn Signal for the first right turn as long as the system starts counting from 0 (see Fig.~\ref{}). 
+\begin{figure}[tb]
+\begin{minipage}{0.4\linewidth}
+\centering
+\includegraphics[width=\linewidth]{fig/svg/zeroBit01.pdf}
+\end{minipage}
+\begin{minipage}{0.05\linewidth}
+\ \\
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+\centering
+\includegraphics[width=\linewidth]{fig/svg/zeroBit05.pdf}
+\end{minipage}
+\caption{Counting from a non-coding seed.
+(Left) The simplest-possible seed that consists only of the boxed right Turn Signal. 
+(Right) Starting from this non-coding seed, the first period results in the count 1 in the 1-bit. 
+}
+\label{fig:noncoding_seed}
+\end{figure}
+
+The capability of handling overflows enables the system to launch at a simplest possible seed which encodes nothing but a Turn Signal for the first right turn as long as the system starts counting from 0 (see Fig.~\ref{fig:noncoding_seed}). 
 
 \subsection{Rule set}
 \label{subsect:ruleset}
