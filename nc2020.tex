@@ -360,8 +360,7 @@ A deterministic oritatami system folds into a unique terminal conformation.
 	\node[below, shift=(-90:0.8)] at (ci) {c};
 \end{tikzpicture}
 }
-\caption{A brick automaton of the proposed infinite binary counter. 
-9 possible ways of folding the first several beads of a module being transcribed are enumerated at the bottom with labels t, b, \dots, and transitions in the brick automaton are labeled with a corresponding way of folding.}
+\caption{A brick automaton of the proposed infinite binary counter}
 \label{fig:brickautomaton}
 \end{figure*}
 
@@ -395,9 +394,7 @@ A deterministic oritatami system folds into a unique terminal conformation.
 
  \end{minipage}
  \end{tabular}
-\caption{All the four bricks of module F: The two bricks at the top, \texttt{Fnt} and \texttt{Fnb}, are for zigs while the others, \texttt{F0} and \texttt{F1}, are for zags. 
-\texttt{Fnb} binds to the zag above so weakly that it can fold even in the absence of such a zag, that is, at an overflow.
-}
+ \caption{All the four bricks of module F: The two bricks at the top, \texttt{Fnt} and \texttt{Fnb}, are for zigs while the others, \texttt{F0} and \texttt{F1}, are for zags. }
  \label{fig:formatters}
 \end{figure}
 
@@ -444,6 +441,50 @@ In the case of overflow, the next L folds into \texttt{Lcre}.
 In zags, L always folds into \texttt{Lbn}.}
  \label{fig:leftturns}
 \end{figure}
+
+%---------------------------------------------------------------------
+	\section{Folding an infinite binary counter}
+	\label{sect:detail}
+%---------------------------------------------------------------------
+
+In this section, we describe a delay-3, arity-5 deterministic oritatami system to count infinitely. 
+It employs 132 bead types, and its transcript $w$ is a repetition of \texttt{1}-\texttt{2}-\texttt{3}- $\cdots$ -\texttt{132}. 
+Its rule set is given in Sect.~\ref{subsect:ruleset}. 
+The fixed bit-width counter by Geary et al.~\cite{GeMeScSe2019} operates at delay 4 under a different dynamics, but it was modified in \cite{MasudaSekiUbukata2018} so as to run at delay 3 and under the dynamics \eqref{eq:OS_CF}, which is prevailing in the research of oritatami system. 
+
+\subsection{General idea}
+%\paragraph{General idea.}
+Between two consecutive overflows, the proposed system behaves in the same way as the fixed bit-width counter.
+Its transcript folds in a zigzag manner macroscopically (downward in figures throughout this paper).
+A zig, folding from right to left, increments the current count by 1.
+The succeeding zag, folding from left to right, formats the incremented count for the sake of next zig and copies it downward.
+Unlike the existing counter, when a zig encounters an overflow, it does not abort but rather extends the current count by 1 bit.
+
+%Each zig or zag is 3-rows thick.
+%Each pass extends to straight while folding into glider and folds its last module folds into turn module and starts next pass.
+
+
+The transcript of our counter is periodic.
+Its period \texttt{1}-\texttt{2}-\texttt{3}- $\cdots$ -\texttt{132} is semantically divided into the following four subsequences, called \textit{modules}: \\
+\begin{tabular}{ll}
+\\
+\texttt{ 1}--\texttt{30} & Format module or F; colored in green \\
+\texttt{31}--\texttt{66} & Left-Turn module or L; blue \\
+\texttt{67}--\texttt{96} & Half-Adder module or H; red \\
+\texttt{97}--\texttt{132} & Right-Turn module  or R; yellow \\
+\\
+\end{tabular}
+
+\noindent
+The transcript can be hence represented as $(FLHR)^*$ at the module level. Modules are to play their roles in expected environments by folding into respective conformations which should be pairwise-distinct enough to be distinguishable by other modules transcribed later.
+Such expected conformations are called a \textit{brick}.
+For example, module F encounters the four environments shown in Fig.~\ref{fig:formatters} where it takes the four bricks \texttt{Fnt}, \texttt{Fnb}, \texttt{F0}, and \texttt{F1}, respectively.
+Here, by saying (an instance of) a module folds into (or takes) a brick in an environment, what we actually mean is that the rule set is designed so as for the transcript of the module to interact with itself as well as with the environment into that brick according to the oritatami dynamics  \eqref{eq:OS_CF}.
+The whole system is designed to guarantee that each module is transcribed only in one of the environments it expects.
+This fact is illustrated in the \textit{brick automaton}, which describes pairs of an environment and a brick as a vertex and transitions between them.
+Since this automaton is closed, it suffices to test whether for all pairs of an environment and a brick, the brick is folded in the environment.
+This test has been done \textit{in-silico} using our simulator developed for this project.
+This brick automaton and all the certificates can be found at \href{https://komaruyama.github.io/oritatami-infinit-counter/}{\footnotesize \texttt{https://komaruyama.github.io/oritatami-infinit-counter/}}.
 
 \begin{figure}[tb]
 \begin{tabular}{c}
@@ -506,60 +547,11 @@ In zags, H always folds into \texttt{Hn} while in zigs, it folds into one of the
  \end{minipage}
  \end{tabular}
 
-\caption{All the three bricks of module R: \texttt{Rt}, \texttt{Rb}, and \texttt{Rcr}.
-In zigs, R folds into \texttt{Rt} or \texttt{Rb}, depending on how high it starts.
-In zags, R always folds into \texttt{Rb} until the transcript reaches the right end, where R folds into \texttt{Rcr} due to the four beads (boxed). 
-\texttt{Rcr} is provided with this Turn Signal for the next right carriage-return. 
-Note that \texttt{Rb} is not bonded to the environment at all. 
-That is, this module certainly folds into \texttt{Rb} at an overflow. 
-}
-\label{fig:rightturns}
+ \caption{All the three bricks of module R: \texttt{Rt}, \texttt{Rb}, and \texttt{Rcr}.
+ In zigs, R folds into \texttt{Rt} or \texttt{Rb}, depending on how high it starts.
+ In zags, R always folds into \texttt{Rb} until the transcript reaches the right end, where R folds into \texttt{Rcr}.}
+ \label{fig:rightturns}
 \end{figure}
-
-
-%---------------------------------------------------------------------
-	\section{Folding an infinite binary counter}
-	\label{sect:detail}
-%---------------------------------------------------------------------
-
-In this section, we describe a delay-3, arity-5 deterministic oritatami system to count infinitely. 
-It employs 132 bead types, and its transcript $w$ is a repetition of \texttt{1}-\texttt{2}-\texttt{3}- $\cdots$ -\texttt{132}. 
-Its rule set is given in Sect.~\ref{subsect:ruleset}. 
-The fixed bit-width counter by Geary et al.~\cite{GeMeScSe2019} operates at delay 4 under a different dynamics, but it was modified in \cite{MasudaSekiUbukata2018} so as to run at delay 3 and under the dynamics \eqref{eq:OS_CF}, which is prevailing in the research of oritatami system. 
-
-\subsection{General idea}
-%\paragraph{General idea.}
-Between two consecutive overflows, the proposed system behaves in the same way as the fixed bit-width counter.
-Its transcript folds in a zigzag manner macroscopically (downward in figures throughout this paper).
-A zig, folding from right to left, increments the current count by 1.
-The succeeding zag, folding from left to right, formats the incremented count for the sake of next zig and copies it downward.
-Unlike the existing counter, when a zig encounters an overflow, it does not abort but rather extends the current count by 1 bit.
-
-%Each zig or zag is 3-rows thick.
-%Each pass extends to straight while folding into glider and folds its last module folds into turn module and starts next pass.
-
-
-The transcript of our counter is periodic.
-Its period \texttt{1}-\texttt{2}-\texttt{3}- $\cdots$ -\texttt{132} is semantically divided into the following four subsequences, called \textit{modules}: \\
-\begin{tabular}{ll}
-\\
-\texttt{ 1}--\texttt{30} & Format module or F; colored in green \\
-\texttt{31}--\texttt{66} & Left-Turn module or L; blue \\
-\texttt{67}--\texttt{96} & Half-Adder module or H; red \\
-\texttt{97}--\texttt{132} & Right-Turn module  or R; yellow \\
-\\
-\end{tabular}
-
-\noindent
-The transcript can be hence represented as $(FLHR)^*$ at the module level. Modules are to play their roles in expected environments by folding into respective conformations which should be pairwise-distinct enough to be distinguishable by other modules transcribed later.
-Such expected conformations are called a \textit{brick}.
-For example, module F encounters the four environments shown in Fig.~\ref{fig:formatters} where it takes the four bricks \texttt{Fnt}, \texttt{Fnb}, \texttt{F0}, and \texttt{F1}, respectively.
-Here, by saying (an instance of) a module folds into (or takes) a brick in an environment, what we actually mean is that the rule set is designed so as for the transcript of the module to interact with itself as well as with the environment into that brick according to the oritatami dynamics  \eqref{eq:OS_CF}.
-The whole system is designed to guarantee that each module is transcribed only in one of the environments it expects.
-This fact is illustrated in the \textit{brick automaton}, which describes pairs of an environment and a brick as a vertex and transitions between them.
-Since this automaton is closed, it suffices to test whether for all pairs of an environment and a brick, the brick is folded in the environment.
-This test has been done \textit{in-silico} using our simulator developed for this project.
-This brick automaton and all the certificates can be found at \href{https://komaruyama.github.io/oritatami-infinit-counter/}{\footnotesize \texttt{https://komaruyama.github.io/oritatami-infinit-counter/}}.
 
 \paragraph{Seed and Encoding.}
 An initial count is encoded in binary as $b_{k-1}b_{k-2} \cdots b_1b_0$ on the seed in the following format
@@ -656,9 +648,9 @@ It folds either into \texttt{Lcrn} for (normal) carriage-return unless the count
 
 \subsection{Bit width expansion at an overflow}
 %\paragraph{Bit-width expansion at an overflow}
-The fixed bit-width counter cannot handle a zig that ends at the bottom, that is, its behavior is undefined at an overflow.
-In contrast, module L in this infinite counter is designed so as to fold into \texttt{Lbe} in this situation in order to keep counting up (Fig.~\ref{fig:overflowex2-3}).
-Observe that the dent on Turn Signal made of \texttt{58}, \texttt{63}, and \texttt{64} is too far for module L, or more precisely, for its beads \texttt{33} and \texttt{34} to interact with strongly enough to fold into \texttt{Lcrn}.
+The counter of Geary et al. cannot handle a zig that ends at the bottom, that is, its behavior is undefined at an overflow.
+In contrast, module L in this infinite counter is designed so as to fold into \texttt{Lbe} in this situation in order to continue counting up (Fig.~\ref{fig:overflowex2-3}).
+Observe that the dent on Turn Signal made of \texttt{58}, \texttt{63}, and \texttt{64} is too far for module L or more precisely its beads \texttt{33} and \texttt{34} to interact with strongly enough to fold into \texttt{Lcrn}.
 \texttt{Lbe} is a self-sustaining conformation (glider) so that it can fold even if nothing is around, which occurs at that very moment.
 For the same reason, the following instances of H, R, and F fold into self-sustaining conformations \texttt{He1}, \texttt{Rb}, and \texttt{Fnb}, respectively (Figs.~\ref{fig:overflowex2-3} and \ref{fig:overflowex4}).
 %If the beads \texttt{33} and \texttt{34} bind to Turn Signal, module L folds into \texttt{Lcrn}, but now, these beads cannot reach to Turn Signal because module L is starting at the bottom.
