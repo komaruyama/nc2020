@@ -688,7 +688,7 @@ Below the brick \texttt{H}$xc$, an instance of F folds into \texttt{F}$y$, where
 
 \begin{figure*}[tb]
 \begin{tabular}{c}
- \begin{minipage}{0.35\linewidth}
+ \begin{minipage}{0.4\linewidth}
 \centering
 \includegraphics[width=\linewidth]{fig/svg/CounterEx14_2.pdf}
 \end{minipage}
@@ -696,7 +696,7 @@ Below the brick \texttt{H}$xc$, an instance of F folds into \texttt{F}$y$, where
 \centering
 {\large $\Rightarrow$}
 \end{minipage}
- \begin{minipage}{0.55\linewidth}
+ \begin{minipage}{0.5\linewidth}
 \centering
 \includegraphics[width=\linewidth]{fig/svg/CounterEx15_2.pdf}
 \end{minipage}
@@ -919,7 +919,7 @@ The rule set of the proposed counter consists of the following 377 rules:
 (12,81),&(27,67),&(61,68),&(83,92),&(127,132),\\
 (12,88),&(27,68),&(61,69),&(83,93),&(128,130),\\
 (13,18),&(27,69),&(62,65),&(84,131),&(128,131),\\
-(13,30),&(28,33),&(62,66),&(84,93),&(128,132)  \\
+(13,30),&(28,33),&(62,66),&(84,93),&(128,132).  \\
 (13,31),&(28,35),&(64,69),&(85,130),&\\
 (13,32),&(28,60),&(64,85),&(85,90),&\\
 (13,33),&(29,31),&(65,67),&(86,90),&\\
@@ -932,24 +932,26 @@ The rule set of the proposed counter consists of the following 377 rules:
 	\label{sect:discussion}
 %---------------------------------------------------------------------
 
-In this work, we have implemented an infinite binary counter in oritatami system by improving the existing binary counter in order to handle an overflow.
-We divide the transcript of the infinite binary counter into four modules.
-The counter is folded into zig-zag manner and both of zig and zag have $4n{-}3$ modules in order for module L and module R to left turn and to right turn, respectively.
-The transcript of the existing finite counter has to bind to other modules, on the other hand, our transcript of the infinite counter can fold into a module by inner bounds.
+In this paper, we have improved the existing finite binary counter by equipping it with a function of bit expansion at an overflow.
+Applications of our infinite counter include simulation of countably many Turing-machines in parallel for proving the undecidability of various properties of oritatami system, and folding of fractals.
+For their sake, this counter should be optimized, for example, by reducing bead types, shortening the period, or simplifying its rule set, though such optimization problems are computationally hard in general \cite{HanKim2019,OtaSeki2017}.
+
+%In this work, we have implemented an infinite binary counter in oritatami system by improving the existing binary counter in order to handle an overflow.
+%We divide the transcript of the infinite binary counter into four modules.
+%The counter is folded into zig-zag manner and both of zig and zag have $4n{-}3$ modules in order for module L and module R to left turn and to right turn, respectively.
+%The transcript of the existing finite counter has to bind to other modules, on the other hand, our transcript of the infinite counter can fold into a module by inner bounds.
 
 %チューリング完全なシステムより少ないビードタイプで実装した
 %Heighway dragon への応用も考えられる
 
 
 \begin{acknowledgements}
-This work is supported in part by KAKENHI Grant-in-Aid for Challenging Research (Exploratory) No.~18K19779 and JST Program to Disseminate Tenure Tracking System No.~6F36, both granted to S.~S.
+This work is supported in part by 
+KAKENHI Grant-in-Aid for Challenging Research (Exploratory) No.~18K19779 and 
+JST Program to Disseminate Tenure Tracking System No.~6F36, both granted to S.~S.
 \end{acknowledgements}
 
 
-%%%%%%%%%%%%%%%%%
-%In this paper, we have improved the existing finite binary counter by equipping it with a function of bit expansion at an overflow.
-%Applications of our infinite counter include simulation of countably many Turing-machines in parallel for proving the undecidability of various properties of oritatami system, and folding of fractals.
-%For their sake, this counter should be optimized, for example, by reducing bead types, shortening the period, or simplifying its rule set, though such optimization problems are computationally hard in general \cite{RulesetOptimization,OtaS2017}.
 
 
 %\centering

@@ -46,6 +46,10 @@ Geary, C., Rothemund, P.W.K., Andersen, E.S.: A single-stranded architecture
 Han, Y.S., Kim, H.: Construction of geometric structure by oritatami system.
   In: Proc. DNA24. LNCS, vol. 11145, pp. 173--188. Springer (2018)
 
+\bibitem{HanKim2019}
+Han, Y.S., Kim, H.: Ruleset optimization on isomorphic oritatami systems.
+  Theor. Comput. Sci.  785,  128--139 (2019)
+
 \bibitem{MasudaSekiUbukata2018}
 Masuda, Y., Seki, S., Ubukata, Y.: Towards the algorithmic molecular
   self-assembly of fractals by cotranscriptional folding. In: Proc. CIAA 2018.
@@ -57,6 +61,10 @@ McClung, C.R.: Plant circadian rhythms. The Plant Cell  18,  792--803 (2006)
 \bibitem{Minsky1967}
 Minsky, M. (ed.): Computation: Finite and Infinite Machines. Prentice-Hall,
   Inc. (1967)
+
+\bibitem{OtaSeki2017}
+Ota, M., Seki, S.: Ruleset design problems for oritatami systems. Theor.
+  Comput. Sci.  671,  26--35 (2017)
 
 \bibitem{PchelinaSSU2020}
 Pchelina, D., Schabanel, N., Seki, S., Ubukata, Y.: Simple intrinsic simulation

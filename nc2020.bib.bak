@@ -10,15 +10,16 @@
   pages     = {23:1-23:13},
 }
 
-@article{GeMeScSe2019,
+@Article{GeMeScSe2019,
   author    = {Cody Geary and Pierre-\'{E}tienne Meunier and Nicolas Schabanel and Shinnosuke Seki},
   title     = {Oritatami: A computational model for molecular co-transcriptional folding},
-  booktitle = {Proc. MFCS 2016},
-  journal = {Int. J. Mol. Sci.},
+  journal   = {Int. J. Mol. Sci.},
   year      = {2019},
-  volume = {20},
-  number = {9},
-  pages   = {2259},
+  volume    = {20},
+  number    = {9},
+  pages     = {2259},
+  note      = {preliminary version published in MFCS 2016},
+  booktitle = {Proc. MFCS 2016},
 }
 
 @InProceedings{MasudaSekiUbukata2018,
@@ -157,6 +158,15 @@
   title        = {Molecular Folding and Computation},
   howpublished = {Bachelor Thesis},
   year         = {2016},
+}
+
+@Article{OtaSeki2017,
+  author  = {Makoto Ota and Shinnosuke Seki},
+  title   = {Ruleset Design Problems for Oritatami Systems},
+  journal = {Theor. Comput. Sci.},
+  year    = {2017},
+  volume  = {671},
+  pages   = {26-35},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
