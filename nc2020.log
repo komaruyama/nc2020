@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.12)  25 FEB 2020 09:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.12)  25 FEB 2020 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1028,165 +1028,164 @@ Package pdftex.def Info: fig/svg/cliff.pdf used on input line 362.
 (pdftex.def)             Requested size: 98.99849pt x 47.59802pt.
 
 
-LaTeX Warning: Float too large for page by 11.24252pt on input line 365.
+LaTeX Warning: Float too large for page by 31.24252pt on input line 366.
 
 <fig/svg/Fnt_1.pdf, id=130, 304.8891pt x 144.23328pt>
 File: fig/svg/Fnt_1.pdf Graphic file (type pdf)
  <use fig/svg/Fnt_1.pdf>
-Package pdftex.def Info: fig/svg/Fnt_1.pdf used on input line 374.
+Package pdftex.def Info: fig/svg/Fnt_1.pdf used on input line 375.
 (pdftex.def)             Requested size: 83.63708pt x 39.56633pt.
 
 <fig/svg/Fnb_1.pdf, id=131, 304.88907pt x 144.23328pt>
 File: fig/svg/Fnb_1.pdf Graphic file (type pdf)
  <use fig/svg/Fnb_1.pdf>
-Package pdftex.def Info: fig/svg/Fnb_1.pdf used on input line 379.
+Package pdftex.def Info: fig/svg/Fnb_1.pdf used on input line 380.
 (pdftex.def)             Requested size: 83.63708pt x 39.56633pt.
 
 <fig/svg/F0_1.pdf, id=132, 313.17pt x 153.84126pt>
 File: fig/svg/F0_1.pdf Graphic file (type pdf)
  <use fig/svg/F0_1.pdf>
-Package pdftex.def Info: fig/svg/F0_1.pdf used on input line 388.
+Package pdftex.def Info: fig/svg/F0_1.pdf used on input line 389.
 (pdftex.def)             Requested size: 83.63708pt x 41.08463pt.
 
 <fig/svg/F1_1.pdf, id=133, 298.86656pt x 151.83939pt>
 File: fig/svg/F1_1.pdf Graphic file (type pdf)
  <use fig/svg/F1_1.pdf>
-Package pdftex.def Info: fig/svg/F1_1.pdf used on input line 393.
+Package pdftex.def Info: fig/svg/F1_1.pdf used on input line 394.
 (pdftex.def)             Requested size: 83.63708pt x 42.49156pt.
 
-Overfull \hbox (15.01045pt too wide) in paragraph at lines 371--397
+Overfull \hbox (15.01045pt too wide) in paragraph at lines 372--400
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--397
+Underfull \hbox (badness 10000) in paragraph at lines 372--400
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--397
+Underfull \hbox (badness 10000) in paragraph at lines 372--400
 
  []
 
 
-Overfull \hbox (15.01045pt too wide) in paragraph at lines 371--397
+Overfull \hbox (15.01045pt too wide) in paragraph at lines 372--400
 [] 
  []
 
 <fig/svg/Lt_3.pdf, id=134, 391.52306pt x 108.46465pt>
 File: fig/svg/Lt_3.pdf Graphic file (type pdf)
  <use fig/svg/Lt_3.pdf>
-Package pdftex.def Info: fig/svg/Lt_3.pdf used on input line 409.
+Package pdftex.def Info: fig/svg/Lt_3.pdf used on input line 412.
 (pdftex.def)             Requested size: 107.53314pt x 29.79062pt.
 
 <fig/svg/Lbc_3.pdf, id=135, 404.86353pt x 108.89912pt>
 File: fig/svg/Lbc_3.pdf Graphic file (type pdf)
  <use fig/svg/Lbc_3.pdf>
-Package pdftex.def Info: fig/svg/Lbc_3.pdf used on input line 414.
+Package pdftex.def Info: fig/svg/Lbc_3.pdf used on input line 417.
 (pdftex.def)             Requested size: 107.53314pt x 28.92293pt.
 
-Overfull \hbox (15.01045pt too wide) in paragraph at lines 406--418
+Overfull \hbox (15.01045pt too wide) in paragraph at lines 409--421
 [][] 
  []
 
 <fig/svg/Ltrc_3.pdf, id=136, 295.3145pt x 228.8896pt>
 File: fig/svg/Ltrc_3.pdf Graphic file (type pdf)
  <use fig/svg/Ltrc_3.pdf>
-Package pdftex.def Info: fig/svg/Ltrc_3.pdf used on input line 424.
+Package pdftex.def Info: fig/svg/Ltrc_3.pdf used on input line 427.
 (pdftex.def)             Requested size: 95.58603pt x 74.08438pt.
 
 <fig/svg/Ltre_3.pdf, id=137, 360.76057pt x 181.34071pt>
 File: fig/svg/Ltre_3.pdf Graphic file (type pdf)
 
 <use fig/svg/Ltre_3.pdf>
-Package pdftex.def Info: fig/svg/Ltre_3.pdf used on input line 429.
+Package pdftex.def Info: fig/svg/Ltre_3.pdf used on input line 432.
 (pdftex.def)             Requested size: 119.48209pt x 60.05844pt.
 
-Overfull \hbox (15.01045pt too wide) in paragraph at lines 421--432
+Overfull \hbox (15.01045pt too wide) in paragraph at lines 424--435
 [][] 
  []
 
 <fig/svg/Lbe_3.pdf, id=138, 415.94849pt x 143.87924pt>
 File: fig/svg/Lbe_3.pdf Graphic file (type pdf)
  <use fig/svg/Lbe_3.pdf>
-Package pdftex.def Info: fig/svg/Lbe_3.pdf used on input line 434.
+Package pdftex.def Info: fig/svg/Lbe_3.pdf used on input line 437.
 (pdftex.def)             Requested size: 119.48209pt x 41.32872pt.
 
-[3] <fig/svg/H00_1.pdf, id=170, 304.88907pt x 149.02705pt>
+<fig/svg/H00_1.pdf, id=139, 304.88907pt x 149.02705pt>
 File: fig/svg/H00_1.pdf Graphic file (type pdf)
-
-<use fig/svg/H00_1.pdf>
-Package pdftex.def Info: fig/svg/H00_1.pdf used on input line 493.
+ <use fig/svg/H00_1.pdf>
+Package pdftex.def Info: fig/svg/H00_1.pdf used on input line 452.
 (pdftex.def)             Requested size: 70.97226pt x 34.68935pt.
- <fig/svg/H01_1.pdf, id=171, 313.17pt x 149.02705pt>
+
+<fig/svg/H01_1.pdf, id=140, 313.17pt x 149.02705pt>
 File: fig/svg/H01_1.pdf Graphic file (type pdf)
-
-<use fig/svg/H01_1.pdf>
-Package pdftex.def Info: fig/svg/H01_1.pdf used on input line 498.
+ <use fig/svg/H01_1.pdf>
+Package pdftex.def Info: fig/svg/H01_1.pdf used on input line 457.
 (pdftex.def)             Requested size: 70.97226pt x 33.77295pt.
- <fig/svg/He1_1.pdf, id=172, 321.45094pt x 96.6171pt>
-File: fig/svg/He1_1.pdf Graphic file (type pdf)
 
-<use fig/svg/He1_1.pdf>
-Package pdftex.def Info: fig/svg/He1_1.pdf used on input line 504.
+<fig/svg/He1_1.pdf, id=141, 321.45094pt x 96.6171pt>
+File: fig/svg/He1_1.pdf Graphic file (type pdf)
+ <use fig/svg/He1_1.pdf>
+Package pdftex.def Info: fig/svg/He1_1.pdf used on input line 463.
 (pdftex.def)             Requested size: 70.97226pt x 21.33101pt.
 
-Overfull \hbox (15.63257pt too wide) in paragraph at lines 490--507
+Overfull \hbox (15.63257pt too wide) in paragraph at lines 449--466
 [][] 
  []
 
-<fig/svg/H10_1.pdf, id=173, 304.88907pt x 149.02707pt>
+<fig/svg/H10_1.pdf, id=142, 304.88907pt x 149.02707pt>
 File: fig/svg/H10_1.pdf Graphic file (type pdf)
  <use fig/svg/H10_1.pdf>
-Package pdftex.def Info: fig/svg/H10_1.pdf used on input line 512.
+Package pdftex.def Info: fig/svg/H10_1.pdf used on input line 471.
 (pdftex.def)             Requested size: 70.97226pt x 34.68936pt.
 
-<fig/svg/H11_1.pdf, id=174, 313.17pt x 149.02705pt>
+<fig/svg/H11_1.pdf, id=143, 313.17pt x 149.02705pt>
 File: fig/svg/H11_1.pdf Graphic file (type pdf)
  <use fig/svg/H11_1.pdf>
-Package pdftex.def Info: fig/svg/H11_1.pdf used on input line 517.
+Package pdftex.def Info: fig/svg/H11_1.pdf used on input line 476.
 (pdftex.def)             Requested size: 70.97226pt x 33.77295pt.
 
-<fig/svg/Hn_1.pdf, id=175, 313.17pt x 144.43063pt>
+<fig/svg/Hn_1.pdf, id=144, 313.17pt x 144.43063pt>
 File: fig/svg/Hn_1.pdf Graphic file (type pdf)
  <use fig/svg/Hn_1.pdf>
-Package pdftex.def Info: fig/svg/Hn_1.pdf used on input line 522.
+Package pdftex.def Info: fig/svg/Hn_1.pdf used on input line 481.
 (pdftex.def)             Requested size: 70.97226pt x 32.7313pt.
 
-Overfull \hbox (15.63257pt too wide) in paragraph at lines 508--527
+Overfull \hbox (15.63257pt too wide) in paragraph at lines 467--486
 [][] 
  []
 
-<fig/svg/Rt_1.pdf, id=176, 405.18277pt x 107.29924pt>
+<fig/svg/Rt_1.pdf, id=145, 405.18277pt x 107.29924pt>
 File: fig/svg/Rt_1.pdf Graphic file (type pdf)
  <use fig/svg/Rt_1.pdf>
-Package pdftex.def Info: fig/svg/Rt_1.pdf used on input line 536.
+Package pdftex.def Info: fig/svg/Rt_1.pdf used on input line 495.
 (pdftex.def)             Requested size: 95.58603pt x 25.31192pt.
 
-<fig/svg/Rb_1(2).pdf, id=177, 395.1339pt x 107.29924pt>
+<fig/svg/Rb_1(2).pdf, id=146, 395.1339pt x 107.29924pt>
 File: fig/svg/Rb_1(2).pdf Graphic file (type pdf)
 
 <use fig/svg/Rb_1(2).pdf>
-Package pdftex.def Info: fig/svg/Rb_1(2).pdf used on input line 539.
+Package pdftex.def Info: fig/svg/Rb_1(2).pdf used on input line 498.
 (pdftex.def)             Requested size: 95.58603pt x 25.95535pt.
- <fig/svg/Rb_1.pdf, id=178, 395.1339pt x 55.67876pt>
+ <fig/svg/Rb_1.pdf, id=147, 395.1339pt x 55.67876pt>
 File: fig/svg/Rb_1.pdf Graphic file (type pdf)
 
 <use fig/svg/Rb_1.pdf>
-Package pdftex.def Info: fig/svg/Rb_1.pdf used on input line 541.
+Package pdftex.def Info: fig/svg/Rb_1.pdf used on input line 500.
 (pdftex.def)             Requested size: 95.58603pt x 13.4685pt.
- <fig/svg/Rtr_1.pdf, id=179, 228.23718pt x 193.34259pt>
+ <fig/svg/Rtr_1.pdf, id=148, 228.23718pt x 193.34259pt>
 File: fig/svg/Rtr_1.pdf Graphic file (type pdf)
 
 <use fig/svg/Rtr_1.pdf>
-Package pdftex.def Info: fig/svg/Rtr_1.pdf used on input line 546.
+Package pdftex.def Info: fig/svg/Rtr_1.pdf used on input line 505.
 (pdftex.def)             Requested size: 83.63708pt x 70.84824pt.
 
-Overfull \hbox (15.01045pt too wide) in paragraph at lines 533--549
+Overfull \hbox (15.01045pt too wide) in paragraph at lines 492--508
 [][] 
  []
 
-[4] [5 <./fig/svg/inf-ai_c_2.pdf> <./fig/svg/tglider.pdf
+[3] [4] [5 <./fig/svg/inf-ai_c_2.pdf> <./fig/svg/tglider.pdf
 
 pdfTeX warning: pdflatex.exe (file ./fig/svg/tglider.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
@@ -1226,21 +1225,21 @@ e pdfs with page group included in a single page
 File: fig/svg/CounterEx5_1.pdf Graphic file (type pdf)
 
 <use fig/svg/CounterEx5_1.pdf>
-Package pdftex.def Info: fig/svg/CounterEx5_1.pdf used on input line 605.
+Package pdftex.def Info: fig/svg/CounterEx5_1.pdf used on input line 613.
 (pdftex.def)             Requested size: 445.49698pt x 52.36954pt.
 
 <fig/svg/CounterEx11_1.pdf, id=293, 1495.83844pt x 247.50874pt>
 File: fig/svg/CounterEx11_1.pdf Graphic file (type pdf)
 
 <use fig/svg/CounterEx11_1.pdf>
-Package pdftex.def Info: fig/svg/CounterEx11_1.pdf used on input line 619.
+Package pdftex.def Info: fig/svg/CounterEx11_1.pdf used on input line 627.
 (pdftex.def)             Requested size: 495.0pt x 81.90472pt.
 
 <fig/svg/CounterEx13_1.pdf, id=294, 1529.715pt x 263.75691pt>
 File: fig/svg/CounterEx13_1.pdf Graphic file (type pdf)
 
 <use fig/svg/CounterEx13_1.pdf>
-Package pdftex.def Info: fig/svg/CounterEx13_1.pdf used on input line 631.
+Package pdftex.def Info: fig/svg/CounterEx13_1.pdf used on input line 639.
 (pdftex.def)             Requested size: 495.0pt x 85.3497pt.
  [6 <./fig/svg/Fnt_1.pdf> <./fig/svg/Fnb_1.pdf
 
@@ -1318,37 +1317,34 @@ e pdfs with page group included in a single page
 File: fig/svg/CounterEx14_2.pdf Graphic file (type pdf)
 
 <use fig/svg/CounterEx14_2.pdf>
-Package pdftex.def Info: fig/svg/CounterEx14_2.pdf used on input line 686.
+Package pdftex.def Info: fig/svg/CounterEx14_2.pdf used on input line 694.
 (pdftex.def)             Requested size: 173.25302pt x 70.84334pt.
 
 <fig/svg/CounterEx15_2.pdf, id=561, 986.38023pt x 268.46838pt>
 File: fig/svg/CounterEx15_2.pdf Graphic file (type pdf)
 
 <use fig/svg/CounterEx15_2.pdf>
-Package pdftex.def Info: fig/svg/CounterEx15_2.pdf used on input line 694.
+Package pdftex.def Info: fig/svg/CounterEx15_2.pdf used on input line 702.
 (pdftex.def)             Requested size: 272.25151pt x 74.09735pt.
 
 <fig/svg/CounterEx17_3.pdf, id=562, 870.47156pt x 95.9458pt>
 File: fig/svg/CounterEx17_3.pdf Graphic file (type pdf)
 
 <use fig/svg/CounterEx17_3.pdf>
-Package pdftex.def Info: fig/svg/CounterEx17_3.pdf used on input line 713.
+Package pdftex.def Info: fig/svg/CounterEx17_3.pdf used on input line 721.
 (pdftex.def)             Requested size: 222.74849pt x 24.55148pt.
 
 <fig/svg/CounterEx18_2.pdf, id=563, 926.3799pt x 156.4216pt>
 File: fig/svg/CounterEx18_2.pdf Graphic file (type pdf)
 
 <use fig/svg/CounterEx18_2.pdf>
-Package pdftex.def Info: fig/svg/CounterEx18_2.pdf used on input line 727.
+Package pdftex.def Info: fig/svg/CounterEx18_2.pdf used on input line 735.
 (pdftex.def)             Requested size: 222.74849pt x 37.61116pt.
 
 
-LaTeX Warning: Reference `' on page 7 undefined on input line 813.
+LaTeX Warning: Reference `' on page 7 undefined on input line 821.
 
-
-Underfull \vbox (badness 1968) has occurred while \output is active []
-
- [7 <./fig/svg/CounterEx5_1.pdf> <./fig/svg/CounterEx11_1.pdf
+[7 <./fig/svg/CounterEx5_1.pdf> <./fig/svg/CounterEx11_1.pdf
 
 pdfTeX warning: pdflatex.exe (file ./fig/svg/CounterEx11_1.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
@@ -1357,7 +1353,12 @@ pdfTeX warning: pdflatex.exe (file ./fig/svg/CounterEx11_1.pdf): PDF inclusion:
 pdfTeX warning: pdflatex.exe (file ./fig/svg/CounterEx13_1.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (2.70313pt too wide) in paragraph at lines 866--898
+Overfull \hbox (2.70313pt too wide) in paragraph at lines 838--870
+ [] 
+ []
+
+
+Overfull \hbox (2.70313pt too wide) in paragraph at lines 870--902
  [] 
  []
 
@@ -1374,12 +1375,17 @@ pdfTeX warning: pdflatex.exe (file ./fig/svg/CounterEx17_3.pdf): PDF inclusion:
 pdfTeX warning: pdflatex.exe (file ./fig/svg/CounterEx18_2.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (1.04803pt too wide) in paragraph at lines 919--920
+Overfull \hbox (2.70313pt too wide) in paragraph at lines 902--909
+ [] 
+ []
+
+
+Overfull \hbox (1.04803pt too wide) in paragraph at lines 927--928
 []\OT1/cmr/m/n/8.5 This work is sup-ported in part by KAK-
  []
 
 
-Overfull \hbox (2.5974pt too wide) in paragraph at lines 919--920
+Overfull \hbox (2.5974pt too wide) in paragraph at lines 927--928
 \OT1/cmr/m/n/8.5 No. 18K19779 and JST Pro-gram to Dis-sem-i-nate Tenure Track-
  []
 
@@ -1389,11 +1395,11 @@ Underfull \hbox (badness 1412) in paragraph at lines 23--25
  []
 
 ) [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1040.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1040.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1048.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1048.
  (./nc2020.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1040.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1040.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1048.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1048.
 
 Package rerunfilecheck Info: File `nc2020.out' has not changed.
 (rerunfilecheck)             Checksum: D2E0D47E45037A90393D26CFA194EC84;209.
@@ -1405,13 +1411,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1040.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1048.
  ) 
 Here is how much of TeX's memory you used:
- 18478 strings out of 493013
- 353204 string characters out of 6136993
- 465805 words of memory out of 5000000
- 21589 multiletter control sequences out of 15000+600000
+ 18479 strings out of 493013
+ 353220 string characters out of 6136993
+ 470751 words of memory out of 5000000
+ 21590 multiletter control sequences out of 15000+600000
  20711 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,19n,66p,791b,764s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1435,7 +1441,7 @@ xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2016
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2016/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on nc2020.pdf (9 pages, 1401168 bytes).
+Output written on nc2020.pdf (9 pages, 1401740 bytes).
 PDF statistics:
  779 PDF objects out of 1000 (max. 8388607)
  546 compressed objects within 6 object streams
