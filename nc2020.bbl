@@ -10,6 +10,15 @@ Adleman, L., Chang, Q., Goel, A., Huang, M.D.: Running time and program size
 Bryans, N., Chiniforooshan, E., Doty, D., Kari, L., Seki, S.: The power of
   nondeterminism in self-assembly. Theory of Computing  9,  1--29 (2013)
 
+\bibitem{DemaineHOPRSST2018}
+Demaine, E.D., Hendricks, J., Olsen, M., Patitz, M.J., Rogers, T.A., Schabanel,
+  N., Seki, S., Thomas, H.: Know when to fold 'em: Self-assembly of shapes by
+  folding in oritatami. In: Proc. DNA24. LNCS, vol. 11145, pp. 19--36. Springer
+  (2018)
+
+\bibitem{ElonenBachelor2016}
+Elonen, A.: Molecular folding and computation. Bachelor Thesis (2016)
+
 \bibitem{EvansPhD}
 Evans, C.G.: Crystals that Count! Physical Principles and Experimental
   Investigations of {DNA} Tile Self-Assembly. Ph.D. thesis, Caltech (2014)
@@ -26,12 +35,16 @@ Geary, C., \'{E}tienne Meunier, P., Schabanel, N., Seki, S.: Proving the
 \bibitem{GeMeScSe2019}
 Geary, C., \'{E}tienne Meunier, P., Schabanel, N., Seki, S.: Oritatami: A
   computational model for molecular co-transcriptional folding. Int. J. Mol.
-  Sci.  20(9),  2259 (2019)
+  Sci.  20(9),  2259 (2019), preliminary version published in MFCS 2016
 
 \bibitem{GearyRothemundAndersen2014}
 Geary, C., Rothemund, P.W.K., Andersen, E.S.: A single-stranded architecture
   for cotranscriptional folding of {RNA} nanostructures. Science  345(6198),
   799--804 (2014)
+
+\bibitem{HanKim2018}
+Han, Y.S., Kim, H.: Construction of geometric structure by oritatami system.
+  In: Proc. DNA24. LNCS, vol. 11145, pp. 173--188. Springer (2018)
 
 \bibitem{MasudaSekiUbukata2018}
 Masuda, Y., Seki, S., Ubukata, Y.: Towards the algorithmic molecular

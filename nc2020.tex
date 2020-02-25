@@ -33,7 +33,7 @@
 
 \begin{document}
 
-\title{Counting infinitely by oritatami co-transcriptional folding\thanks{A version of this work with several details omitted was published in the proceedings of the 46th International Conference on Current Trends in Theory and Practice of Computer Science (SOFSEM 2020, Limassol, Cyprus, January 20-24, 2020), LNCS, 12011, pp. 566--575.}}
+\title{Counting infinitely by oritatami co-transcriptional folding\thanks{An extended abstract on this work was published as a short paper in the proceedings of the 46th International Conference on Current Trends in Theory and Practice of Computer Science (SOFSEM 2020, Limassol, Cyprus, January 20-24, 2020), LNCS 12011, pp. 566--575.}}
 
 %\titlerunning{}
 \author{
@@ -42,12 +42,12 @@ Shinnosuke Seki
 }
 \institute{
 K. Maruyama \at
-The University of Electro-Communications, 1-5-1 Chofugaoka, Chofu, Tokyo, 1828585, Japan\\
-\email{k.maruyama@uec.ac.jp}
+The University of Electro-Communications, 1-5-1 Chofugaoka, Chofu, Tokyo, 1828585, Japan
+%\email{k.maruyama@uec.ac.jp}
 \and
 S. Seki \at
 The University of Electro-Communications, 1-5-1 Chofugaoka, Chofu, Tokyo, 1828585, Japan\\
-\'{E}cole Normale Superi\'{e}ure de Lyon, 46 all\'{e}e d'Italie, 69007, Lyon, France\\
+\'{E}cole Normale Sup\'{e}rieure de Lyon, 46 all\'{e}e d'Italie, 69007, Lyon, France\\
 \email{s.seki@uec.ac.jp}
 }
 
@@ -81,7 +81,7 @@ In its foundational theory of molecular self-assembly, such binary counters have
 
 A fixed bit-width (finite) binary counter has been implemented as a proof-of-concept demonstration of the oritatami model of cotranscriptional folding \cite{GeMeScSe2019}. 
 As shown in Fig.~\ref{fig:rna_origami}, an RNA transcript folds upon itself while being transcribed (synthesized) from its corresponding DNA template strand. 
-Geary et al. programmed a specific RNA rectangular tile structure into a DNA template in such a way that the corresponding RNA transcript \textit{folds cotranscriptionally} into the programmed tile structure with high probability \textit{in vitro} at room temperatures (\textit{RNA origami}) \cite{GearyRothemundAndersen2014}. 
+Geary et al. programmed a specific RNA rectangular tile structure into a DNA template in such a way that the corresponding RNA transcript \textit{folds cotranscriptionally} into the programmed tile structure with high probability \textit{in-vitro} at room temperatures (\textit{RNA origami}) \cite{GearyRothemundAndersen2014}. 
 An oritatami system folds a transcript of abstract molecules called \textit{beads} of finitely many types over the 2-dimensional triangular lattice cotranscriptionally according to a rule set that specifies which types of molecules are allowed to bind once they are placed at the unit distance away. 
 The transcript of the binary counter in \cite{GeMeScSe2019} is of period 60 as $\textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-}\textcircled{\scriptsize 2}{-} \cdots {-}\textcircled{\scriptsize 58}{-}\textcircled{\scriptsize 59}{-}\textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1} \cdots$ and its period is semantically divided into two half-adder (HA) modules $A = \textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-} \cdots {-}\textcircled{\scriptsize 11}$ and $C = \textcircled{\scriptsize 30}{-}\textcircled{\scriptsize 31}{-} \cdots {-}\textcircled{\scriptsize 41}$ and two structural modules $B$ and $D$, which are sandwiched by half-adder modules along the transcript.
 While being folded cotranscriptionally in zigzags, HA modules increment the current count $i$ by 1, which is initialized on a linear \textit{seed} structure, alike the Evans' counter, whereas structural modules $B$ and $D$ align HA modules properly and also make a turn at an end of the count $i$; $B$ guides the transcript from a zig to a zag ($\hookrightarrow$) while $D$ does from a zag to a zig ($\hookleftarrow$). 
@@ -89,7 +89,7 @@ This counter was embedded as a component of an oritatami system to self-assemble
 Its applications are limited, however, by lack of mechanism to widen bit-width; its behavior is undefined when its count overflows. 
 In this paper, we endow this counter, or more precisely, its structural module $B$, with the capability to widen the count by 1 bit at every encounter with overflow. 
 
-The oritatami model has been proven Turing universal in \cite{GeMeScSe2018}, where a universal Turing machine is encoded as a seed and a period of transcript of an oritatami system using 542 bead types, and the number of bead types needed for Turing universality was reduced to almost one-third (183 bead types) \cite{PchelinaSSU2020} by an intrinsic simulation of 1-dimensional cellular automata (CA). 
+The oritatami model has been proven Turing universal in \cite{GeMeScSe2018}, where a universal Turing machine is encoded as a seed and a period of transcript of an oritatami system using 542 bead types, and the number of bead types needed for the universality was reduced to almost one-third (183 bead types) recently \cite{PchelinaSSU2020} by an intrinsic simulation of 1-dimensional cellular automata (CA). 
 It is hence no surprise that oritatami systems can count even infinitely. 
 An advantage of the counter we shall propose is that the number of bead types it employs is just 132 and so is the length of a period of its transcript, which is indeed $\textcircled{\scriptsize 1}{-}\textcircled{\scriptsize 2}{-} \cdots {-}\textcircled{\tiny 132}$, whereas a period of a transcript to simulate a radius-$r$ CA with $Q$ states by the simplified Turing universal oritatami system is of length about $\frac{142}{3}Q_r^2 \log_2 Q_r$, where $Q_r = 2^{\lceil \log_2(2Q^{2r+1})\rceil}$, which is apparently much longer than the period of the proposed counter. 
 A periodic transcript is expected to be transcribed from a circular DNA \cite{GearyAndersen2014} but such a template DNA sequence gets more costly to be synthesized as it gets longer. 
@@ -178,7 +178,7 @@ Given a rule set $R$ and an $R$-valid conformation $C_1 = (P, w, H)$, we say tha
 Note that $C_2$ is also $R$-valid. 
 This operation is recursively extended to the elongation by a finite sequence of beads as: for any conformation $C$, $C \xrightarrow{R}_\lambda^* C$; and for a finite sequence of beads $w \in \Sigma^*$ and a bead $b \in \Sigma$, a conformation $C_1$ is elongated to a conformation $C_2$ by $wb$, written as $C_1 \xrightarrow{R}_{wb}^* C_2$, if there is a conformation $C'$ that satisfies $C_1 \xrightarrow{R}_w^* C'$ and $C' \xrightarrow{R}_b C_2$. 
 
-An \textit{oritatami system} (OS) $\Xi$ is a tuple $(\Sigma, R, \delta, \alpha, \sigma, w)$, where $\Sigma$ and $R$ are defined as above, while the other elements are
+An \textit{oritatami system} $\Xi$ is a tuple $(\Sigma, R, \delta, \alpha, \sigma, w)$, where $\Sigma$ and $R$ are defined as above, while the other elements are
 a positive integer $\delta$ called \textit{delay}, 
 a positive integer $\alpha$ called \textit{arity},
 an initial $R$-valid conformation $\sigma \in C_{\le \alpha}(\Sigma)$ called the \textit{seed},
@@ -296,8 +296,13 @@ A deterministic oritatami system folds into a unique terminal conformation.
 	Then the next bead, $b'$, is transcribed. 
 	After the three steps, the third bead, $b$, is stabilized. 
 	It is not until then that its bond with the $b'$-bead is also stabilized. 
+	
+	The glider is self-standing and has provided a solid scaffold to oritatami systems \cite{DemaineHOPRSST2018,ElonenBachelor2016,GeMeScSe2018,HanKim2018,PchelinaSSU2020}. 
+	Counting infinitely in a zigzag manner requires a self-standing structure because while widening bit-width at an overflow, such a counter cannot be bonded to the previous zag (see Figs.~\ref{fig:overflowex2-3} and \ref{fig:overflowex4}).  
+	Modules of the fixed bit-width oritatami counter fold into parallelograms. 
+	As a rule of thumb, a parallelogram requires such a considerable number of bonds to stand alone that it is not extensible functionally very much. 
+	Therefore, we have designed modules of the proposed counter based on a glider (see Figs.~\ref{fig:formatters}, \ref{fig:leftturns}, \ref{fig:halfadders}, and \ref{fig:rightturns}). 
 \end{example}
-%gliderが自立する構造であること
 
 
 
@@ -431,7 +436,7 @@ A deterministic oritatami system folds into a unique terminal conformation.
 
  
  \caption{All the five bricks of module L: \texttt{Lt}, \texttt{Lbn}, \texttt{Lcrn}, \texttt{Lcre}, and \texttt{Lbe} from top left to bottom right.
-In zigs, L folds into either \texttt{Lt} or \texttt{Lbn} depending on where it starts, until the transcript reaches the left end, where L folds either into \texttt{Lcrn} if the current value has not been overflowed, or into \texttt{Lbe} at an overflow.
+In zigs, L folds into either \texttt{Lt} or \texttt{Lbn} depending on where it starts, until the transcript reaches the left end, where L folds either into \texttt{Lcrn} if the current count has not been overflowed, or into \texttt{Lbe} at an overflow.
 In the case of overflow, the next L folds into \texttt{Lcre}.
 In zags, L always folds into \texttt{Lbn}.}
  \label{fig:leftturns}
@@ -442,31 +447,35 @@ In zags, L always folds into \texttt{Lbn}.}
 	\label{sect:detail}
 %---------------------------------------------------------------------
 
+In this section, we describe a delay-3, arity-5 deterministic oritatami system to count infinitely. 
+It employs 132 bead types, and its transcript $w$ is a repetition of \texttt{1}-\texttt{2}-\texttt{3}- $\cdots$ -\texttt{132}. 
+Its rule set is given in Sect.~\ref{subsect:ruleset}. 
+The fixed bit-width counter by Geary et al.~\cite{GeMeScSe2019} operates at delay 4 under a different dynamics, but it was modified in \cite{MasudaSekiUbukata2018} so as to run at delay 3 and under the dynamics \eqref{eq:OS_CF}, which is prevailing in the research of oritatami system. 
 
 \subsection{General idea}
 %\paragraph{General idea.}
-Between two consecutive overflows, the proposed system behaves in the same way as the finite binary counter proposed by Geary et al. \cite{GeMeScSe2019}.
+Between two consecutive overflows, the proposed system behaves in the same way as the fixed bit-width counter.
 Its transcript folds in a zigzag manner macroscopically (downward in figures throughout this paper).
-A zig, folding from right to left, increments the current value of the counter by 1.
-The succeeding zag, folding from left to right, formats the incremented value for the sake of next zig and copies it downward.
-Unlike the existing counter, when a zig encounters an overflow, it does not abort but rather extends the current value by 1 bit.
+A zig, folding from right to left, increments the current count by 1.
+The succeeding zag, folding from left to right, formats the incremented count for the sake of next zig and copies it downward.
+Unlike the existing counter, when a zig encounters an overflow, it does not abort but rather extends the current count by 1 bit.
 
 %Each zig or zag is 3-rows thick.
 %Each pass extends to straight while folding into glider and folds its last module folds into turn module and starts next pass.
 
 
 The transcript of our counter is periodic.
-Its period \texttt{1}-\texttt{2}-\texttt{3}- $\cdots$ -\texttt{132} is semantically divided into the following four subsequences, called \textit{modules}:
-\texttt{1}--\texttt{30} (Format module or F; colored in green in figures),
-\texttt{31}--\texttt{66} (Left-Turn module or L; blue),
-\texttt{67}--\texttt{96} (Half-Adder module or H; red),
-and \texttt{97}--\texttt{132} (Right-Turn module  or R; yellow).
-%\begin{itemize}
-%\item \texttt{1}--\texttt{30}: Format module or F
-%\item \texttt{31}--\texttt{66}: Left-Turn module or L
-%\item \texttt{67}--\texttt{96}: Half-Adder module or H
-%\item \texttt{97}--\texttt{132}: Right-Turn module  or R
-%\end{itemize}
+Its period \texttt{1}-\texttt{2}-\texttt{3}- $\cdots$ -\texttt{132} is semantically divided into the following four subsequences, called \textit{modules}: \\
+\begin{tabular}{ll}
+\\
+\texttt{ 1}--\texttt{30} & Format module or F; colored in green \\
+\texttt{31}--\texttt{66} & Left-Turn module or L; blue \\
+\texttt{67}--\texttt{96} & Half-Adder module or H; red \\
+\texttt{97}--\texttt{132} & Right-Turn module  or R; yellow \\
+\\
+\end{tabular}
+
+\noindent
 The transcript can be hence represented as $(FLHR)^*$ at the module level. Modules are to play their roles in expected environments by folding into respective conformations which should be pairwise-distinct enough to be distinguishable by other modules transcribed later.
 Such expected conformations are called a \textit{brick}.
 For example, module F encounters the four environments shown in Fig.~\ref{fig:formatters} where it takes the four bricks \texttt{Fnt}, \texttt{Fnb}, \texttt{F0}, and \texttt{F1}, respectively.
@@ -475,7 +484,7 @@ The whole system is designed to guarantee that each module is transcribed only i
 This fact is illustrated in the \textit{brick automaton}, which describes pairs of an environment and a brick as a vertex and transitions between them.
 Since this automaton is closed, it suffices to test whether for all pairs of an environment and a brick, the brick is folded in the environment.
 This test has been done \textit{in-silico} using our simulator developed for this project.
-This brick automaton and all the certificates can be found at \href{https://komaruyama.github.io/oritatami-infinit-counter/}{\texttt{https://komaruyama.github.io/oritatami-infinit-counter/}}.
+This brick automaton and all the certificates can be found at \href{https://komaruyama.github.io/oritatami-infinit-counter/}{\footnotesize \texttt{https://komaruyama.github.io/oritatami-infinit-counter/}}.
 
 \begin{figure}[tb]
 \begin{tabular}{c}
@@ -556,7 +565,8 @@ w_{Rb} &=& \texttt{97}{-}\texttt{102}{-}\texttt{103}{-}\texttt{108}{-}\texttt{10
 & & {-}\texttt{121}{-}\texttt{126}{-}\texttt{127}{-}\texttt{132},\\
 w_{F0} &=& \texttt{1}{-}\texttt{10}{-}\texttt{11}{-}\texttt{12}{-}\texttt{13}{-}\texttt{22}{-}\texttt{23}{-}\texttt{24}{-}\texttt{25}{-}\texttt{30},\\
 w_{F1} &=& \texttt{1}{-}\texttt{22}{-}\texttt{23}{-}\texttt{24}{-}\texttt{25}{-}\texttt{26}{-}\texttt{27}{-}\texttt{28}{-}\texttt{29}{-}\texttt{30},\\
- w_{Lbn} &=& \texttt{31}{-}\texttt{36}{-}\texttt{37}{-}\texttt{42}{-}\texttt{43}{-}\texttt{48}{-}\texttt{49}{-}\texttt{54}{-}\texttt{55}{-}\texttt{64}{-}\texttt{65}{-}\texttt{66}.
+ w_{Lbn} &=& \texttt{31}{-}\texttt{36}{-}\texttt{37}{-}\texttt{42}{-}\texttt{43}{-}\texttt{48}{-}\texttt{49}{-}\texttt{54}{-}\texttt{55}{-}\texttt{64}{-}\\
+& & {-}\texttt{65}{-}\texttt{66}.
 \end{eqnarray*}
 $w_{Hn}$, $w_{Rb}$, $w_{F0}$, $w_{F1}$, and $w_{Lbn}$ are sequences of bead types exposed downward by modules H, R, F, L when they fold into bricks \texttt{Hn}, \texttt{Rb}, \texttt{F}$b_i$, \texttt{Lbn}, respectively, which can be found in Figs.~\ref{fig:halfadders}, \ref{fig:rightturns}, \ref{fig:formatters}, and \ref{fig:leftturns}.
 %For example, $w_{Hn} = \texttt{67}{-}\texttt{76}{-}\texttt{77}{-}\texttt{78}{-}\texttt{79}{-}\texttt{88}{-}\texttt{89}{-}\texttt{90}{-}\texttt{91}{-}\texttt{96}$.
@@ -568,7 +578,7 @@ The seed is exemplified for $k = 1$ and $b_0 = 0$ in Fig.~\ref{fig:counter1stzig
 \subsection{Brick level overview}
 %\paragraph{Brick level overview}
 Starting from the seed, this system cyclically transits four phases: zig ($\leftarrow$), left carriage-return ($\hookrightarrow$), zag ($\rightarrow$), and right carriage-return ($\hookleftarrow$). 
-The prefix $(FLHR)^k F$ of the transcript folds into the first zig (recall that $k$ is the bit-width of the initial value). 
+The prefix $(FLHR)^k F$ of the transcript folds into the first zig (recall that $k$ is the bit-width of the initial count). 
 In zigs in general, all the instances of modules F and H fold into bricks of width 10 and height 3, while all the instances of  L and R fold into bricks of width 12 and height 3. 
 Zigs thus turn out to be a linear structure of height 3. 
 We can inductively observe that the $i$-th instance of H in the prefix is transcribed right below $b_{i-1}$ encoded on the seed in the format (2) so that the H can ``read" $b_{i-1}$. 
@@ -577,7 +587,7 @@ We should note that this special brick \texttt{Lcre} is provided with another Tu
 Having been thus carriage-returned, the succeeding subsequence $(HRFL)^k H$ of the transcript folds into the first zag.
 Even in zags instances of F and H fold into bricks of width 10 and height 3, while those of L and R fold into bricks of width 12 and height 3. 
 As a result, zags turn out to be a linear structure of height 3. 
-More importantly, instances of H and F are aligned thus vertically and alternately into columns (see Figs.~\ref{fig:counter1stzig}-\ref{fig:overflowex1}), $i$-th of which from the right propagates the ($i{-}1$)-th bit of the counter value downward. 
+More importantly, instances of H and F are aligned thus vertically and alternately into columns (see Figs.~\ref{fig:counter1stzig}, \ref{fig:counter1stzag}, and \ref{fig:overflowex1}), $i$-th of which from the right propagates the ($i{-}1$)-th bit of the count downward. 
 After the whole subsequence has folded into the first zag, an instance of $R$ is transcribed and folded into a special brick \texttt{Rcr} for right carriage-return due to the turn signal \texttt{125}-\texttt{124}-\texttt{123}-\texttt{122}, which occurs also at the bottom of \texttt{Rcr} for the sake of next right carriage-return. 
 This amounts to one cycle of the phase transition.
  
@@ -590,49 +600,50 @@ In zigs, modules F, L, and R take the respective two bricks (\texttt{Fnt} and \t
 A zig is carried by being forced to start at the bottom by the last \texttt{Rcr} or the seed.
 Until the count overflows, module H encounters only four environments, which encode input 0 as $w_{F0}$ or 1 as $w_{F1}$ and carry or no-carry as of whether the module starts at the bottom or top, where it takes \texttt{H00}, \texttt{H01}, \texttt{H10}, and \texttt{H11}, respectively, as shown in Fig.~\ref{fig:halfadders} (\texttt{H}$xc$ is folded when the input is $x$ and the carry is given if $c=1$ or not otherwise).
 
-\begin{figure}[tb]
+\begin{figure*}[tb]
 \centering
-\includegraphics[width=\linewidth]{fig/svg/CounterEx5_1.pdf}
+\includegraphics[width=0.9\linewidth]{fig/svg/CounterEx5_1.pdf}
 \caption{
 The first zig.
-0 is encoded as an initial value below the seed in the format \eqref{eq:zagencoding} with $k = 1$ (1-bit width).
-Being fed with carry, the zig increments the value.
+0 is encoded as an initial count below the seed in the format \eqref{eq:zagencoding} with $k = 1$ (1-bit width).
+Being fed with carry, the zig increments the count.
 Module H outputs 1, or more precisely a sequence of bead types which shall be interpreted as 1 in the next zag and reformatted, as a sum and cancels the carry.
 }
 %\textcircled{\scriptsize 1}{-}\textcircled{\scriptsize 10}{-}\textcircled{\scriptsize 11}{-}\textcircled{\scriptsize 12}{-}\textcircled{\scriptsize 13}{-}\textcircled{\scriptsize 22}{-}\textcircled{\scriptsize 23}{-}\textcircled{\scriptsize 24}{-}\textcircled{\scriptsize 25}{-}\textcircled{\scriptsize 30},
 
 \label{fig:counter1stzig}
-\end{figure}
+\end{figure*}
 
-\begin{figure}[tb]
+\begin{figure*}[tb]
 \centering
 \includegraphics[width=\linewidth]{fig/svg/CounterEx11_1.pdf}
 \caption{
-Module L turns and start the first zag pass.
-Since there is a Turn Signal at the left end of the seed, when the carry is 0, module L turns and at the end of L forms Turn Signal.
-In zag pass, module F reads the output of module H and copies it down,
+The first zag. 
+A Turn Signal at the left end of the seed makes module L folds into the brick Lcrn to turn and initiate the zag. 
+This brick is equipped with another Turn Signal for the sake of the next turn. 
+In a zag, module F reads the output of module H from above and formats it for the sake of the next zig. 
 }
 \label{fig:counter1stzag}
-\end{figure}
+\end{figure*}
 
-\begin{figure}[tb]
+\begin{figure*}[tb]
 \centering
 \includegraphics[width=\linewidth]{fig/svg/CounterEx13_1.pdf}
 \caption{
-Reach the left end with carry.
-Even if transcript of module L sticks to Turn Signal, it can not bind because the distance is long.
+Overflow. 
+When the carry has not been canceled out until the end of a zig, the Turn Signal is too far for the upcoming module, which is L, to be folded into the brick Lcrn for turn. 
 }
 \label{fig:overflowex1}
-\end{figure}
+\end{figure*}
 
-Let us see how the subsequence $(FLHR)^kF$ folds into a zig in order to count up; for $k=1$ and the current value 0, see Fig.~\ref{fig:counter1stzig}.
+Let us see how the subsequence $(FLHR)^kF$ folds into a zig in order to count up; for $k=1$ and the current count 0, see Fig.~\ref{fig:counter1stzig}.
 The zig starts at the bottom, that is, being carried, and the carry transfers through the first instances of F and L in the way just explained toward the first instance of H.
 This H is thus fed with carry and folds into \texttt{H01} if the bit encoded above is 0, as illustrated in Fig.~\ref{fig:counter1stzig}, or \texttt{H11} if the bit is rather 1.
 \texttt{H01} ends at the top, corresponding to canceling the carry out.
 This absence of carry transfers through the succeeding modules leftward.
-As a result, the zig ends, or more precisely an instance of F ends folding at the bottom if the current value is overflowed (Fig.~\ref{fig:overflowex1}), or at the top otherwise (Fig.~\ref{fig:counter1stzig}).
+As a result, the zig ends, or more precisely an instance of F ends folding at the bottom if this increment causes an overflow (Fig.~\ref{fig:overflowex1}), or at the top otherwise (Fig.~\ref{fig:counter1stzig}).
 An instance of L is to be transcribed next.
-It folds either into \texttt{Lcrn} for (normal) carriage-return unless the current value is overflowed, or into \texttt{Lbe} at an overflow.
+It folds either into \texttt{Lcrn} for (normal) carriage-return unless the count is overflowed, or into \texttt{Lbe} at an overflow.
 
 
 \subsection{Bit width expansion at an overflow}
@@ -652,7 +663,7 @@ This signal is usually hidden geometrically by the previous zag, and hence, does
 
 \subsection{Formatting}
 %\paragraph{Formatting}
-The value has been successfully incremented but it is not in the format \eqref{eq:zagencoding} yet.
+The count has been successfully incremented but it is not in the format \eqref{eq:zagencoding} yet.
 In the upcoming zag, instances of F play their primary role to format 1 bit output by module H (recall that instances of H and F are aligned vertically and alternately).
 Both of the bricks of L for carriage-return, i.e., \texttt{Lcrn} and \texttt{Lcre}, end at the bottom so that zags start at the bottom.
 All modules start and end at the bottom in zags; note that nothing has to be transferred between modules.
@@ -797,7 +808,12 @@ The succeeding R and F also fold into respective glider-like bricks.
 %%%%%%%%%%%
 %
 
+\subsection{Counting from a non-coding seed}
+
+The capability of handling overflows enables the system to launch at a simplest possible seed which encodes nothing but a Turn Signal for the first right turn as long as the system starts counting from 0 (see Fig.~\ref{}). 
+
 \subsection{Rule set}
+\label{subsect:ruleset}
 
 The rule set of the proposed counter consists of the following 377 rules: 
 %\tablecaption{Rule set}

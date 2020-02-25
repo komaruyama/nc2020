@@ -119,4 +119,44 @@
   note      = {Accepted},
 }
 
+@InProceedings{GearyAndersen2014,
+  author    = {Cody Geary and Ebbe S. Andersen},
+  title     = {Design Principles for Single-Stranded {RNA} Origami Structures},
+  booktitle = {Proc. DNA 20},
+  year      = {2014},
+  volume    = {8727},
+  series    = {LNCS},
+  pages     = {1-19},
+  publisher = {Springer},
+}
+
+@InProceedings{HanKim2018,
+  author    = {Yo-Sub Han and Hwee Kim},
+  title     = {Construction of Geometric Structure by Oritatami System},
+  booktitle = {Proc. DNA24},
+  year      = {2018},
+  volume    = {11145},
+  series    = {LNCS},
+  pages     = {173-188},
+  publisher = {Springer},
+}
+
+@InProceedings{DemaineHOPRSST2018,
+  author    = {Erik D. Demaine and Jacob Hendricks and Meagan Olsen and Matthew J. Patitz and Trent A. Rogers and Nicolas Schabanel and Shinnosuke Seki and Hadley Thomas},
+  title     = {Know When to Fold 'Em: Self-Assembly of Shapes by Folding in Oritatami},
+  booktitle = {Proc. DNA24},
+  year      = {2018},
+  volume    = {11145},
+  series    = {LNCS},
+  pages     = {19-36},
+  publisher = {Springer},
+}
+
+@Misc{ElonenBachelor2016,
+  author       = {Antti Elonen},
+  title        = {Molecular Folding and Computation},
+  howpublished = {Bachelor Thesis},
+  year         = {2016},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
