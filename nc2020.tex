@@ -58,7 +58,7 @@ The University of Electro-Communications, 1-5-1 Chofugaoka, Chofu, Tokyo, 182858
 
 
 \begin{abstract}
-A fixed bit-width counter was proposed as a proof-of-concept demonstration of an oritatami model of cotranscriptional folding [Geary et al., Proc.~MFCS 2016, LIPIcs 58, 43:1-43:14], and it was embedded into another oritatami system that self-assembles a finite portion of Heighway dragon fractal. 
+A fixed bit-width counter was proposed as a proof-of-concept demonstration of the oritatami model of cotranscriptional folding [Geary et al., Proc.~MFCS 2016, LIPIcs 58, 43:1-43:14], and it was embedded into another oritatami system that self-assembles a finite portion of Heighway dragon fractal. 
 In order to expand its applications, we endow this counter with capability to widen bit-width at every encounter with overflow. 
 \end{abstract}
 
@@ -81,19 +81,19 @@ In its foundational theory of molecular self-assembly, such binary counters have
 
 A fixed bit-width (finite) binary counter has been implemented as a proof-of-concept demonstration of the oritatami model of cotranscriptional folding \cite{GeMeScSe2019}. 
 As shown in Fig.~\ref{fig:rna_origami}, an RNA transcript folds upon itself while being transcribed (synthesized) from its corresponding DNA template strand. 
-Geary et al. programmed a specific RNA rectangular tile structure into a DNA template in such a way that the corresponding RNA transcript \textit{folds cotranscriptionally} into the programmed tile structure with high probability \textit{in-vitro} at room temperatures (\textit{RNA origami}) \cite{GearyRothemundAndersen2014}. 
-An oritatami system folds a transcript of abstract molecules called \textit{beads} of finitely many types over the 2-dimensional triangular lattice cotranscriptionally according to a rule set that specifies which types of molecules are allowed to bind once they are placed at the unit distance away. 
-The transcript of the binary counter in \cite{GeMeScSe2019} is of period 60 as $\textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-}\textcircled{\scriptsize 2}{-} \cdots {-}\textcircled{\scriptsize 58}{-}\textcircled{\scriptsize 59}{-}\textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1} \cdots$ and its period is semantically divided into two half-adder (HA) modules $A = \textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-} \cdots {-}\textcircled{\scriptsize 11}$ and $C = \textcircled{\scriptsize 30}{-}\textcircled{\scriptsize 31}{-} \cdots {-}\textcircled{\scriptsize 41}$ and two structural modules $B$ and $D$, which are sandwiched by half-adder modules along the transcript.
+Geary, Rothemund, and Andersen programmed a specific RNA rectangular tile structure into a DNA template in such a way that the corresponding RNA transcript \textit{folds cotranscriptionally} into the programmed tile structure with high probability \textit{in-vitro} at room temperatures (\textit{RNA origami}) \cite{GearyRothemundAndersen2014}. 
+An oritatami system folds a transcript of abstract molecules called \textit{beads} of finitely many types over the 2-dimensional triangular lattice cotranscriptionally according to a rule set that specifies which types of molecules are allowed to bind at the unit distance. 
+The transcript of the binary counter in \cite{GeMeScSe2019} is of period 60 as $\textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-}\textcircled{\scriptsize 2}{-} \cdots {-}\textcircled{\scriptsize 58}{-}\textcircled{\scriptsize 59}{-}\textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1} \cdots$ and its period is semantically divided into two half-adder (HA) modules $A = \textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-} \cdots {-}\textcircled{\scriptsize 11}$ and $C = \textcircled{\scriptsize 30}{-}\textcircled{\scriptsize 31}{-} \cdots {-}\textcircled{\scriptsize 41}$ and two structural modules $B$ and $D$, which are sandwiched by half-adder modules along the transcript as $ABCD$.
 While being folded cotranscriptionally in zigzags, HA modules increment the current count $i$ by 1, which is initialized on a linear \textit{seed} structure, alike the Evans' counter, whereas structural modules $B$ and $D$ align HA modules properly and also make a turn at an end of the count $i$; $B$ guides the transcript from a zig to a zag ($\hookrightarrow$) while $D$ does from a zag to a zig ($\hookleftarrow$). 
 This counter was embedded as a component of an oritatami system to self-assemble an arbitrary finite portion of Heighway dragon fractal \cite{MasudaSekiUbukata2018}. 
 Its applications are limited, however, by lack of mechanism to widen bit-width; its behavior is undefined when its count overflows. 
-In this paper, we endow this counter, or more precisely, its structural module $B$, with the capability to widen the count by 1 bit at every encounter with overflow. 
+In this paper, we endow this counter, or more precisely, its structural module $B$, with the capability to widen the count by 1 bit at every overflow. 
 
 The oritatami model has been proven Turing universal in \cite{GeMeScSe2018}, where a universal Turing machine is encoded as a seed and a period of transcript of an oritatami system using 542 bead types, and the number of bead types needed for the universality was reduced to almost one-third (183 bead types) recently \cite{PchelinaSSU2020} by an intrinsic simulation of 1-dimensional cellular automata (CA). 
 It is hence no surprise that oritatami systems can count even infinitely. 
 An advantage of the counter we shall propose is that the number of bead types it employs is just 132 and so is the length of a period of its transcript, which is indeed $\textcircled{\scriptsize 1}{-}\textcircled{\scriptsize 2}{-} \cdots {-}\textcircled{\tiny 132}$, whereas a period of a transcript to simulate a radius-$r$ CA with $Q$ states by the simplified Turing universal oritatami system is of length about $\frac{142}{3}Q_r^2 \log_2 Q_r$, where $Q_r = 2^{\lceil \log_2(2Q^{2r+1})\rceil}$, which is apparently much longer than the period of the proposed counter. 
 A periodic transcript is expected to be transcribed from a circular DNA \cite{GearyAndersen2014} but such a template DNA sequence gets more costly to be synthesized as it gets longer. 
-Another advantage of our counter is its suppositional compatibility with other oritatami systems, which has been somehow affirmed by the oritatami system for Heighway dragon fractal \cite{MasudaSekiUbukata2018}, to which the original fixed-bitwidth binary counter is embedded to remember how many turns the dragon has made so far. 
+Another advantage of the proposed counter is its suppositional compatibility with other oritatami systems, which has been somehow affirmed by the oritatami system for Heighway dragon fractal \cite{MasudaSekiUbukata2018}, to which the original fixed bit-width binary counter is embedded to remember how many turns the dragon has made so far. 
 
 This paper is organized as follows. 
 In Section~\ref{sect:preliminaries}, we provide basic notions and notation of oritatami system. 
@@ -163,10 +163,10 @@ Oritatami systems fold their transcript, which is a sequence of beads, over the 
 A directed path $P = p_1 p_2 \cdots p_n$ in $\mathbb{T}$ is a sequence of \textit{pairwise-distinct} points $p_1, p_2, \ldots, p_n \in V$ such that $\{p_i, p_{i+1}\} \in E$ for all $1 \le i < n$. 
 Its $i$-th point is referred to as $P[i]$. 
 Now we are ready to abstract RNA single-stranded structures in the name of conformation. 
-A \textit{conformation} $C$ (over $\Sigma$) is a triple $(P, w, H)$ of a directed path $P$ in $\mathbb{T}$, $w \in \Sigma^*$ of the same length as $P$, and a set of (hydronge) bonds $H \subseteq \bigl\{\{i, j\} \bigm| 1 \le i, i+2 \le j, \{P[i], P[j]\} \in E \bigr\}$. 
-This is to be interpreted as the sequence $w$ being folded along the path $P$ in such a manner that its $i$-th bead $w[i]$ is placed at the $i$-th point $P[i]$ and the $i$-th and $j$-th beads are bound (by a hydrogen-bond-based interaction) if and only if $\{i, j\} \in H$. 
-The condition $i+2 \le j$ represents the topological restriction that two consecutive beads along the path cannot be bound. 
-The \textit{length} of $C$ is defined to be the length of its transcript $w$ (that is, equal to the length of the path $P$). 
+A \textit{conformation} $C$ (over $\Sigma$) is a triple $(P, w, H)$ of a directed path $P$ in $\mathbb{T}$, $w \in \Sigma^*$ of the same length as $P$, and a set of (hydrogen) bonds $H \subseteq \bigl\{\{i, j\} \bigm| 1 \le i, i+2 \le j, \{P[i], P[j]\} \in E \bigr\}$. 
+This is to be interpreted as the sequence $w$ being folded along the path $P$ in such a manner that its $i$-th bead $w[i]$ is placed at the $i$-th point $P[i]$ and the $i$-th and $j$-th beads are bonded (by a hydrogen-bond-based interaction) if and only if $\{i, j\} \in H$. 
+The condition $i+2 \le j$ represents the topological restriction that two consecutive beads along the path cannot be bonded. 
+%The \textit{length} of $C$ is defined to be the length of its transcript $w$ (that is, equal to the length of the path $P$). 
 A \textit{rule set} $R \subseteq \Sigma \times \Sigma$ is a symmetric relation over $\Sigma$, that is, for all bead types $a, b \in \Sigma$, $(a, b) \in R$ implies $(b, a) \in R$.
 A bond $\{i, j\} \in H$ is \textit{valid with respect to $R$}, or simply $R$-valid, if $(w[i], w[j]) \in R$. 
 This conformation $C$ is \textit{$R$-valid} if all of its bonds are $R$-valid. %↓
@@ -288,7 +288,7 @@ A deterministic oritatami system folds into a unique terminal conformation.
 
 \begin{example}[Glider\footnote{A video to show how a glider folds can be found at \href{https://www.dailymotion.com/video/x3cdj35}{\texttt{https://www.dailymotion.com/video/x3cdj35}}, in which the Turing universal oritatami system by Geary et al. \cite{GeMeScSe2018} is running at delay 3.}]
 	See Fig.~\ref{fig:glider} for a delay-3 deterministic oritatami system $\Xi$ to fold a motif called a glider. 
-	Its transcript is a repetition of $a \bullet b b' \bullet a$ and its rule set $R$ is $\{(a, a'), (b, b')\}$. 
+	Its transcript is a repetition of $a \bullet b b' \bullet a'$ and its rule set $R$ is $\{(a, a'), (b, b')\}$. 
 	Its seed is colored in red. 
 	The first 3 beads, $a \bullet b$, are transcribed and elongate the seed in all possible ways. 
 	The $a$-bead cannot bind or the second bead is inert according to $R$. 
@@ -297,8 +297,8 @@ A deterministic oritatami system folds into a unique terminal conformation.
 	After the three steps, the third bead, $b$, is stabilized. 
 	It is not until then that its bond with the $b'$-bead is also stabilized. 
 	
-	The glider is self-standing and has provided a solid scaffold to oritatami systems \cite{DemaineHOPRSST2018,ElonenBachelor2016,GeMeScSe2018,HanKim2018,PchelinaSSU2020}. 
-	Counting infinitely in a zigzag manner requires a self-standing structure because while widening bit-width at an overflow, such a counter cannot be bonded to the previous zag (see Figs.~\ref{fig:overflowex2-3} and \ref{fig:overflowex4}).  
+	The glider is self-sustaining and has provided a solid scaffold to oritatami systems \cite{DemaineHOPRSST2018,ElonenBachelor2016,GeMeScSe2018,HanKim2018,PchelinaSSU2020}. 
+	Counting infinitely in a zigzag manner requires a self-sustaining structure because while widening bit-width at an overflow, such a counter cannot be bonded to the previous zag (see Figs.~\ref{fig:overflowex2-3} and \ref{fig:overflowex4}).  
 	Modules of the fixed bit-width oritatami counter fold into parallelograms. 
 	As a rule of thumb, a parallelogram requires such a considerable number of bonds to stand alone that it is not extensible functionally very much. 
 	Therefore, we have designed modules of the proposed counter based on a glider (see Figs.~\ref{fig:formatters}, \ref{fig:leftturns}, \ref{fig:halfadders}, and \ref{fig:rightturns}). 
@@ -524,7 +524,7 @@ That is, this module certainly folds into \texttt{Rb} at an overflow.
 In this section, we describe a delay-3, arity-5 deterministic oritatami system to count infinitely. 
 It employs 132 bead types, and its transcript $w$ is a repetition of \texttt{1}-\texttt{2}-\texttt{3}- $\cdots$ -\texttt{132}. 
 Its rule set is given in Sect.~\ref{subsect:ruleset}. 
-The fixed bit-width counter by Geary et al.~\cite{GeMeScSe2019} operates at delay 4 under a different dynamics, but it was modified in \cite{MasudaSekiUbukata2018} so as to run at delay 3 and under the dynamics \eqref{eq:OS_CF}, which is prevailing in the research of oritatami system. 
+The fixed bit-width counter by Geary et al.~\cite{GeMeScSe2019} operates at delay 4 under a different dynamics, but it was modified in \cite{MasudaSekiUbukata2018} so as to run at delay 3 and under the more prevailing dynamics \eqref{eq:OS_CF} in the research of oritatami model. 
 
 \subsection{General idea}
 %\paragraph{General idea.}
@@ -538,32 +538,32 @@ Unlike the existing counter, when a zig encounters an overflow, it does not abor
 %Each pass extends to straight while folding into glider and folds its last module folds into turn module and starts next pass.
 
 
-The transcript of our counter is periodic.
-Its period \texttt{1}-\texttt{2}-\texttt{3}- $\cdots$ -\texttt{132} is semantically divided into the following four subsequences, called \textit{modules}: \\
-\begin{tabular}{ll}
+The transcript of the proposed counter is periodic.
+Its period \texttt{1}-\texttt{2}-\texttt{3}- $\cdots$ -\texttt{132} is divided semantically into the following four subsequences, called \textit{modules}: \\
+\begin{tabular}{rl}
 \\
-\texttt{ 1}--\texttt{30} & Format module or F; colored in green \\
-\texttt{31}--\texttt{66} & Left-Turn module or L; blue \\
-\texttt{67}--\texttt{96} & Half-Adder module or H; red \\
+\texttt{ 1}--\texttt{ 30} & Format module or F; colored in green \\
+\texttt{31}--\texttt{ 66} & Left-Turn module or L; blue \\
+\texttt{67}--\texttt{ 96} & Half-Adder module or H; red \\
 \texttt{97}--\texttt{132} & Right-Turn module  or R; yellow \\
 \\
 \end{tabular}
 
 \noindent
-The transcript can be hence represented as $(FLHR)^*$ at the module level. Modules are to play their roles in expected environments by folding into respective conformations which should be pairwise-distinct enough to be distinguishable by other modules transcribed later.
+The transcript can be hence represented as $(\mathrm{FLHR})^*$ at the module level. Modules are to play their roles in expected environments by folding into respective conformations which should be pairwise-distinct enough to be distinguishable by other modules transcribed later.
 Such expected conformations are called a \textit{brick}.
 For example, module F encounters the four environments shown in Fig.~\ref{fig:formatters} where it takes the four bricks \texttt{Fnt}, \texttt{Fnb}, \texttt{F0}, and \texttt{F1}, respectively.
 Here, by saying (an instance of) a module folds into (or takes) a brick in an environment, what we actually mean is that the rule set is designed so as for the transcript of the module to interact with itself as well as with the environment into that brick according to the oritatami dynamics  \eqref{eq:OS_CF}.
 The whole system is designed to guarantee that each module is transcribed only in one of the environments it expects.
 This fact is illustrated in the \textit{brick automaton}, which describes pairs of an environment and a brick as a vertex and transitions between them.
 Since this automaton is closed, it suffices to test whether for all pairs of an environment and a brick, the brick is folded in the environment.
-This test has been done \textit{in-silico} using our simulator developed for this project.
+This test has been done \textit{in-silico} using a simulator developed for this project.
 This brick automaton and all the certificates can be found at \href{https://komaruyama.github.io/oritatami-infinit-counter/}{\footnotesize \texttt{https://komaruyama.github.io/oritatami-infinit-counter/}}.
 
 \paragraph{Seed and Encoding.}
-An initial count is encoded in binary as $b_{k-1}b_{k-2} \cdots b_1b_0$ on the seed in the following format
+An initial count is encoded in binary as $b_{k-1}b_{k-2} \cdots b_1b_0$ on the seed in the following format:
 \begin{equation} \label{eq:zagencoding}
-\texttt{64}{-}\texttt{65}{-}\texttt{66}{-}\left( \prod^0_{i = k-1} \bigl(  w_{Hn} w_{Rb} w_{Fb_i} w_{Lbn} \bigr) \right) w_{Hn}
+\texttt{64}{-}\texttt{65}{-}\texttt{66}{-}\left( \prod^0_{i = k-1} \bigl(  w_{Hn} w_{Rb} w_{Fb_i} w_{Lbn} \bigr) \right) w_{Hn}, 
 \end{equation}
 where 
 \begin{eqnarray*}
@@ -577,10 +577,7 @@ w_{F1} &=& \texttt{1}{-}\texttt{22}{-}\texttt{23}{-}\texttt{24}{-}\texttt{25}{-}
 \end{eqnarray*}
 $w_{Hn}$, $w_{Rb}$, $w_{F0}$, $w_{F1}$, and $w_{Lbn}$ are sequences of bead types exposed downward by modules H, R, F, L when they fold into bricks \texttt{Hn}, \texttt{Rb}, \texttt{F}$b_i$, \texttt{Lbn}, respectively, which can be found in Figs.~\ref{fig:halfadders}, \ref{fig:rightturns}, \ref{fig:formatters}, and \ref{fig:leftturns}.
 %For example, $w_{Hn} = \texttt{67}{-}\texttt{76}{-}\texttt{77}{-}\texttt{78}{-}\texttt{79}{-}\texttt{88}{-}\texttt{89}{-}\texttt{90}{-}\texttt{91}{-}\texttt{96}$.
-The seed is exemplified for $k = 1$ and $b_0 = 0$ in Fig.~\ref{fig:counter1stzig}, where it is colord in purple.
-%$w_{Hn} = 67{-}76{-}77{-}78{-}79{-}88{-}89{-}90{-}91{-}96$ \\
-%$w_{Rb} = 97{-}102{-}103{-}108{-}109{-}114{-}115{-}120{-}121{-}126{-}127{-}132$\\
-%$w_{Lbn} = 31{-}36{-}37{-}42{-}43{-}48{-}49{-}54{-}55{-}64{-}65{-}66$
+The seed is exemplified for $k = 1$ and $b_0 = 0$ in Fig.~\ref{fig:counter1stzig} or for $k = 0$ (non-coding, i.e., initial count 0) in Fig.~\ref{fig:noncoding_seed}, where it is colored in purple.
 
 \subsection{Brick level overview}
 %\paragraph{Brick level overview}
@@ -933,17 +930,8 @@ The rule set of the proposed counter consists of the following 377 rules:
 %---------------------------------------------------------------------
 
 In this paper, we have improved the existing finite binary counter by equipping it with a function of bit expansion at an overflow.
-Applications of our infinite counter include simulation of countably many Turing-machines in parallel for proving the undecidability of various properties of oritatami system, and folding of fractals.
+Applications of this infinite counter include simulation of countably many Turing-machines in parallel for proving the undecidability of various properties of oritatami system, and folding of fractals.
 For their sake, this counter should be optimized, for example, by reducing bead types, shortening the period, or simplifying its rule set, though such optimization problems are computationally hard in general \cite{HanKim2019,OtaSeki2017}.
-
-%In this work, we have implemented an infinite binary counter in oritatami system by improving the existing binary counter in order to handle an overflow.
-%We divide the transcript of the infinite binary counter into four modules.
-%The counter is folded into zig-zag manner and both of zig and zag have $4n{-}3$ modules in order for module L and module R to left turn and to right turn, respectively.
-%The transcript of the existing finite counter has to bind to other modules, on the other hand, our transcript of the infinite counter can fold into a module by inner bounds.
-
-%チューリング完全なシステムより少ないビードタイプで実装した
-%Heighway dragon への応用も考えられる
-
 
 \begin{acknowledgements}
 This work is supported in part by 
