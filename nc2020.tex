@@ -33,7 +33,7 @@
 
 \begin{document}
 
-\title{Counting infinitely by oritatami co-transcriptional folding\thanks{An extended abstract on this work was published as a short paper in the proceedings of the 46th International Conference on Current Trends in Theory and Practice of Computer Science (SOFSEM 2020, Limassol, Cyprus, January 20-24, 2020), LNCS 12011, pp. 566--575.}}
+\title{Counting infinitely by oritatami co-transcriptional folding\thanks{An extended abstract on this work was published as a short paper in the proceedings of the 46th International Conference on Current Trends in Theory and Practice of Computer Science (SOFSEM 2020, Limassol, Cyprus, January 20-24, 2020), Lecture Notes in Computer Science (LNCS) 12011, pp. 566--575.}}
 
 %\titlerunning{}
 \author{
@@ -83,7 +83,10 @@ A fixed bit-width (finite) binary counter has been implemented as a proof-of-con
 As shown in Fig.~\ref{fig:rna_origami}, an RNA transcript folds upon itself while being transcribed (synthesized) from its corresponding DNA template strand. 
 Geary, Rothemund, and Andersen programmed a specific RNA rectangular tile structure into a DNA template in such a way that the corresponding RNA transcript \textit{folds cotranscriptionally} into the programmed tile structure with high probability \textit{in-vitro} at room temperatures (\textit{RNA origami}) \cite{GearyRothemundAndersen2014}. 
 An oritatami system folds a transcript of abstract molecules called \textit{beads} of finitely many types over the 2-dimensional triangular lattice cotranscriptionally according to a rule set that specifies which types of molecules are allowed to bind at the unit distance. 
-The transcript of the binary counter in \cite{GeMeScSe2019} is of period 60 as $\textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-}\textcircled{\scriptsize 2}{-} \cdots {-}\textcircled{\scriptsize 58}{-}\textcircled{\scriptsize 59}{-}\textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1} \cdots$ and its period is semantically divided into two half-adder (HA) modules $A = \textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-} \cdots {-}\textcircled{\scriptsize 11}$ and $C = \textcircled{\scriptsize 30}{-}\textcircled{\scriptsize 31}{-} \cdots {-}\textcircled{\scriptsize 41}$ and two structural modules $B$ and $D$, which are sandwiched by half-adder modules along the transcript as $ABCD$.
+The transcript of the binary counter in \cite{GeMeScSe2019} is of period 60 as 
+$\textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-} \cdots {-}\textcircled{\scriptsize 59}{-}\textcircled{\scriptsize 0}{-}\cdots$ 
+%$\textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-}\textcircled{\scriptsize 2}{-} \cdots {-}\textcircled{\scriptsize 58}{-}\textcircled{\scriptsize 59}{-}\textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1} \cdots$ 
+and its period is semantically divided into two half-adder (HA) modules $A = \textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-} \cdots {-}\textcircled{\scriptsize 11}$ and $C = \textcircled{\scriptsize 30}{-}\textcircled{\scriptsize 31}{-} \cdots {-}\textcircled{\scriptsize 41}$ and two structural modules $B$ and $D$, which are sandwiched by half-adder modules along the transcript as $ABCD$.
 While being folded cotranscriptionally in zigzags, HA modules increment the current count $i$ by 1, which is initialized on a linear \textit{seed} structure, alike the Evans' counter, whereas structural modules $B$ and $D$ align HA modules properly and also make a turn at an end of the count $i$; $B$ guides the transcript from a zig to a zag ($\hookrightarrow$) while $D$ does from a zag to a zig ($\hookleftarrow$). 
 This counter was embedded as a component of an oritatami system to self-assemble an arbitrary finite portion of Heighway dragon fractal \cite{MasudaSekiUbukata2018}. 
 Its applications are limited, however, by lack of mechanism to widen bit-width; its behavior is undefined when its count overflows. 
@@ -361,7 +364,7 @@ A deterministic oritatami system folds into a unique terminal conformation.
 \end{tikzpicture}
 }
 \caption{A brick automaton of the proposed infinite binary counter. 
-9 possible ways of folding the first several beads of a module being transcribed are enumerated at the bottom with labels t, b, \dots, and transitions in the brick automaton are labeled with a corresponding way of folding}
+9 possible ways of folding the first several beads of a module being transcribed are enumerated at the bottom with labels t, b, \dots, and transitions in the brick automaton are labeled with a corresponding way of folding.}
 \label{fig:brickautomaton}
 \end{figure*}
 
