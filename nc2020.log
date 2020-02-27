@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.12)  26 FEB 2020 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.12)  27 FEB 2020 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1236,21 +1236,21 @@ e pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./fig/svg/cliff.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
->] <fig/svg/CounterEx5_1.pdf, id=292, 1382.91656pt x 162.56627pt>
+>] <fig/svg/CounterEx5_1.pdf, id=295, 1382.91656pt x 162.56627pt>
 File: fig/svg/CounterEx5_1.pdf Graphic file (type pdf)
 
 <use fig/svg/CounterEx5_1.pdf>
 Package pdftex.def Info: fig/svg/CounterEx5_1.pdf used on input line 609.
 (pdftex.def)             Requested size: 445.49698pt x 52.36954pt.
 
-<fig/svg/CounterEx11_1.pdf, id=295, 1495.83844pt x 247.50874pt>
+<fig/svg/CounterEx11_1.pdf, id=298, 1495.83844pt x 247.50874pt>
 File: fig/svg/CounterEx11_1.pdf Graphic file (type pdf)
 
 <use fig/svg/CounterEx11_1.pdf>
 Package pdftex.def Info: fig/svg/CounterEx11_1.pdf used on input line 623.
 (pdftex.def)             Requested size: 495.0pt x 81.90472pt.
 
-<fig/svg/CounterEx13_1.pdf, id=296, 1529.715pt x 263.75691pt>
+<fig/svg/CounterEx13_1.pdf, id=299, 1529.715pt x 263.75691pt>
 File: fig/svg/CounterEx13_1.pdf Graphic file (type pdf)
 
 <use fig/svg/CounterEx13_1.pdf>
@@ -1328,58 +1328,34 @@ pdfTeX warning: pdflatex.exe (file ./fig/svg/Rb_1.pdf): PDF inclusion: multiple
 
 pdfTeX warning: pdflatex.exe (file ./fig/svg/Rtr_1.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
->] <fig/svg/CounterEx14_2.pdf, id=562, 656.32317pt x 268.36996pt>
+>] <fig/svg/CounterEx14_2.pdf, id=566, 656.32317pt x 268.36996pt>
 File: fig/svg/CounterEx14_2.pdf Graphic file (type pdf)
 
 <use fig/svg/CounterEx14_2.pdf>
-Package pdftex.def Info: fig/svg/CounterEx14_2.pdf used on input line 690.
+Package pdftex.def Info: fig/svg/CounterEx14_2.pdf used on input line 691.
 (pdftex.def)             Requested size: 197.99698pt x 80.95796pt.
 
-<fig/svg/CounterEx15_2.pdf, id=563, 832.18968pt x 268.46838pt>
+<fig/svg/CounterEx15_2.pdf, id=567, 832.18968pt x 268.46838pt>
 File: fig/svg/CounterEx15_2.pdf Graphic file (type pdf)
 
 <use fig/svg/CounterEx15_2.pdf>
-Package pdftex.def Info: fig/svg/CounterEx15_2.pdf used on input line 698.
+Package pdftex.def Info: fig/svg/CounterEx15_2.pdf used on input line 699.
 (pdftex.def)             Requested size: 247.5pt x 79.84064pt.
 
-<fig/svg/CounterEx17_3.pdf, id=564, 870.47156pt x 95.9458pt>
+<fig/svg/CounterEx17_3.pdf, id=568, 870.47156pt x 95.9458pt>
 File: fig/svg/CounterEx17_3.pdf Graphic file (type pdf)
 
 <use fig/svg/CounterEx17_3.pdf>
-Package pdftex.def Info: fig/svg/CounterEx17_3.pdf used on input line 717.
+Package pdftex.def Info: fig/svg/CounterEx17_3.pdf used on input line 718.
 (pdftex.def)             Requested size: 222.74849pt x 24.55148pt.
 
-<fig/svg/CounterEx18_2.pdf, id=565, 926.3799pt x 156.4216pt>
+<fig/svg/CounterEx18_2.pdf, id=569, 926.3799pt x 156.4216pt>
 File: fig/svg/CounterEx18_2.pdf Graphic file (type pdf)
 
 <use fig/svg/CounterEx18_2.pdf>
-Package pdftex.def Info: fig/svg/CounterEx18_2.pdf used on input line 731.
+Package pdftex.def Info: fig/svg/CounterEx18_2.pdf used on input line 732.
 (pdftex.def)             Requested size: 222.74849pt x 37.61116pt.
-
-<fig/svg/zeroBit01.pdf, id=566, 144.9708pt x 75.2376pt>
-File: fig/svg/zeroBit01.pdf Graphic file (type pdf)
-
-<use fig/svg/zeroBit01.pdf>
-Package pdftex.def Info: fig/svg/zeroBit01.pdf used on input line 820.
-(pdftex.def)             Requested size: 95.5842pt x 49.60643pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 823--824
-
- []
-
-<fig/svg/zeroBit05.pdf, id=567, 479.54156pt x 212.1486pt>
-File: fig/svg/zeroBit05.pdf Graphic file (type pdf)
-
-<use fig/svg/zeroBit05.pdf>
-Package pdftex.def Info: fig/svg/zeroBit05.pdf used on input line 827.
-(pdftex.def)             Requested size: 107.53314pt x 47.5695pt.
-
-Underfull \hbox (badness 1478) in paragraph at lines 832--832
-[]\OT1/cmr/bx/n/8 Fig. 13|[]\OT1/cmr/m/n/8.5 Counting from a non-coding seed. (
-Left) The
- []
-
-[7 <./fig/svg/CounterEx5_1.pdf> <./fig/svg/CounterEx11_1.pdf
+ [7 <./fig/svg/CounterEx5_1.pdf> <./fig/svg/CounterEx11_1.pdf
 
 pdfTeX warning: pdflatex.exe (file ./fig/svg/CounterEx11_1.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
@@ -1388,12 +1364,7 @@ pdfTeX warning: pdflatex.exe (file ./fig/svg/CounterEx11_1.pdf): PDF inclusion:
 pdfTeX warning: pdflatex.exe (file ./fig/svg/CounterEx13_1.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (2.70313pt too wide) in paragraph at lines 853--876
- [] 
- []
-
-
-Overfull \hbox (2.70313pt too wide) in paragraph at lines 876--908
+Overfull \hbox (2.70313pt too wide) in paragraph at lines 872--904
  [] 
  []
 
@@ -1409,26 +1380,36 @@ pdfTeX warning: pdflatex.exe (file ./fig/svg/CounterEx17_3.pdf): PDF inclusion:
 
 pdfTeX warning: pdflatex.exe (file ./fig/svg/CounterEx18_2.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
-> <./fig/svg/zeroBit01.pdf
+>] <fig/svg/zeroBit01.pdf, id=695, 144.9708pt x 75.2376pt>
+File: fig/svg/zeroBit01.pdf Graphic file (type pdf)
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/zeroBit01.pdf): PDF inclusion: mul
-tiple pdfs with page group included in a single page
-> <./fig/svg/zeroBit05.pdf
+<use fig/svg/zeroBit01.pdf>
+Package pdftex.def Info: fig/svg/zeroBit01.pdf used on input line 916.
+(pdftex.def)             Requested size: 95.5842pt x 49.60643pt.
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/zeroBit05.pdf): PDF inclusion: mul
-tiple pdfs with page group included in a single page
->]
-Overfull \hbox (2.70313pt too wide) in paragraph at lines 908--924
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 919--920
+
+ []
+
+<fig/svg/zeroBit05.pdf, id=696, 479.54156pt x 212.1486pt>
+File: fig/svg/zeroBit05.pdf Graphic file (type pdf)
+
+<use fig/svg/zeroBit05.pdf>
+Package pdftex.def Info: fig/svg/zeroBit05.pdf used on input line 923.
+(pdftex.def)             Requested size: 107.53314pt x 47.5695pt.
+
+Underfull \hbox (badness 1478) in paragraph at lines 928--928
+[]\OT1/cmr/bx/n/8 Fig. 13|[]\OT1/cmr/m/n/8.5 Counting from a non-coding seed. (
+Left) The
  []
 
 
-Overfull \hbox (1.04803pt too wide) in paragraph at lines 937--940
+Overfull \hbox (1.04803pt too wide) in paragraph at lines 939--942
 []\OT1/cmr/m/n/8.5 This work is sup-ported in part by KAK-
  []
 
 
-Overfull \hbox (2.5974pt too wide) in paragraph at lines 937--940
+Overfull \hbox (2.5974pt too wide) in paragraph at lines 939--942
 \OT1/cmr/m/n/8.5 No. 18K19779 and JST Pro-gram to Dis-sem-i-nate Tenure Track-
  []
 
@@ -1437,12 +1418,16 @@ Underfull \hbox (badness 1412) in paragraph at lines 23--25
 []\OT1/cmr/m/n/8.5 Evans, C.G.: Crys-tals that Count! Phys-i-cal Prin-ci-
  []
 
-) [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1056.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1056.
+) [9 <./fig/svg/zeroBit01.pdf> <./fig/svg/zeroBit05.pdf
+
+pdfTeX warning: pdflatex.exe (file ./fig/svg/zeroBit05.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1058.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1058.
  (./nc2020.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1056.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1056.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1058.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1058.
 
 Package rerunfilecheck Info: File `nc2020.out' has not changed.
 (rerunfilecheck)             Checksum: D2E0D47E45037A90393D26CFA194EC84;209.
@@ -1451,12 +1436,12 @@ Package rerunfilecheck Info: File `nc2020.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1056.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1058.
  ) 
 Here is how much of TeX's memory you used:
- 18494 strings out of 493013
- 353535 string characters out of 6136993
- 471055 words of memory out of 5000000
+ 18493 strings out of 493013
+ 353521 string characters out of 6136993
+ 472132 words of memory out of 5000000
  21600 multiletter control sequences out of 15000+600000
  20711 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1481,10 +1466,10 @@ xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2016
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2016/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on nc2020.pdf (9 pages, 1405601 bytes).
+Output written on nc2020.pdf (9 pages, 1405117 bytes).
 PDF statistics:
- 805 PDF objects out of 1000 (max. 8388607)
- 564 compressed objects within 6 object streams
- 57 named destinations out of 1000 (max. 500000)
+ 809 PDF objects out of 1000 (max. 8388607)
+ 568 compressed objects within 6 object streams
+ 56 named destinations out of 1000 (max. 500000)
  240 words of extra memory for PDF output out of 10000 (max. 10000000)
 

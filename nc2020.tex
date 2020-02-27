@@ -550,13 +550,13 @@ Its period \texttt{1}-\texttt{2}-\texttt{3}- $\cdots$ -\texttt{132} is divided s
 \end{tabular}
 
 \noindent
-The transcript can be hence represented as $(\mathrm{FLHR})^*$ at the module level. Modules are to play their roles in expected environments by folding into respective conformations which should be pairwise-distinct enough to be distinguishable by other modules transcribed later.
+The transcript can be hence represented as $(\mathrm{FLHR})^*$ at the modular level. Modules are to play their roles in expected environments by folding into respective conformations which should be pairwise-distinct enough to be distinguishable by other modules transcribed later.
 Such expected conformations are called a \textit{brick}.
 For example, module F encounters the four environments shown in Fig.~\ref{fig:formatters} where it takes the four bricks \texttt{Fnt}, \texttt{Fnb}, \texttt{F0}, and \texttt{F1}, respectively.
-Here, by saying (an instance of) a module folds into (or takes) a brick in an environment, what we actually mean is that the rule set is designed so as for the transcript of the module to interact with itself as well as with the environment into that brick according to the oritatami dynamics  \eqref{eq:OS_CF}.
+Here, by saying (an instance of) a module folds into (or takes) a brick in an environment, what we actually mean is that the rule set is designed so as for the transcript of the module to interact with itself as well as with the environment and fold deterministically into that brick according to the dynamics  \eqref{eq:OS_CF}.
 The whole system is designed to guarantee that each module is transcribed only in one of the environments it expects.
-This fact is illustrated in the \textit{brick automaton}, which describes pairs of an environment and a brick as a vertex and transitions between them.
-Since this automaton is closed, it suffices to test whether for all pairs of an environment and a brick, the brick is folded in the environment.
+This fact is illustrated in the \textit{brick automaton} in Fig.~\ref{fig:brickautomaton}, which describes pairs of an environment and a brick as a vertex and transitions between them.
+Since this automaton is closed, it suffices to test whether for all pairs of an environment and a brick, the brick is folded deterministically in the environment.
 This test has been done \textit{in-silico} using a simulator developed for this project.
 This brick automaton and all the certificates can be found at \href{https://komaruyama.github.io/oritatami-infinit-counter/}{\footnotesize \texttt{https://komaruyama.github.io/oritatami-infinit-counter/}}.
 
@@ -582,17 +582,17 @@ The seed is exemplified for $k = 1$ and $b_0 = 0$ in Fig.~\ref{fig:counter1stzig
 \subsection{Brick level overview}
 %\paragraph{Brick level overview}
 Starting from the seed, this system cyclically transits four phases: zig ($\leftarrow$), left carriage-return ($\hookrightarrow$), zag ($\rightarrow$), and right carriage-return ($\hookleftarrow$). 
-The prefix $(FLHR)^k F$ of the transcript folds into the first zig (recall that $k$ is the bit-width of the initial count). 
-In zigs in general, all the instances of modules F and H fold into bricks of width 10 and height 3, while all the instances of  L and R fold into bricks of width 12 and height 3. 
+The prefix $(\mathrm{FLHR})^k \mathrm{F}$ of the transcript folds into the first zig (recall that $k$ is the bit-width of the initial count). 
+In zigs in general, all the instances of modules F and H fold into bricks of width 10 and height 3, while those of L and R fold into bricks of width 12 and height 3. 
 Zigs thus turn out to be a linear structure of height 3. 
 We can inductively observe that the $i$-th instance of H in the prefix is transcribed right below $b_{i-1}$ encoded on the seed in the format (2) so that the H can ``read" $b_{i-1}$. 
-After the whole prefix thus has folded into the first zig, the next L is transcribed right below Turn Signal, which lets the L fold into a special brick for left carriage-return if the zig ended at the top (this occurs when $b_{k-1} b_{k-2} \cdots b_0 < 1^k$) (see Fig.~\ref{fig:counter1stzag}). 
-We should note that this special brick \texttt{Lcre} is provided with another Turn Signal for the sake of next left carriage-return.
-Having been thus carriage-returned, the succeeding subsequence $(HRFL)^k H$ of the transcript folds into the first zag.
-Even in zags instances of F and H fold into bricks of width 10 and height 3, while those of L and R fold into bricks of width 12 and height 3. 
-As a result, zags turn out to be a linear structure of height 3. 
+After the whole prefix has thus folded into the first zig, the next L is transcribed right below Turn Signal, which lets the L fold into a special brick for left carriage-return if the zig ended at the top (this occurs unless $b_{k-1} = b_{k-2} = \cdots = b_0 = 1$) (see Fig.~\ref{fig:counter1stzag}). 
+We should note that this special brick \texttt{Lcre} is provided with another Turn Signal for the sake of next left carriage-return (see Fig.~\ref{fig:leftturns}).
+Having been thus carriage-returned, the succeeding subsequence $(\mathrm{HRFL})^k \mathrm{H}$ of the transcript folds into the first zag.
+Even in zags, F and H fold into bricks of width 10 and height 3, while L and R fold into bricks of width 12 and height 3. 
+As a result, zags turn out also to be a linear structure of height 3. 
 More importantly, instances of H and F are aligned thus vertically and alternately into columns (see Figs.~\ref{fig:counter1stzig}, \ref{fig:counter1stzag}, and \ref{fig:overflowex1}), $i$-th of which from the right propagates the ($i{-}1$)-th bit of the count downward. 
-After the whole subsequence has folded into the first zag, an instance of $R$ is transcribed and folded into a special brick \texttt{Rcr} for right carriage-return due to the turn signal \texttt{125}-\texttt{124}-\texttt{123}-\texttt{122}, which occurs also at the bottom of \texttt{Rcr} for the sake of next right carriage-return. 
+After the whole subsequence has folded into the first zag, an instance of $R$ is transcribed and folded into a special brick \texttt{Rcr} for right carriage-return due to the Turn Signal \texttt{125}-\texttt{124}-\texttt{123}-\texttt{122}, which occurs also at the bottom of \texttt{Rcr} (see Fig.~\ref{fig:rightturns}) for the sake of next right carriage-return. 
 This amounts to one cycle of the phase transition.
  
 
@@ -601,7 +601,7 @@ This amounts to one cycle of the phase transition.
 In a zig, module H plays its primary role as a half-adder and carry transfers through instances of others (F, L, and R) from an instance of H to another for more significant bit.
 Carry transfers as a height for modules to start.
 In zigs, modules F, L, and R take the respective two bricks (\texttt{Fnt} and \texttt{Fnb} for F, \texttt{Lt} and \texttt{Lbn} for L, and \texttt{Rt} and \texttt{Rb} for R; see Figs.~\ref{fig:formatters}, \ref{fig:leftturns}, and \ref{fig:rightturns}), both of which start and end at the same height: one at the top while the other at the bottom.
-A zig is carried by being forced to start at the bottom by the last \texttt{Rcr} or the seed.
+A zig is fed with carry by being forced to start at the bottom by the last \texttt{Rcr} or the seed.
 Until the count overflows, module H encounters only four environments, which encode input 0 as $w_{F0}$ or 1 as $w_{F1}$ and carry or no-carry as of whether the module starts at the bottom or top, where it takes \texttt{H00}, \texttt{H01}, \texttt{H10}, and \texttt{H11}, respectively, as shown in Fig.~\ref{fig:halfadders} (\texttt{H}$xc$ is folded when the input is $x$ and the carry is given if $c=1$ or not otherwise).
 
 \begin{figure*}[tb]
@@ -640,22 +640,22 @@ When the carry has not been canceled out until the end of a zig, the Turn Signal
 \label{fig:overflowex1}
 \end{figure*}
 
-Let us see how the subsequence $(FLHR)^kF$ folds into a zig in order to count up; for $k=1$ and the current count 0, see Fig.~\ref{fig:counter1stzig}.
+Let us see how the subsequence $(\mathrm{FLHR})^k \mathrm{F}$ folds into a zig in order to count up; for $k=1$ and the current count 0, see Fig.~\ref{fig:counter1stzig}.
 The zig starts at the bottom, that is, being carried, and the carry transfers through the first instances of F and L in the way just explained toward the first instance of H.
 This H is thus fed with carry and folds into \texttt{H01} if the bit encoded above is 0, as illustrated in Fig.~\ref{fig:counter1stzig}, or \texttt{H11} if the bit is rather 1.
 \texttt{H01} ends at the top, corresponding to canceling the carry out.
 This absence of carry transfers through the succeeding modules leftward.
-As a result, the zig ends, or more precisely an instance of F ends folding at the bottom if this increment causes an overflow (Fig.~\ref{fig:overflowex1}), or at the top otherwise (Fig.~\ref{fig:counter1stzig}).
+As a result, the zig, or more precisely, the last instance of F of the subsequence ends folding at the bottom if this increment causes an overflow (Fig.~\ref{fig:overflowex1}), or at the top otherwise (Fig.~\ref{fig:counter1stzig}).
 An instance of L is to be transcribed next.
-It folds either into \texttt{Lcrn} for (normal) carriage-return unless the count is overflowed, or into \texttt{Lbe} at an overflow.
+It folds either into \texttt{Lcrn} for carriage-return unless the count is overflowed, or into \texttt{Lbe} at an overflow.
 
 
-\subsection{Bit width expansion at an overflow}
+\subsection{Bit-width expansion at an overflow}
 %\paragraph{Bit-width expansion at an overflow}
 The fixed bit-width counter cannot handle a zig that ends at the bottom, that is, its behavior is undefined at an overflow.
 In contrast, module L in this infinite counter is designed so as to fold into \texttt{Lbe} in this situation in order to keep counting up (Fig.~\ref{fig:overflowex2-3}).
 Observe that the dent on Turn Signal made of \texttt{58}, \texttt{63}, and \texttt{64} is too far for module L, or more precisely, for its beads \texttt{33} and \texttt{34} to interact with strongly enough to fold into \texttt{Lcrn}.
-\texttt{Lbe} is a self-sustaining conformation (glider) so that it can fold even if nothing is around, which occurs at that very moment.
+\texttt{Lbe} is a self-sustaining conformation (glider) so that it can fold even in a ``void,'' which occurs at that very moment.
 For the same reason, the following instances of H, R, and F fold into self-sustaining conformations \texttt{He1}, \texttt{Rb}, and \texttt{Fnb}, respectively (Figs.~\ref{fig:overflowex2-3} and \ref{fig:overflowex4}).
 %If the beads \texttt{33} and \texttt{34} bind to Turn Signal, module L folds into \texttt{Lcrn}, but now, these beads cannot reach to Turn Signal because module L is starting at the bottom.
 Note that \texttt{He1} is essentially the same as \texttt{H00} but exposes the opposite side downward, which will be interpreted as the leading bit 1 after expansion in the next zag.
@@ -668,7 +668,8 @@ This signal is usually hidden geometrically by the previous zag, and hence, does
 \subsection{Formatting}
 %\paragraph{Formatting}
 The count has been successfully incremented but it is not in the format \eqref{eq:zagencoding} yet.
-In the upcoming zag, instances of F play their primary role to format 1 bit output by module H (recall that instances of H and F are aligned vertically and alternately).
+A subsequence $(\mathrm{HRFL})^k \mathrm{H}$ of the transcript folds into the next zag, where $k$ is the bit width of the incremented count.
+In this zag, instances of F play their primary role to format the 1-bit output by module H (recall that instances of H and F are aligned vertically and alternately) so as to expose the incremented count in the format \eqref{eq:zagencoding} for the next zig.
 Both of the bricks of L for carriage-return, i.e., \texttt{Lcrn} and \texttt{Lcre}, end at the bottom so that zags start at the bottom.
 All modules start and end at the bottom in zags; note that nothing has to be transferred between modules.
 That is, instances of H, L, and R fold into \texttt{Hn}, \texttt{Lbn}, and \texttt{Rb}, respectively.
@@ -812,28 +813,8 @@ The succeeding R and F also fold into respective glider-like bricks.
 %%%%%%%%%%%
 %
 
-\subsection{Counting from a non-coding seed}
 
-\begin{figure}[tb]
-\begin{minipage}{0.4\linewidth}
-\centering
-\includegraphics[width=\linewidth]{fig/svg/zeroBit01.pdf}
-\end{minipage}
-\begin{minipage}{0.05\linewidth}
-\ \\
-\end{minipage}
-\begin{minipage}{0.45\linewidth}
-\centering
-\includegraphics[width=\linewidth]{fig/svg/zeroBit05.pdf}
-\end{minipage}
-\caption{Counting from a non-coding seed.
-(Left) The simplest-possible seed that consists only of the boxed right Turn Signal. 
-(Right) Starting from this non-coding seed, the first period results in the count 1 in the 1-bit. 
-}
-\label{fig:noncoding_seed}
-\end{figure}
 
-The capability of handling overflows enables the system to launch at a simplest possible seed which encodes nothing but a Turn Signal for the first right turn as long as the system starts counting from 0 (see Fig.~\ref{fig:noncoding_seed}). 
 
 \subsection{Rule set}
 \label{subsect:ruleset}
@@ -929,7 +910,28 @@ The rule set of the proposed counter consists of the following 377 rules:
 	\label{sect:discussion}
 %---------------------------------------------------------------------
 
+\begin{figure}[tb]
+\begin{minipage}{0.4\linewidth}
+\centering
+\includegraphics[width=\linewidth]{fig/svg/zeroBit01.pdf}
+\end{minipage}
+\begin{minipage}{0.05\linewidth}
+\ \\
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+\centering
+\includegraphics[width=\linewidth]{fig/svg/zeroBit05.pdf}
+\end{minipage}
+\caption{Counting from a non-coding seed.
+(Left) The simplest-possible seed that consists only of the boxed right Turn Signal. 
+(Right) Starting from this non-coding seed, the first period results in the count 1 in the 1-bit. 
+}
+\label{fig:noncoding_seed}
+\end{figure}
+
 In this paper, we have improved the existing finite binary counter by equipping it with a function of bit expansion at an overflow.
+This capability of handling overflows enables the system to launch at a simplest possible seed that encodes nothing but a Turn Signal for the first right carriage-return as long as the system starts counting from 0 (see Fig.~\ref{fig:noncoding_seed}). 
+
 Applications of this infinite counter include simulation of countably many Turing-machines in parallel for proving the undecidability of various properties of oritatami system, and folding of fractals.
 For their sake, this counter should be optimized, for example, by reducing bead types, shortening the period, or simplifying its rule set, though such optimization problems are computationally hard in general \cite{HanKim2019,OtaSeki2017}.
 

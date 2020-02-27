@@ -59,7 +59,7 @@
 \newlabel{fig:halfadders}{{6}{6}{All the six bricks of module H: \texttt {H00}, \texttt {H01}, \texttt {He1}, \texttt {H10}, \texttt {H11}, and \texttt {Hn} from top left to bottom right. In zags, H always folds into \texttt {Hn} while in zigs, it folds into one of the other five bricks}{figure.6}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces All the three bricks of module R: \texttt  {Rt}, \texttt  {Rb}, and \texttt  {Rcr}. In zigs, R folds into \texttt  {Rt} or \texttt  {Rb}, depending on how high it starts. In zags, R always folds into \texttt  {Rb} until the transcript reaches the right end, where R folds into \texttt  {Rcr} due to the four beads (boxed). \texttt  {Rcr} is provided with this Turn Signal for the next right carriage-return. Note that \texttt  {Rb} is not bonded to the environment at all. That is, this module certainly folds into \texttt  {Rb} at an overflow. }}{6}{figure.7}}
 \newlabel{fig:rightturns}{{7}{6}{All the three bricks of module R: \texttt {Rt}, \texttt {Rb}, and \texttt {Rcr}. In zigs, R folds into \texttt {Rt} or \texttt {Rb}, depending on how high it starts. In zags, R always folds into \texttt {Rb} until the transcript reaches the right end, where R folds into \texttt {Rcr} due to the four beads (boxed). \texttt {Rcr} is provided with this Turn Signal for the next right carriage-return. Note that \texttt {Rb} is not bonded to the environment at all. That is, this module certainly folds into \texttt {Rb} at an overflow}{figure.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Bit width expansion at an overflow}{6}{subsection.3.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Bit-width expansion at an overflow}{6}{subsection.3.4}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces  The first zig. 0 is encoded as an initial count below the seed in the format \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:zagencoding}\unskip \@@italiccorr )}} with $k = 1$ (1-bit width). Being fed with carry, the zig increments the count. Module H outputs 1, or more precisely a sequence of bead types which shall be interpreted as 1 in the next zag and reformatted, as a sum and cancels the carry. }}{7}{figure.8}}
 \newlabel{fig:counter1stzig}{{8}{7}{The first zig. 0 is encoded as an initial count below the seed in the format \eqref {eq:zagencoding} with $k = 1$ (1-bit width). Being fed with carry, the zig increments the count. Module H outputs 1, or more precisely a sequence of bead types which shall be interpreted as 1 in the next zag and reformatted, as a sum and cancels the carry}{figure.8}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces  The first zag. A Turn Signal at the left end of the seed makes module L folds into the brick Lcrn to turn and initiate the zag. This brick is equipped with another Turn Signal for the sake of the next turn. In a zag, module F reads the output of module H from above and formats it for the sake of the next zig. }}{7}{figure.9}}
@@ -67,16 +67,13 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces  Overflow. When the carry has not been canceled out until the end of a zig, the Turn Signal is too far for the upcoming module, which is L, to be folded into the brick Lcrn for turn. }}{7}{figure.10}}
 \newlabel{fig:overflowex1}{{10}{7}{Overflow. When the carry has not been canceled out until the end of a zig, the Turn Signal is too far for the upcoming module, which is L, to be folded into the brick Lcrn for turn}{figure.10}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Formatting}{7}{subsection.3.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Counting from a non-coding seed}{7}{subsection.3.6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Rule set}{7}{subsection.3.7}}
-\newlabel{subsect:ruleset}{{3.7}{7}{Rule set}{subsection.3.7}{}}
-\newlabel{table:rule}{{3.7}{7}{Rule set}{subsection.3.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Rule set}{7}{subsection.3.6}}
+\newlabel{subsect:ruleset}{{3.6}{7}{Rule set}{subsection.3.6}{}}
+\newlabel{table:rule}{{3.6}{7}{Rule set}{subsection.3.6}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces  (Left) Starting from the bottom, the Turn Signal above is too far for this L to fold into \texttt  {Lcrn}. It rather folds into \texttt  {Lbe} and initiates bit expansion. (Right) Without anything around, the succeeding H folds into a glider (brick \texttt  {He1}). }}{8}{figure.11}}
 \newlabel{fig:overflowex2-3}{{11}{8}{(Left) Starting from the bottom, the Turn Signal above is too far for this L to fold into \texttt {Lcrn}. It rather folds into \texttt {Lbe} and initiates bit expansion. (Right) Without anything around, the succeeding H folds into a glider (brick \texttt {He1})}{figure.11}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces  The succeeding R and F also fold into respective glider-like bricks. (Left) This brick of F (\texttt  {Fnb}) exposes Turn Signal \texttt  {28}{-}\texttt  {27}{-}\texttt  {22} (boxed), which is usually ``hidden" under the previous zag. (Right) The exposed \texttt  {28}{-}\texttt  {27}{-}\texttt  {22} (boxed) triggers the folding of next L into a special brick (\texttt  {Lcre}) for left carriage-return. }}{8}{figure.12}}
 \newlabel{fig:overflowex4}{{12}{8}{The succeeding R and F also fold into respective glider-like bricks. (Left) This brick of F (\texttt {Fnb}) exposes Turn Signal \texttt {28}{-}\texttt {27}{-}\texttt {22} (boxed), which is usually ``hidden" under the previous zag. (Right) The exposed \texttt {28}{-}\texttt {27}{-}\texttt {22} (boxed) triggers the folding of next L into a special brick (\texttt {Lcre}) for left carriage-return}{figure.12}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Counting from a non-coding seed. (Left) The simplest-possible seed that consists only of the boxed right Turn Signal. (Right) Starting from this non-coding seed, the first period results in the count 1 in the 1-bit. }}{8}{figure.13}}
-\newlabel{fig:noncoding_seed}{{13}{8}{Counting from a non-coding seed. (Left) The simplest-possible seed that consists only of the boxed right Turn Signal. (Right) Starting from this non-coding seed, the first period results in the count 1 in the 1-bit}{figure.13}{}}
 \citation{HanKim2019,OtaSeki2017}
 \bibstyle{splncs03}
 \bibdata{nc2020}
@@ -97,5 +94,7 @@
 \bibcite{OtaSeki2017}{15}
 \bibcite{PchelinaSSU2020}{16}
 \bibcite{RothemundWinfree2000}{17}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Counting from a non-coding seed. (Left) The simplest-possible seed that consists only of the boxed right Turn Signal. (Right) Starting from this non-coding seed, the first period results in the count 1 in the 1-bit. }}{9}{figure.13}}
+\newlabel{fig:noncoding_seed}{{13}{9}{Counting from a non-coding seed. (Left) The simplest-possible seed that consists only of the boxed right Turn Signal. (Right) Starting from this non-coding seed, the first period results in the count 1 in the 1-bit}{figure.13}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4}Conclusion}{9}{section.4}}
 \newlabel{sect:discussion}{{4}{9}{Conclusion}{section.4}{}}
