@@ -70,7 +70,7 @@ Counting is one of the most essential tasks for computing; as well known, the ab
 Nature has been counting billions of days using molecular ``circadian clockwork'' which is ``as complicated and as beautiful as the wonderful chronometers developed in the 18th century''  \cite{McClung2006}. 
 Nowadays, developments in molecular self-assembly technology enable us to design molecules to count. 
 Evans has demonstrated a DNA tile self-assembly system that counts accurately \textit{in-vitro} in binary from a programmed initial count until it overflows \cite{EvansPhD}. 
-In its foundational theory of molecular self-assembly, such binary counters have been proved versatile, being used to assemble shapes of particular size \cite{AdChGoHu2001,RothemundWinfree2000}, towards self-assembly of fractals \cite{MasudaSekiUbukata2018}, and as an infinite scaffold to simulate all Turing machines in parallel in order to prove undecidability of nondeterminism in the abstract tile-assembly model \cite{BrChDoKaSe2013}, to name a few. 
+In its foundational theory of molecular self-assembly, such binary counters have been proved versatile, being used to assemble shapes of particular size \cite{AdChGoHu2001,RothemundWinfree2000}, towards self-assembly of fractals \cite{MasudaSekiUbukata2018}, and as an infinite scaffold on which Turing machines can be simulated in parallel in the abstract tile-assembly model \cite{BrChDoKaSe2013,LathropLPS2011}, to name a few. 
 
 \begin{figure}[tb]
 \centering
@@ -82,7 +82,7 @@ In its foundational theory of molecular self-assembly, such binary counters have
 A fixed bit-width (finite) binary counter has been implemented as a proof-of-concept demonstration of the oritatami model of cotranscriptional folding \cite{GeMeScSe2019}. 
 As shown in Fig.~\ref{fig:rna_origami}, an RNA transcript folds upon itself while being transcribed (synthesized) from its corresponding DNA template strand. 
 Geary, Rothemund, and Andersen programmed a specific RNA rectangular tile structure into a DNA template in such a way that the corresponding RNA transcript \textit{folds cotranscriptionally} into the programmed tile structure with high probability \textit{in-vitro} at room temperatures (\textit{RNA origami}) \cite{GearyRothemundAndersen2014}. 
-An oritatami system folds a transcript of abstract molecules called \textit{beads} of finitely many types over the 2-dimensional triangular lattice cotranscriptionally according to a rule set that specifies which types of molecules are allowed to bind at the unit distance. 
+An oritatami system folds a transcript of abstract molecules called \textit{beads} of finitely many types over the 2-dimensional triangular lattice cotranscriptionally according to a rule set that specifies which types of molecules are allowed to bind at  unit distance. 
 The transcript of the binary counter in \cite{GeMeScSe2019} is of period 60 as 
 $\textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-} \cdots {-}\textcircled{\scriptsize 59}{-}\textcircled{\scriptsize 0}{-}\cdots$ and its period is semantically divided into two half-adder (HA) modules $A = \textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-} \cdots {-}\textcircled{\scriptsize 11}$ and $C = \textcircled{\scriptsize 30}{-}\textcircled{\scriptsize 31}{-} \cdots {-}\textcircled{\scriptsize 41}$ and two structural modules $B$ and $D$, which are sandwiched by half-adder modules along the transcript as $ABCD$.
 While being folded cotranscriptionally in zigzags, HA modules increment the current counter value $i$ by 1, which is initialized on a linear \textit{seed} structure, alike the Evans' counter, whereas structural modules $B$ and $D$ align HA modules properly and also make a turn at an end of the counter value $i$; $B$ guides the transcript from a zig to a zag ($\hookrightarrow$) while $D$ does from a zag to a zig ($\hookleftarrow$). 
@@ -295,14 +295,19 @@ A deterministic oritatami system folds into a unique terminal conformation.
 	The $a$-bead cannot bind or the second bead is inert according to $R$. 
 	The third bead, $b$, can bind to the $b'$-bead in the seed but for that, the $a$-bead must be located to the east of the previous $a'$-bead; it is thus stabilized there. 
 	Then the next bead, $b'$, is transcribed. 
-	After the three steps, the third bead, $b$, is stabilized. 
-	It is not until then that its bond with the $b'$-bead is also stabilized. 
+	After the three steps, the third bead, $b$, is stabilized, along with its bond with the $b'$-bead, yielding the rightmost glider of width 3 and height 3 in Fig.~\ref{fig:glider}. 
+%	It is not until then that its bond with the $b'$-bead is also stabilized. 
+	In the next 3 steps, the succeeding $b' \bullet a'$ folds alike and results in a glider of width 4 and height 3. 
+	The glider thus proceeds by unit distance per three beads and one bond.
 	
 	The glider is self-sustaining and has provided a solid scaffold to oritatami systems \cite{DemaineHOPRSST2018,ElonenBachelor2016,GeMeScSe2018,HanKim2018,PchelinaSSU2020}. 
-	Counting infinitely in a zigzag manner requires a self-sustaining structure because while widening bit-width at an overflow, such a counter cannot be bonded to the previous zag (see Figs.~\ref{fig:overflowex2-3} and \ref{fig:overflowex4}).  
-	Modules of the fixed bit-width oritatami counter fold into parallelograms. 
-	As a rule of thumb, a parallelogram requires such a considerable number of bonds to stand alone that it is not extensible functionally very much. 
-	Therefore, we have designed modules of the proposed counter based on a glider (see Figs.~\ref{fig:formatters}, \ref{fig:leftturns}, \ref{fig:halfadders}, and \ref{fig:rightturns}). 
+	Counting infinitely in a zigzag manner requires a self-sustaining structure in order to travel ``in a vacuum,'' that is, in the absence of the previous zag above, while widening bit-width at an overflow (see Figs.~\ref{fig:overflowex2-3} and \ref{fig:overflowex4}).  
+	Thanks to the sparsity of bonds, gliders can be deformed so easily for us to design multifunctional modules for the proposed counter. 
+	However, the bond density does not always determine the degree of functional extensibility; indeed, parallelograms, based on which the fixed bit-width counter \cite{GeMeScSe2019} was designed, have turned out to be highly functionally extensible \cite{GeMeScSe2018,PchelinaSSU2020}, in spite of relatively larger number of bonds necessary. 
+	
+%	Modules of the fixed bit-width oritatami counter fold into parallelograms. 
+%	As a rule of thumb, a parallelogram requires such a considerable number of bonds to stand alone that it is not extensible functionally very much. 
+%	Therefore, we have designed modules of the proposed counter based on a glider (see Figs.~\ref{fig:formatters}, \ref{fig:leftturns}, \ref{fig:halfadders}, and \ref{fig:rightturns}). 
 \end{example}
 
 
