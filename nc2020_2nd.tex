@@ -66,16 +66,16 @@ In order to expand its applications, we endow this counter with capability to wi
 	\section{Introduction}
 %------------------------------------------------------
 
-Counting is one of the most essential tasks for computing; as well known, the ability to count suffices to enable Turing universality \cite{Minsky1967}. 
+Counting is one of the most essential tasks for computing. %; as well known, the ability to count suffices to enable Turing universality \cite{Minsky1967}. 
 Nature has been counting billions of days using molecular ``circadian clockwork'' which is ``as complicated and as beautiful as the wonderful chronometers developed in the 18th century''  \cite{McClung2006}. 
 Nowadays, developments in molecular self-assembly technology enable us to design molecules to count. 
-Evans has demonstrated a DNA tile self-assembly system that counts accurately \textit{in-vitro} in binary from a programmed initial count until it overflows \cite{EvansPhD}. 
+Evans has demonstrated a DNA tile self-assembly system that counts accurately \textit{in-vitro} in binary from a programmed initial value until it overflows \cite{EvansPhD}. 
 In its foundational theory of molecular self-assembly, such binary counters have been proved versatile, being used to assemble shapes of particular size \cite{AdChGoHu2001,RothemundWinfree2000}, towards self-assembly of fractals \cite{MasudaSekiUbukata2018}, and as an infinite scaffold on which Turing machines can be simulated in parallel in the abstract tile-assembly model \cite{BrChDoKaSe2013,LathropLPS2011}, to name a few. 
 
 \begin{figure}[tb]
 \centering
 \includegraphics[width=\linewidth]{fig/rna_origami.pdf}
-\caption{RNA origami. RNA polymerase enzyme (orange) synthesizes the temporal copy (blue) of a gene (gray spiral) out of ribonucleotides of four types A, C, G, and U.}
+\caption{RNA origami. RNA polymerase enzyme (orange) synthesizes the temporal copy (blue) of a gene (gray spiral) out of ribonucleotides of four types {\tt A}, {\tt C}, {\tt G}, and {\tt U}.}
 \label{fig:rna_origami}
 \end{figure}
 
@@ -84,17 +84,28 @@ As shown in Fig.~\ref{fig:rna_origami}, an RNA transcript folds upon itself whil
 Geary, Rothemund, and Andersen programmed a specific RNA rectangular tile structure into a DNA template in such a way that the corresponding RNA transcript \textit{folds cotranscriptionally} into the programmed tile structure with high probability \textit{in-vitro} at room temperatures (\textit{RNA origami}) \cite{GearyRothemundAndersen2014}. 
 An oritatami system folds a transcript of abstract molecules called \textit{beads} of finitely many types over the 2-dimensional triangular lattice cotranscriptionally according to a rule set that specifies which types of molecules are allowed to bind at  unit distance. 
 The transcript of the binary counter in \cite{GeMeScSe2019} is of period 60 as 
-$\textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-} \cdots {-}\textcircled{\scriptsize 59}{-}\textcircled{\scriptsize 0}{-}\cdots$ and its period is semantically divided into two half-adder (HA) modules $A = \textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-} \cdots {-}\textcircled{\scriptsize 11}$ and $C = \textcircled{\scriptsize 30}{-}\textcircled{\scriptsize 31}{-} \cdots {-}\textcircled{\scriptsize 41}$ and two structural modules $B$ and $D$, which are sandwiched by half-adder modules along the transcript as $ABCD$.
+$\textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-} \cdots {-}\textcircled{\scriptsize 59}{-}\textcircled{\scriptsize 0}{-}\cdots$ and its period is divided semantically into two half-adder (HA) modules $A = \textcircled{\scriptsize 0}{-}\textcircled{\scriptsize 1}{-} \cdots {-}\textcircled{\scriptsize 11}$ and $C = \textcircled{\scriptsize 30}{-}\textcircled{\scriptsize 31}{-} \cdots {-}\textcircled{\scriptsize 41}$ and two structural modules $B$ and $D$, which are sandwiched by half-adder modules along the transcript as $ABCD$.
 While being folded cotranscriptionally in zigzags, HA modules increment the current counter value $i$ by 1, which is initialized on a linear \textit{seed} structure, alike the Evans' counter, whereas structural modules $B$ and $D$ align HA modules properly and also make a turn at an end of the counter value $i$; $B$ guides the transcript from a zig to a zag ($\hookrightarrow$) while $D$ does from a zag to a zig ($\hookleftarrow$). 
-This counter was embedded as a component of an oritatami system to self-assemble an arbitrary finite portion of Heighway dragon fractal \cite{MasudaSekiUbukata2018}. 
-Its applications are limited, however, by lack of mechanism to widen bit-width; its behavior is undefined at an overflow. 
-In this paper, we endow this counter, or more precisely, its structural module $B$, with the capability of bit-expansion at every overflow. 
+This counter was embedded as a component of an oritatami system to self-assemble an arbitrary finite portion of Heighway dragon fractal \cite{MasudaSekiUbukata2018}; it remembers how many turns the dragon has made so far. 
+Its applications are limited, however, by lack of mechanism to detect an overflow, at which its behavior is undefined and it gets nondeterministic. 
+In this paper, we shall endow this counter, or more precisely, its structural module $B$, with the capability of overflow detection and bit-expansion thereof. 
 
-The oritatami model has been proven Turing universal in \cite{GeMeScSe2018}, where a universal Turing machine is encoded as a seed and a period of transcript of an oritatami system using 542 bead types, and the number of bead types needed for the universality was reduced to almost one-third (183 bead types) recently \cite{PchelinaSSU2020} by an intrinsic simulation of 1-dimensional cellular automata (CA). 
+The oritatami model has been proven Turing universal in \cite{GeMeScSe2018}, where a universal Turing machine is encoded as a seed and a period of transcript of an oritatami system using 542 bead types via cyclic tag system, and the number of bead types needed for the universality was reduced to almost one-third (183 bead types) recently \cite{PchelinaSSU2020} by an intrinsic simulation of 1-dimensional cellular automata (CA). 
 It is hence no surprise that oritatami systems can count even infinitely. 
-An advantage of the counter we shall propose is that the number of bead types it employs is just 132 and so is the length of a period of its transcript, which is indeed $\textcircled{\scriptsize 1}{-}\textcircled{\scriptsize 2}{-} \cdots {-}\textcircled{\tiny 132}$, whereas a period of a transcript to simulate a radius-$r$ CA with $Q$ states by the simplified Turing universal oritatami system is of length about $\frac{142}{3}Q_r^2 \log_2 Q_r$, where $Q_r = 2^{\lceil \log_2(2Q^{2r+1})\rceil}$, whose value cannot be smaller than $\frac{142}{3} \cdot 4 \ge 189$, obtained at $Q = 1$ and $r = 0$. %which is apparently much longer than the period of the proposed counter. 
+In the read-once-write-once models of computation such as oritatami, abstract tile-assembly model (aTAM) \cite{RothemundWinfree2000,WinfreePhD}, and many other models of molecular self-assembly, however, what a computation matters is not so much an output obtained conclusively but rather a shape self-assembled in the course. 
+Unless being interlocked geometrically, the output cannot wire to an input of another computation. 
+The versatile systems in oritatami \cite{GeMeScSe2018,PchelinaSSU2020} hence never discourage us to design a set of single-function modules of simple enough shape to be wired, preferably via a common interface. 
+(Note that unless being provided anyhow with random access memory, in molecular self-assembly, the ability to count highly unlikely suffices for Turing universality; c.f.~\cite{Minsky1967}.)
+
+The proposed counter is simple in number of bead types used as well as length of its transcript period. 
+It transcribes $\textcircled{\scriptsize 1}{-}\textcircled{\scriptsize 2}{-} \cdots {-}\textcircled{\tiny 132}$ repetitively (needless to say, 132 bead types), whereas the period of a transcript to simulate a radius-$r$ CA with $Q$ states by the simplified Turing universal oritatami system \cite{PchelinaSSU2020} is of length about $\frac{142}{3}Q_r^2 \log_2 Q_r$, where $Q_r = 2^{\lceil \log_2(2Q^{2r+1})\rceil}$, whose value cannot be smaller than $\frac{142}{3} \cdot 4 \ge 189$, obtained at $Q = 1$ and $r = 0$, and rises significantly in order for CAs to be able to compute as $\frac{142}{3} \cdot 4 \cdot 16^2 \ge 48469$ at $Q=2$ and $r=1$. %which is apparently much longer than the period of the proposed counter. 
 A periodic transcript is expected to be transcribed from a circular DNA \cite{GearyAndersen2014} but such a template DNA sequence gets more costly to be synthesized as it gets longer. 
-Another advantage of the proposed counter is its suppositional compatibility with other oritatami systems, which has been somehow affirmed by the oritatami system for Heighway dragon fractal \cite{MasudaSekiUbukata2018}, to which the original fixed bit-width binary counter is embedded to remember how many turns the dragon has made so far. 
+The proposed counter folds in zigzags into a logarithmically-widening trapezoid so that it cannot be afforded at any scaling of Heighway dragon fractal. 
+It therefore does not truly enable to self-assemble this fractal. 
+The significance of this counter is rather to demonstrate that an oritatami system can detect an overflow and change its phase therein from counting to bit-expansion and back (note that oritatami is not provided with any internal states; see Sect.~\ref{sect:preliminaries}). 
+This phase-transition capability should be applicable, for example, to self-assemble the $n \times n$ square in oritatami at a scale, starting from an $O(n)$-size seed encoding $n$, based on the system in aTAM for square self-assembly \cite{RothemundWinfree2000}; such a system would make use of this capability rather to transition from the binary counting phase to the phase to fill the remaining $n \times (n -\log n)$ rectangle while drawing the diagonal. 
+
+%Another advantage of the proposed counter is its suppositional compatibility with other oritatami systems, which has been somehow affirmed by the oritatami system for Heighway dragon fractal \cite{MasudaSekiUbukata2018}, to which the original fixed bit-width binary counter is embedded to remember how many turns the dragon has made so far. 
 
 This paper is organized as follows. 
 In Section~\ref{sect:preliminaries}, we provide basic notions and notation of oritatami system. 
@@ -963,16 +974,18 @@ The rule set of the proposed counter consists of the following 377 rules:
 \label{fig:noncoding_seed}
 \end{figure*}
 
-In this paper, we have improved the existing finite binary counter by equipping it with a function of bit expansion at an overflow.
+In this paper, we have expanded the existing finite binary counter by equipping it with a function of bit expansion at an overflow.
 This capability of handling overflows enables the system to launch at a simplest possible seed that encodes nothing but a Turn Signal for the first right carriage-return as long as the system starts counting from 0 (see Fig.~\ref{fig:noncoding_seed}). 
 
-Applications of this infinite counter include simulation of countably many Turing-machines in parallel for proving the undecidability of various properties of oritatami system, and folding of fractals.
-For their sake, this counter should be optimized, for example, by reducing bead types, shortening the period, or simplifying its rule set, though such optimization problems are computationally hard in general \cite{HanKim2019,OtaSeki2017}.
+This infinite counter could be used to simulate countably many Turing machines in parallel for proving the undecidability of problems in oritatami as done in \cite{BrChDoKaSe2013,LathropLPS2011} for aTAM. 
+However, the real significance of this counter in practice is that it can be embedded into a large-scale system as a counting module that can transition at an overflow into another phase, which does not have to do bit-expansion. 
+A two-phase oritatami system to self-assemble the $n \times n$ square is under construction; starting from an $O(n)$-size seed on which an initial counter value is encoded, it first counts up to $2^n$ while drawing the diagonal, and at an overflow, it changes the direction of counting at 90 degrees and keeps just drawing diagonally until the diagonal reaches the right end of the counter. 
+%Applications of this infinite counter include simulation of countably many Turing-machines in parallel for proving the undecidability of various properties of oritatami system, and folding of fractals.
+It is preferable to optimize this counter in these applications, for example, by reducing bead types, shortening the period, or simplifying its rule set, though such optimization problems are computationally hard in general \cite{HanKim2019,OtaSeki2017}.
 
 \begin{acknowledgements}
 This work is supported in part by 
-KAKENHI Grant-in-Aid for Challenging Research (Exploratory) No.~18K19779 and 
-JST Program to Disseminate Tenure Tracking System No.~6F36, both granted to S.~S.
+KAKENHI Grant-in-Aid for Challenging Research (Exploratory) No.~18K19779, for  Scientific Research (B) No.~20H04141, and Scientific Research (C) No.~20K11672, and JST Program to Disseminate Tenure Tracking System No.~6F36, both granted to S.~S.
 \end{acknowledgements}
 
 

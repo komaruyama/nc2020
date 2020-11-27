@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: nc2020_2nd.aux
 The style file: splncs03.bst
 Database file #1: nc2020.bib
-You've used 18 entries,
+You've used 19 entries,
             2785 wiz_defined-function locations,
-            712 strings with 7335 characters,
-and the built_in function-call counts, 10594 in all, are:
-= -- 885
-> -- 302
+            717 strings with 7405 characters,
+and the built_in function-call counts, 10900 in all, are:
+= -- 910
+> -- 309
 < -- 26
-+ -- 127
-- -- 106
-* -- 649
-:= -- 1329
-add.period$ -- 30
-call.type$ -- 18
-change.case$ -- 123
++ -- 130
+- -- 108
+* -- 664
+:= -- 1376
+add.period$ -- 31
+call.type$ -- 19
+change.case$ -- 126
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 950
-empty$ -- 944
-format.name$ -- 120
-if$ -- 2368
+cite$ -- 19
+duplicate$ -- 981
+empty$ -- 973
+format.name$ -- 122
+if$ -- 2431
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 195
-newline$ -- 59
-num.names$ -- 37
-pop$ -- 346
+int.to.str$ -- 19
+missing$ -- 201
+newline$ -- 62
+num.names$ -- 39
+pop$ -- 358
 preamble$ -- 1
-purify$ -- 89
+purify$ -- 92
 quote$ -- 0
-skip$ -- 318
+skip$ -- 324
 stack$ -- 0
-substring$ -- 594
-swap$ -- 550
+substring$ -- 607
+swap$ -- 562
 text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 70
+type$ -- 74
 warning$ -- 0
-while$ -- 82
-width$ -- 20
-write$ -- 194
+while$ -- 85
+width$ -- 21
+write$ -- 204
