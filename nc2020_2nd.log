@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.12)  27 NOV 2020 21:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.12)  28 NOV 2020 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -820,12 +820,12 @@ LaTeX Font Warning: Font shape `U/wasy/m/n' in size <4.25> not available
 
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/rna_origami.pdf): PDF inclusion: found
- PDF version <1.6>, but at most version <1.5> allowed
-<fig/rna_origami.pdf, id=37, 3918.64pt x 877.2775pt>
-File: fig/rna_origami.pdf Graphic file (type pdf)
- <use fig/rna_origami.pdf>
-Package pdftex.def Info: fig/rna_origami.pdf used on input line 77.
+pdfTeX warning: pdflatex.exe (file ./rna_origami.pdf): PDF inclusion: found PDF
+ version <1.6>, but at most version <1.5> allowed
+<rna_origami.pdf, id=37, 3918.64pt x 877.2775pt>
+File: rna_origami.pdf Graphic file (type pdf)
+ <use rna_origami.pdf>
+Package pdftex.def Info: rna_origami.pdf used on input line 77.
 (pdftex.def)             Requested size: 238.96417pt x 53.49109pt.
 
 
@@ -927,9 +927,15 @@ Underfull \vbox (badness 1033) has occurred while \output is active []
  [1{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./fig/rna_origami.pdf>]
+ <./rna_origami.pdf>]
 Overfull \hbox (0.56305pt too wide) in paragraph at lines 93--99
 \OT1/cmr/m/n/10 ab-stract tile-assembly model (aTAM) [[], []], and many
+ []
+
+
+Overfull \hbox (0.70291pt too wide) in paragraph at lines 93--99
+\OT1/cmr/m/n/10 [[], []] hence never dis-cour-age us to de-sign a set of singly
+-
  []
 
 
@@ -958,68 +964,64 @@ Underfull \hbox (badness 1048) in paragraph at lines 301--301
 [][][]\OT1/cmr/m/n/8.5 A video to show how a glider folds can be found
  []
 
-<fig/svg/inf-ai_c_2.pdf, id=139, 2042.70894pt x 2486.75069pt>
-File: fig/svg/inf-ai_c_2.pdf Graphic file (type pdf)
-
-<use fig/svg/inf-ai_c_2.pdf>
-Package pdftex.def Info: fig/svg/inf-ai_c_2.pdf used on input line 334.
+<inf-ai_c_2.pdf, id=139, 2042.70894pt x 2486.75069pt>
+File: inf-ai_c_2.pdf Graphic file (type pdf)
+ <use inf-ai_c_2.pdf>
+Package pdftex.def Info: inf-ai_c_2.pdf used on input line 334.
 (pdftex.def)             Requested size: 445.49698pt x 542.30582pt.
 
-<fig/svg/tglider.pdf, id=140, 118.94438pt x 57.18515pt>
-File: fig/svg/tglider.pdf Graphic file (type pdf)
-
-<use fig/svg/tglider.pdf>
-Package pdftex.def Info: fig/svg/tglider.pdf used on input line 379.
+<tglider.pdf, id=140, 118.94438pt x 57.18515pt>
+File: tglider.pdf Graphic file (type pdf)
+ <use tglider.pdf>
+Package pdftex.def Info: tglider.pdf used on input line 379.
 (pdftex.def)             Requested size: 74.24698pt x 35.69699pt.
 
-<fig/svg/bglider.pdf, id=141, 118.94438pt x 57.18515pt>
-File: fig/svg/bglider.pdf Graphic file (type pdf)
-
-<use fig/svg/bglider.pdf>
-Package pdftex.def Info: fig/svg/bglider.pdf used on input line 379.
+<bglider.pdf, id=141, 118.94438pt x 57.18515pt>
+File: bglider.pdf Graphic file (type pdf)
+ <use bglider.pdf>
+Package pdftex.def Info: bglider.pdf used on input line 379.
 (pdftex.def)             Requested size: 74.24698pt x 35.69699pt.
 
-<fig/svg/plane.pdf, id=142, 152.82094pt x 56.43233pt>
-File: fig/svg/plane.pdf Graphic file (type pdf)
- <use fig/svg/plane.pdf>
-Package pdftex.def Info: fig/svg/plane.pdf used on input line 379.
+<plane.pdf, id=142, 152.82094pt x 56.43233pt>
+File: plane.pdf Graphic file (type pdf)
+ <use plane.pdf>
+Package pdftex.def Info: plane.pdf used on input line 379.
 (pdftex.def)             Requested size: 74.24698pt x 27.41699pt.
 
-<fig/svg/spiral.pdf, id=143, 152.82094pt x 57.18515pt>
-File: fig/svg/spiral.pdf Graphic file (type pdf)
-
-<use fig/svg/spiral.pdf>
-Package pdftex.def Info: fig/svg/spiral.pdf used on input line 379.
+<spiral.pdf, id=143, 152.82094pt x 57.18515pt>
+File: spiral.pdf Graphic file (type pdf)
+ <use spiral.pdf>
+Package pdftex.def Info: spiral.pdf used on input line 379.
 (pdftex.def)             Requested size: 74.24698pt x 27.78275pt.
- <fig/svg/horn.pdf, id=144, 107.65219pt x 96.30278pt>
-File: fig/svg/horn.pdf Graphic file (type pdf)
 
-<use fig/svg/horn.pdf>
-Package pdftex.def Info: fig/svg/horn.pdf used on input line 379.
+<horn.pdf, id=144, 107.65219pt x 96.30278pt>
+File: horn.pdf Graphic file (type pdf)
+ <use horn.pdf>
+Package pdftex.def Info: horn.pdf used on input line 379.
 (pdftex.def)             Requested size: 64.35242pt x 57.56902pt.
- <fig/svg/kar.pdf, id=145, 85.06781pt x 115.10805pt>
-File: fig/svg/kar.pdf Graphic file (type pdf)
 
-<use fig/svg/kar.pdf>
-Package pdftex.def Info: fig/svg/kar.pdf used on input line 379.
+<kar.pdf, id=145, 85.06781pt x 115.10805pt>
+File: kar.pdf Graphic file (type pdf)
+ <use kar.pdf>
+Package pdftex.def Info: kar.pdf used on input line 379.
 (pdftex.def)             Requested size: 54.4503pt x 73.67943pt.
- <fig/svg/roof.pdf, id=146, 130.98938pt x 76.74397pt>
-File: fig/svg/roof.pdf Graphic file (type pdf)
 
-<use fig/svg/roof.pdf>
-Package pdftex.def Info: fig/svg/roof.pdf used on input line 379.
+<roof.pdf, id=146, 130.98938pt x 76.74397pt>
+File: roof.pdf Graphic file (type pdf)
+ <use roof.pdf>
+Package pdftex.def Info: roof.pdf used on input line 379.
 (pdftex.def)             Requested size: 74.24698pt x 43.50093pt.
- <fig/svg/fault.pdf, id=147, 152.82094pt x 57.18515pt>
-File: fig/svg/fault.pdf Graphic file (type pdf)
 
-<use fig/svg/fault.pdf>
-Package pdftex.def Info: fig/svg/fault.pdf used on input line 379.
+<fault.pdf, id=147, 152.82094pt x 57.18515pt>
+File: fault.pdf Graphic file (type pdf)
+ <use fault.pdf>
+Package pdftex.def Info: fault.pdf used on input line 379.
 (pdftex.def)             Requested size: 98.99849pt x 37.04424pt.
- <fig/svg/cliff.pdf, id=148, 118.94438pt x 57.18515pt>
-File: fig/svg/cliff.pdf Graphic file (type pdf)
 
-<use fig/svg/cliff.pdf>
-Package pdftex.def Info: fig/svg/cliff.pdf used on input line 379.
+<cliff.pdf, id=148, 118.94438pt x 57.18515pt>
+File: cliff.pdf Graphic file (type pdf)
+ <use cliff.pdf>
+Package pdftex.def Info: cliff.pdf used on input line 379.
 (pdftex.def)             Requested size: 74.24698pt x 35.69699pt.
 
 
@@ -1027,12 +1029,12 @@ LaTeX Warning: Float too large for page by 40.33157pt on input line 383.
 
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/Fnt_1.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<fig/svg/Fnt_1.pdf, id=149, 431.6125pt x 196.735pt>
-File: fig/svg/Fnt_1.pdf Graphic file (type pdf)
- <use fig/svg/Fnt_1.pdf>
-Package pdftex.def Info: fig/svg/Fnt_1.pdf used on input line 392.
+pdfTeX warning: pdflatex.exe (file ./Fnt_1.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+<Fnt_1.pdf, id=149, 431.6125pt x 196.735pt>
+File: Fnt_1.pdf Graphic file (type pdf)
+ <use Fnt_1.pdf>
+Package pdftex.def Info: Fnt_1.pdf used on input line 392.
 (pdftex.def)             Requested size: 222.74849pt x 101.53128pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 395--396
@@ -1041,21 +1043,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 395--396
 
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/Fnb_1.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<fig/svg/Fnb_1.pdf, id=150, 427.5975pt x 196.735pt>
-File: fig/svg/Fnb_1.pdf Graphic file (type pdf)
- <use fig/svg/Fnb_1.pdf>
-Package pdftex.def Info: fig/svg/Fnb_1.pdf used on input line 399.
+pdfTeX warning: pdflatex.exe (file ./Fnb_1.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+<Fnb_1.pdf, id=150, 427.5975pt x 196.735pt>
+File: Fnb_1.pdf Graphic file (type pdf)
+ <use Fnb_1.pdf>
+Package pdftex.def Info: Fnb_1.pdf used on input line 399.
 (pdftex.def)             Requested size: 222.74849pt x 102.48288pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/F0_1.pdf): PDF inclusion: found PD
-F version <1.7>, but at most version <1.5> allowed
-<fig/svg/F0_1.pdf, id=151, 417.56pt x 205.76875pt>
-File: fig/svg/F0_1.pdf Graphic file (type pdf)
- <use fig/svg/F0_1.pdf>
-Package pdftex.def Info: fig/svg/F0_1.pdf used on input line 411.
+pdfTeX warning: pdflatex.exe (file ./F0_1.pdf): PDF inclusion: found PDF versio
+n <1.7>, but at most version <1.5> allowed
+<F0_1.pdf, id=151, 417.56pt x 205.76875pt>
+File: F0_1.pdf Graphic file (type pdf)
+ <use F0_1.pdf>
+Package pdftex.def Info: F0_1.pdf used on input line 411.
 (pdftex.def)             Requested size: 222.74849pt x 109.76964pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 414--415
@@ -1064,21 +1066,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/F1_1.pdf): PDF inclusion: found PD
-F version <1.7>, but at most version <1.5> allowed
-<fig/svg/F1_1.pdf, id=152, 398.48875pt x 202.7575pt>
-File: fig/svg/F1_1.pdf Graphic file (type pdf)
- <use fig/svg/F1_1.pdf>
-Package pdftex.def Info: fig/svg/F1_1.pdf used on input line 418.
+pdfTeX warning: pdflatex.exe (file ./F1_1.pdf): PDF inclusion: found PDF versio
+n <1.7>, but at most version <1.5> allowed
+<F1_1.pdf, id=152, 398.48875pt x 202.7575pt>
+File: F1_1.pdf Graphic file (type pdf)
+ <use F1_1.pdf>
+Package pdftex.def Info: F1_1.pdf used on input line 418.
 (pdftex.def)             Requested size: 222.74849pt x 113.33614pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/Lt_3.pdf): PDF inclusion: found PD
-F version <1.7>, but at most version <1.5> allowed
-<fig/svg/Lt_3.pdf, id=153, 522.95375pt x 145.54375pt>
-File: fig/svg/Lt_3.pdf Graphic file (type pdf)
- <use fig/svg/Lt_3.pdf>
-Package pdftex.def Info: fig/svg/Lt_3.pdf used on input line 436.
+pdfTeX warning: pdflatex.exe (file ./Lt_3.pdf): PDF inclusion: found PDF versio
+n <1.7>, but at most version <1.5> allowed
+<Lt_3.pdf, id=153, 522.95375pt x 145.54375pt>
+File: Lt_3.pdf Graphic file (type pdf)
+ <use Lt_3.pdf>
+Package pdftex.def Info: Lt_3.pdf used on input line 436.
 (pdftex.def)             Requested size: 222.74849pt x 61.99406pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 439--440
@@ -1087,22 +1089,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/Lbc_3.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<fig/svg/Lbc_3.pdf, id=154, 540.0175pt x 145.54375pt>
-File: fig/svg/Lbc_3.pdf Graphic file (type pdf)
- <use fig/svg/Lbc_3.pdf>
-Package pdftex.def Info: fig/svg/Lbc_3.pdf used on input line 443.
+pdfTeX warning: pdflatex.exe (file ./Lbc_3.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+<Lbc_3.pdf, id=154, 540.0175pt x 145.54375pt>
+File: Lbc_3.pdf Graphic file (type pdf)
+ <use Lbc_3.pdf>
+Package pdftex.def Info: Lbc_3.pdf used on input line 443.
 (pdftex.def)             Requested size: 222.74849pt x 60.03308pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/Ltrc_3.pdf): PDF inclusion: found 
-PDF version <1.7>, but at most version <1.5> allowed
-<fig/svg/Ltrc_3.pdf, id=155, 394.47375pt x 306.14375pt>
-File: fig/svg/Ltrc_3.pdf Graphic file (type pdf)
-
-<use fig/svg/Ltrc_3.pdf>
-Package pdftex.def Info: fig/svg/Ltrc_3.pdf used on input line 453.
+pdfTeX warning: pdflatex.exe (file ./Ltrc_3.pdf): PDF inclusion: found PDF vers
+ion <1.7>, but at most version <1.5> allowed
+<Ltrc_3.pdf, id=155, 394.47375pt x 306.14375pt>
+File: Ltrc_3.pdf Graphic file (type pdf)
+ <use Ltrc_3.pdf>
+Package pdftex.def Info: Ltrc_3.pdf used on input line 453.
 (pdftex.def)             Requested size: 178.19946pt x 138.29594pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 456--457
@@ -1111,30 +1112,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 456--457
 
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/Ltre_3.pdf): PDF inclusion: found 
-PDF version <1.7>, but at most version <1.5> allowed
-<fig/svg/Ltre_3.pdf, id=156, 481.8pt x 241.90375pt>
-File: fig/svg/Ltre_3.pdf Graphic file (type pdf)
- <use fig/svg/Ltre_3.pdf>
-Package pdftex.def Info: fig/svg/Ltre_3.pdf used on input line 460.
+pdfTeX warning: pdflatex.exe (file ./Ltre_3.pdf): PDF inclusion: found PDF vers
+ion <1.7>, but at most version <1.5> allowed
+<Ltre_3.pdf, id=156, 481.8pt x 241.90375pt>
+File: Ltre_3.pdf Graphic file (type pdf)
+ <use Ltre_3.pdf>
+Package pdftex.def Info: Ltre_3.pdf used on input line 460.
 (pdftex.def)             Requested size: 222.74849pt x 111.83812pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/Lbe_3.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<fig/svg/Lbe_3.pdf, id=157, 555.07375pt x 192.72pt>
-File: fig/svg/Lbe_3.pdf Graphic file (type pdf)
- <use fig/svg/Lbe_3.pdf>
-Package pdftex.def Info: fig/svg/Lbe_3.pdf used on input line 465.
+pdfTeX warning: pdflatex.exe (file ./Lbe_3.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+<Lbe_3.pdf, id=157, 555.07375pt x 192.72pt>
+File: Lbe_3.pdf Graphic file (type pdf)
+ <use Lbe_3.pdf>
+Package pdftex.def Info: Lbe_3.pdf used on input line 465.
 (pdftex.def)             Requested size: 247.5pt x 85.93214pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/H00_1.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<fig/svg/H00_1.pdf, id=158, 406.51875pt x 198.7425pt>
-File: fig/svg/H00_1.pdf Graphic file (type pdf)
- <use fig/svg/H00_1.pdf>
-Package pdftex.def Info: fig/svg/H00_1.pdf used on input line 482.
+pdfTeX warning: pdflatex.exe (file ./H00_1.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+<H00_1.pdf, id=158, 406.51875pt x 198.7425pt>
+File: H00_1.pdf Graphic file (type pdf)
+ <use H00_1.pdf>
+Package pdftex.def Info: H00_1.pdf used on input line 482.
 (pdftex.def)             Requested size: 200.47227pt x 98.00635pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 485--486
@@ -1143,21 +1144,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 485--486
 
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/H01_1.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<fig/svg/H01_1.pdf, id=159, 417.56pt x 198.7425pt>
-File: fig/svg/H01_1.pdf Graphic file (type pdf)
- <use fig/svg/H01_1.pdf>
-Package pdftex.def Info: fig/svg/H01_1.pdf used on input line 489.
+pdfTeX warning: pdflatex.exe (file ./H01_1.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+<H01_1.pdf, id=159, 417.56pt x 198.7425pt>
+File: H01_1.pdf Graphic file (type pdf)
+ <use H01_1.pdf>
+Package pdftex.def Info: H01_1.pdf used on input line 489.
 (pdftex.def)             Requested size: 200.47227pt x 95.41957pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/H10_1.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<fig/svg/H10_1.pdf, id=160, 406.51875pt x 198.7425pt>
-File: fig/svg/H10_1.pdf Graphic file (type pdf)
- <use fig/svg/H10_1.pdf>
-Package pdftex.def Info: fig/svg/H10_1.pdf used on input line 498.
+pdfTeX warning: pdflatex.exe (file ./H10_1.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+<H10_1.pdf, id=160, 406.51875pt x 198.7425pt>
+File: H10_1.pdf Graphic file (type pdf)
+ <use H10_1.pdf>
+Package pdftex.def Info: H10_1.pdf used on input line 498.
 (pdftex.def)             Requested size: 200.47227pt x 98.00635pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 501--502
@@ -1166,21 +1167,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 501--502
 
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/H11_1.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<fig/svg/H11_1.pdf, id=161, 417.56pt x 198.7425pt>
-File: fig/svg/H11_1.pdf Graphic file (type pdf)
- <use fig/svg/H11_1.pdf>
-Package pdftex.def Info: fig/svg/H11_1.pdf used on input line 505.
+pdfTeX warning: pdflatex.exe (file ./H11_1.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+<H11_1.pdf, id=161, 417.56pt x 198.7425pt>
+File: H11_1.pdf Graphic file (type pdf)
+ <use H11_1.pdf>
+Package pdftex.def Info: H11_1.pdf used on input line 505.
 (pdftex.def)             Requested size: 200.47227pt x 95.41957pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/He1_1.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<fig/svg/He1_1.pdf, id=162, 428.60126pt x 129.48375pt>
-File: fig/svg/He1_1.pdf Graphic file (type pdf)
- <use fig/svg/He1_1.pdf>
-Package pdftex.def Info: fig/svg/He1_1.pdf used on input line 514.
+pdfTeX warning: pdflatex.exe (file ./He1_1.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+<He1_1.pdf, id=162, 428.60126pt x 129.48375pt>
+File: He1_1.pdf Graphic file (type pdf)
+ <use He1_1.pdf>
+Package pdftex.def Info: He1_1.pdf used on input line 514.
 (pdftex.def)             Requested size: 200.47227pt x 60.56494pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 517--518
@@ -1189,227 +1190,215 @@ Underfull \hbox (badness 10000) in paragraph at lines 517--518
 
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/Hn_1.pdf): PDF inclusion: found PD
-F version <1.7>, but at most version <1.5> allowed
-<fig/svg/Hn_1.pdf, id=163, 433.62pt x 198.7425pt>
-File: fig/svg/Hn_1.pdf Graphic file (type pdf)
- <use fig/svg/Hn_1.pdf>
-Package pdftex.def Info: fig/svg/Hn_1.pdf used on input line 521.
+pdfTeX warning: pdflatex.exe (file ./Hn_1.pdf): PDF inclusion: found PDF versio
+n <1.7>, but at most version <1.5> allowed
+<Hn_1.pdf, id=163, 433.62pt x 198.7425pt>
+File: Hn_1.pdf Graphic file (type pdf)
+ <use Hn_1.pdf>
+Package pdftex.def Info: Hn_1.pdf used on input line 521.
 (pdftex.def)             Requested size: 200.47227pt x 91.88359pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/Rt_1.pdf): PDF inclusion: found PD
-F version <1.7>, but at most version <1.5> allowed
-<fig/svg/Rt_1.pdf, id=164, 541.02126pt x 143.53625pt>
-File: fig/svg/Rt_1.pdf Graphic file (type pdf)
- <use fig/svg/Rt_1.pdf>
-Package pdftex.def Info: fig/svg/Rt_1.pdf used on input line 536.
+pdfTeX warning: pdflatex.exe (file ./Rt_1.pdf): PDF inclusion: found PDF versio
+n <1.7>, but at most version <1.5> allowed
+<Rt_1.pdf, id=164, 541.02126pt x 143.53625pt>
+File: Rt_1.pdf Graphic file (type pdf)
+ <use Rt_1.pdf>
+Package pdftex.def Info: Rt_1.pdf used on input line 536.
 (pdftex.def)             Requested size: 222.74849pt x 59.09554pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/Rb_1(2).pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<fig/svg/Rb_1(2).pdf, id=165, 526.96875pt x 143.53625pt>
-File: fig/svg/Rb_1(2).pdf Graphic file (type pdf)
-
-<use fig/svg/Rb_1(2).pdf>
-Package pdftex.def Info: fig/svg/Rb_1(2).pdf used on input line 539.
+pdfTeX warning: pdflatex.exe (file ./Rb_1(2).pdf): PDF inclusion: found PDF ver
+sion <1.7>, but at most version <1.5> allowed
+<Rb_1(2).pdf, id=165, 526.96875pt x 143.53625pt>
+File: Rb_1(2).pdf Graphic file (type pdf)
+ <use Rb_1(2).pdf>
+Package pdftex.def Info: Rb_1(2).pdf used on input line 539.
 (pdftex.def)             Requested size: 222.74849pt x 60.67247pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/Rb_1.pdf): PDF inclusion: found PD
-F version <1.7>, but at most version <1.5> allowed
-<fig/svg/Rb_1.pdf, id=166, 526.96875pt x 74.2775pt>
-File: fig/svg/Rb_1.pdf Graphic file (type pdf)
- <use fig/svg/Rb_1.pdf>
-Package pdftex.def Info: fig/svg/Rb_1.pdf used on input line 541.
+pdfTeX warning: pdflatex.exe (file ./Rb_1.pdf): PDF inclusion: found PDF versio
+n <1.7>, but at most version <1.5> allowed
+<Rb_1.pdf, id=166, 526.96875pt x 74.2775pt>
+File: Rb_1.pdf Graphic file (type pdf)
+ <use Rb_1.pdf>
+Package pdftex.def Info: Rb_1.pdf used on input line 541.
 (pdftex.def)             Requested size: 222.74849pt x 31.39694pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/Rtr_1.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<fig/svg/Rtr_1.pdf, id=167, 305.14pt x 257.96375pt>
-File: fig/svg/Rtr_1.pdf Graphic file (type pdf)
- <use fig/svg/Rtr_1.pdf>
-Package pdftex.def Info: fig/svg/Rtr_1.pdf used on input line 546.
+pdfTeX warning: pdflatex.exe (file ./Rtr_1.pdf): PDF inclusion: found PDF versi
+on <1.7>, but at most version <1.5> allowed
+<Rtr_1.pdf, id=167, 305.14pt x 257.96375pt>
+File: Rtr_1.pdf Graphic file (type pdf)
+ <use Rtr_1.pdf>
+Package pdftex.def Info: Rtr_1.pdf used on input line 546.
 (pdftex.def)             Requested size: 155.92325pt x 131.81955pt.
-
-[3]
+ [3]
 Overfull \hbox (4.53516pt too wide) in paragraph at lines 619--625
 [][][][][][][][] [] [][][]$ \OT1/cmr/m/n/10 that folds as the mod-
  []
 
-[4] [5 <./fig/svg/inf-ai_c_2.pdf> <./fig/svg/tglider.pdf
+[4] [5 <./inf-ai_c_2.pdf> <./tglider.pdf
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/tglider.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
-> <./fig/svg/bglider.pdf
+pdfTeX warning: pdflatex.exe (file ./tglider.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+> <./bglider.pdf
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/bglider.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
-> <./fig/svg/plane.pdf
+pdfTeX warning: pdflatex.exe (file ./bglider.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+> <./plane.pdf
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/plane.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
-> <./fig/svg/spiral.pdf
+pdfTeX warning: pdflatex.exe (file ./plane.pdf): PDF inclusion: multiple pdfs w
+ith page group included in a single page
+> <./spiral.pdf
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/spiral.pdf): PDF inclusion: multip
-le pdfs with page group included in a single page
-> <./fig/svg/horn.pdf
+pdfTeX warning: pdflatex.exe (file ./spiral.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+> <./horn.pdf
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/horn.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
-> <./fig/svg/kar.pdf
+pdfTeX warning: pdflatex.exe (file ./horn.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+> <./kar.pdf
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/kar.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
-> <./fig/svg/roof.pdf
+pdfTeX warning: pdflatex.exe (file ./kar.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./roof.pdf
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/roof.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
-> <./fig/svg/fault.pdf
+pdfTeX warning: pdflatex.exe (file ./roof.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+> <./fault.pdf
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/fault.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
-> <./fig/svg/cliff.pdf
+pdfTeX warning: pdflatex.exe (file ./fault.pdf): PDF inclusion: multiple pdfs w
+ith page group included in a single page
+> <./cliff.pdf
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/cliff.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./cliff.pdf): PDF inclusion: multiple pdfs w
+ith page group included in a single page
 >]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-<fig/svg/CounterEx5_1.pdf, id=314, 1382.91656pt x 162.56627pt>
-File: fig/svg/CounterEx5_1.pdf Graphic file (type pdf)
-
-<use fig/svg/CounterEx5_1.pdf>
-Package pdftex.def Info: fig/svg/CounterEx5_1.pdf used on input line 653.
+<CounterEx5_1.pdf, id=313, 1382.91656pt x 162.56627pt>
+File: CounterEx5_1.pdf Graphic file (type pdf)
+ <use CounterEx5_1.pdf>
+Package pdftex.def Info: CounterEx5_1.pdf used on input line 653.
 (pdftex.def)             Requested size: 445.49698pt x 52.36954pt.
 
-<fig/svg/CounterEx11_1.pdf, id=317, 1495.83844pt x 247.50874pt>
-File: fig/svg/CounterEx11_1.pdf Graphic file (type pdf)
+<CounterEx11_1.pdf, id=316, 1495.83844pt x 247.50874pt>
+File: CounterEx11_1.pdf Graphic file (type pdf)
 
-<use fig/svg/CounterEx11_1.pdf>
-Package pdftex.def Info: fig/svg/CounterEx11_1.pdf used on input line 667.
+<use CounterEx11_1.pdf>
+Package pdftex.def Info: CounterEx11_1.pdf used on input line 667.
 (pdftex.def)             Requested size: 495.0pt x 81.90472pt.
+ <CounterEx13_1.pdf, id=317, 1529.715pt x 263.75691pt>
+File: CounterEx13_1.pdf Graphic file (type pdf)
 
-<fig/svg/CounterEx13_1.pdf, id=318, 1529.715pt x 263.75691pt>
-File: fig/svg/CounterEx13_1.pdf Graphic file (type pdf)
-
-<use fig/svg/CounterEx13_1.pdf>
-Package pdftex.def Info: fig/svg/CounterEx13_1.pdf used on input line 679.
+<use CounterEx13_1.pdf>
+Package pdftex.def Info: CounterEx13_1.pdf used on input line 679.
 (pdftex.def)             Requested size: 495.0pt x 85.3497pt.
- [6 <./fig/svg/Fnt_1.pdf> <./fig/svg/Fnb_1.pdf> <./fig/svg/F0_1.pdf> <./fig/svg
-/F1_1.pdf>] [7 <./fig/svg/Lt_3.pdf> <./fig/svg/Lbc_3.pdf> <./fig/svg/Ltrc_3.pdf
-> <./fig/svg/Ltre_3.pdf
+ [6 <./Fnt_1.pdf> <./Fnb_1.pdf> <./F0_1.pdf> <./F1_1.pdf>] [7 <./Lt_3.pdf> <./L
+bc_3.pdf> <./Ltrc_3.pdf> <./Ltre_3.pdf
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/Ltre_3.pdf): PDF inclusion: multip
-le pdfs with page group included in a single page
-> <./fig/svg/Lbe_3.pdf>]
-<fig/svg/CounterEx14_2.pdf, id=753, 605.26125pt x 278.54062pt>
-File: fig/svg/CounterEx14_2.pdf Graphic file (type pdf)
+pdfTeX warning: pdflatex.exe (file ./Ltre_3.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+> <./Lbe_3.pdf>] <CounterEx14_2.pdf, id=753, 605.26125pt x 278.54062pt>
+File: CounterEx14_2.pdf Graphic file (type pdf)
 
-<use fig/svg/CounterEx14_2.pdf>
-Package pdftex.def Info: fig/svg/CounterEx14_2.pdf used on input line 734.
+<use CounterEx14_2.pdf>
+Package pdftex.def Info: CounterEx14_2.pdf used on input line 734.
 (pdftex.def)             Requested size: 197.99698pt x 91.1154pt.
+ <CounterEx15_2.pdf, id=754, 833.36343pt x 274.77657pt>
+File: CounterEx15_2.pdf Graphic file (type pdf)
 
-<fig/svg/CounterEx15_2.pdf, id=754, 833.36343pt x 274.77657pt>
-File: fig/svg/CounterEx15_2.pdf Graphic file (type pdf)
-
-<use fig/svg/CounterEx15_2.pdf>
-Package pdftex.def Info: fig/svg/CounterEx15_2.pdf used on input line 742.
+<use CounterEx15_2.pdf>
+Package pdftex.def Info: CounterEx15_2.pdf used on input line 742.
 (pdftex.def)             Requested size: 247.5pt x 81.60342pt.
+ <CounterEx17_3.pdf, id=755, 870.47156pt x 95.9458pt>
+File: CounterEx17_3.pdf Graphic file (type pdf)
 
-<fig/svg/CounterEx17_3.pdf, id=755, 870.47156pt x 95.9458pt>
-File: fig/svg/CounterEx17_3.pdf Graphic file (type pdf)
-
-<use fig/svg/CounterEx17_3.pdf>
-Package pdftex.def Info: fig/svg/CounterEx17_3.pdf used on input line 761.
+<use CounterEx17_3.pdf>
+Package pdftex.def Info: CounterEx17_3.pdf used on input line 761.
 (pdftex.def)             Requested size: 222.74849pt x 24.55148pt.
+ <CounterEx18_2.pdf, id=756, 926.3799pt x 156.4216pt>
+File: CounterEx18_2.pdf Graphic file (type pdf)
 
-<fig/svg/CounterEx18_2.pdf, id=756, 926.3799pt x 156.4216pt>
-File: fig/svg/CounterEx18_2.pdf Graphic file (type pdf)
-
-<use fig/svg/CounterEx18_2.pdf>
-Package pdftex.def Info: fig/svg/CounterEx18_2.pdf used on input line 775.
+<use CounterEx18_2.pdf>
+Package pdftex.def Info: CounterEx18_2.pdf used on input line 775.
 (pdftex.def)             Requested size: 222.74849pt x 37.61116pt.
 
-Overfull \hbox (2.70313pt too wide) in paragraph at lines 880--901
+Overfull \hbox (2.70313pt too wide) in paragraph at lines 875--896
  [] 
  []
 
-[8 <./fig/svg/H00_1.pdf> <./fig/svg/H01_1.pdf> <./fig/svg/H10_1.pdf> <./fig/svg
-/H11_1.pdf> <./fig/svg/He1_1.pdf> <./fig/svg/Hn_1.pdf>]
-Overfull \hbox (2.70313pt too wide) in paragraph at lines 915--929
+[8 <./H00_1.pdf> <./H01_1.pdf> <./H10_1.pdf> <./H11_1.pdf> <./He1_1.pdf> <./Hn_
+1.pdf>]
+Overfull \hbox (2.70313pt too wide) in paragraph at lines 910--924
  [] 
  []
 
-[9 <./fig/svg/Rt_1.pdf> <./fig/svg/Rb_1(2).pdf> <./fig/svg/Rb_1.pdf> <./fig/svg
-/Rtr_1.pdf> <./fig/svg/CounterEx5_1.pdf
+[9 <./Rt_1.pdf> <./Rb_1(2).pdf> <./Rb_1.pdf> <./Rtr_1.pdf> <./CounterEx5_1.pdf
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/CounterEx5_1.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
-> <./fig/svg/CounterEx11_1.pdf
+pdfTeX warning: pdflatex.exe (file ./CounterEx5_1.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./CounterEx11_1.pdf
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/CounterEx11_1.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./CounterEx11_1.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
 >]
-Overfull \hbox (2.70313pt too wide) in paragraph at lines 929--948
+Overfull \hbox (2.70313pt too wide) in paragraph at lines 924--946
  [] 
  []
 
-<fig/svg/zeroBit01.pdf, id=1037, 144.9708pt x 75.2376pt>
-File: fig/svg/zeroBit01.pdf Graphic file (type pdf)
-
-<use fig/svg/zeroBit01.pdf>
-Package pdftex.def Info: fig/svg/zeroBit01.pdf used on input line 961.
+<zeroBit01.pdf, id=1037, 144.9708pt x 75.2376pt>
+File: zeroBit01.pdf Graphic file (type pdf)
+ <use zeroBit01.pdf>
+Package pdftex.def Info: zeroBit01.pdf used on input line 961.
 (pdftex.def)             Requested size: 148.50151pt x 77.0708pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 964--965
 
  []
 
-<fig/svg/zeroBit05.pdf, id=1038, 479.54156pt x 212.1486pt>
-File: fig/svg/zeroBit05.pdf Graphic file (type pdf)
-
-<use fig/svg/zeroBit05.pdf>
-Package pdftex.def Info: fig/svg/zeroBit05.pdf used on input line 968.
+<zeroBit05.pdf, id=1038, 479.54156pt x 212.1486pt>
+File: zeroBit05.pdf Graphic file (type pdf)
+ <use zeroBit05.pdf>
+Package pdftex.def Info: zeroBit05.pdf used on input line 968.
 (pdftex.def)             Requested size: 272.25151pt x 120.44362pt.
 
 Overfull \hbox (2.34174pt too wide) in paragraph at lines 980--985
 []\OT1/cmr/m/n/10 This in-fi-nite counter could be used to sim-u-late count-
  []
 
+[10 <./CounterEx13_1.pdf> <./CounterEx14_2.pdf
 
+pdfTeX warning: pdflatex.exe (file ./CounterEx14_2.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./CounterEx15_2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./CounterEx15_2.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./CounterEx17_3.pdf
+
+pdfTeX warning: pdflatex.exe (file ./CounterEx17_3.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./CounterEx18_2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./CounterEx18_2.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>]
 Overfull \hbox (1.04803pt too wide) in paragraph at lines 987--989
 []\OT1/cmr/m/n/8.5 This work is sup-ported in part by KAK-
  []
 
-[10 <./fig/svg/CounterEx13_1.pdf> <./fig/svg/CounterEx14_2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./fig/svg/CounterEx14_2.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
-> <./fig/svg/CounterEx15_2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./fig/svg/CounterEx15_2.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
-> <./fig/svg/CounterEx17_3.pdf
-
-pdfTeX warning: pdflatex.exe (file ./fig/svg/CounterEx17_3.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
-> <./fig/svg/CounterEx18_2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./fig/svg/CounterEx18_2.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
->] (./nc2020_2nd.bbl
+(./nc2020_2nd.bbl
 Underfull \hbox (badness 1412) in paragraph at lines 23--25
 []\OT1/cmr/m/n/8.5 Evans, C.G.: Crys-tals that Count! Phys-i-cal Prin-ci-
  []
 
-) [11 <./fig/svg/zeroBit01.pdf> <./fig/svg/zeroBit05.pdf
+) [11 <./zeroBit01.pdf> <./zeroBit05.pdf
 
-pdfTeX warning: pdflatex.exe (file ./fig/svg/zeroBit05.pdf): PDF inclusion: mul
-tiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./zeroBit05.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
 >]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1105.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1105.
@@ -1427,9 +1416,9 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1105.
  ) 
 Here is how much of TeX's memory you used:
- 18499 strings out of 493013
- 353657 string characters out of 6136993
- 471349 words of memory out of 5000000
+ 18497 strings out of 493013
+ 352413 string characters out of 6136993
+ 471440 words of memory out of 5000000
  21602 multiletter control sequences out of 15000+600000
  20711 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1454,7 +1443,7 @@ xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2016
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2016/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on nc2020_2nd.pdf (11 pages, 1546028 bytes).
+Output written on nc2020_2nd.pdf (11 pages, 1545781 bytes).
 PDF statistics:
  1250 PDF objects out of 1440 (max. 8388607)
  968 compressed objects within 10 object streams
