@@ -178,4 +178,14 @@
   pages   = {128-139},
 }
 
+@Article{LathropLPS2011,
+  author  = {James I. Lathrop and Jack H. Lutz and Matthew J. Patitz and Scott M. Summers},
+  title   = {Computability and Complexity in Self-Assembly},
+  journal = {Theory of Computing Systems},
+  year    = {2011},
+  volume  = {48},
+  number  = {3},
+  pages   = {617-647},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

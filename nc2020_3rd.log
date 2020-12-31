@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.17)  31 DEC 2020 11:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.17)  31 DEC 2020 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -694,7 +694,7 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@dimen=\dimen198
 \ST@pbox=\box68
 )
-No file nc2020_3rd.aux.
+(./nc2020_3rd.aux)
 \openout1 = `nc2020_3rd.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -711,6 +711,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
+
 Unknown journal: specify \journalname{<name of your journal>} in preambel
 
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -758,6 +759,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
 LaTeX Info: Redefining \nameref on input line 34.
+
+(./nc2020_3rd.out) (./nc2020_3rd.out)
 \@outlinefile=\write5
 \openout5 = `nc2020_3rd.out'.
 
@@ -815,33 +818,10 @@ LaTeX Font Warning: Font shape `U/wasy/m/n' in size <4.25> not available
 (Font)              size <5> substituted on input line 58.
 
 
-LaTeX Warning: Citation `McClung2006' on page 1 undefined on input line 70.
-
-
-LaTeX Warning: Citation `EvansPhD' on page 1 undefined on input line 72.
-
-
-LaTeX Warning: Citation `AdChGoHu2001' on page 1 undefined on input line 73.
-
-
-LaTeX Warning: Citation `RothemundWinfree2000' on page 1 undefined on input lin
-e 73.
-
-
-LaTeX Warning: Citation `MasudaSekiUbukata2018' on page 1 undefined on input li
-ne 73.
-
-
-LaTeX Warning: Citation `BrChDoKaSe2013' on page 1 undefined on input line 73.
-
-
-LaTeX Warning: Citation `LathropLPS2011' on page 1 undefined on input line 73.
-
-
 
 pdfTeX warning: pdflatex.exe (file ./rna_origami.pdf): PDF inclusion: found PDF
  version <1.6>, but at most version <1.5> allowed
-<rna_origami.pdf, id=7, 3918.64pt x 877.2775pt>
+<rna_origami.pdf, id=37, 3918.64pt x 877.2775pt>
 File: rna_origami.pdf Graphic file (type pdf)
 <use rna_origami.pdf>
 Package pdftex.def Info: rna_origami.pdf  used on input line 77.
@@ -853,20 +833,6 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <8.5> not available
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <8.5> not available
 (Font)              size <8> substituted on input line 78.
-
-
-LaTeX Warning: Citation `GeMeScSe2019' on page 1 undefined on input line 82.
-
-
-LaTeX Warning: Reference `fig:rna_origami' on page 1 undefined on input line 83
-.
-
-
-LaTeX Warning: Citation `GearyRothemundAndersen2014' on page 1 undefined on inp
-ut line 84.
-
-
-LaTeX Warning: Citation `GeMeScSe2019' on page 1 undefined on input line 86.
 
 
 LaTeX Warning: Command \textcircled invalid in math mode on input line 87.
@@ -936,13 +902,9 @@ LaTeX Warning: Command \textcircled invalid in math mode on input line 87.
 LaTeX Warning: Command \textcircled invalid in math mode on input line 87.
 
 
-LaTeX Warning: Citation `MasudaSekiUbukata2018' on page 1 undefined on input li
-ne 89.
-
-
-Overfull \hbox (6.99464pt too wide) in paragraph at lines 82--92
-\OT1/cmr/m/n/10 ori-tatami model of co-tran-scrip-tional fold-ing [\OT1/cmr/bx/
-n/10 ?\OT1/cmr/m/n/10 ]. As shown
+Overfull \hbox (6.56413pt too wide) in paragraph at lines 82--92
+\OT1/cmr/m/n/10 ori-tatami model of co-tran-scrip-tional fold-ing [[]]. As show
+n
  []
 
 
@@ -952,9 +914,9 @@ types over the 2-dimensional
  []
 
 
-Overfull \hbox (1.07756pt too wide) in paragraph at lines 82--92
-\OT1/cmr/m/n/10 counter in [\OT1/cmr/bx/n/10 ?\OT1/cmr/m/n/10 ] is of pe-riod 6
-0 as $[][][][] [] [][][][][] [] $
+Overfull \hbox (0.64705pt too wide) in paragraph at lines 82--92
+\OT1/cmr/m/n/10 counter in [[]] is of pe-riod 60 as $[][][][] [] [][][][][] [] 
+$
  []
 
 
@@ -964,29 +926,15 @@ Underfull \vbox (badness 1033) has occurred while \output is active []
 
 
  <./rna_origami.pdf>]
-
-LaTeX Warning: Citation `GeMeScSe2018' on page 2 undefined on input line 93.
-
-
-LaTeX Warning: Citation `PchelinaSSU2020' on page 2 undefined on input line 93.
+Overfull \hbox (0.56305pt too wide) in paragraph at lines 93--99
+\OT1/cmr/m/n/10 ab-stract tile-assembly model (aTAM) [[], []], and many
+ []
 
 
-
-LaTeX Warning: Citation `RothemundWinfree2000' on page 2 undefined on input lin
-e 95.
-
-
-LaTeX Warning: Citation `WinfreePhD' on page 2 undefined on input line 95.
-
-
-LaTeX Warning: Citation `GeMeScSe2018' on page 2 undefined on input line 97.
-
-
-LaTeX Warning: Citation `PchelinaSSU2020' on page 2 undefined on input line 97.
-
-
-
-LaTeX Warning: Citation `Minsky1967' on page 2 undefined on input line 98.
+Overfull \hbox (0.70291pt too wide) in paragraph at lines 93--99
+\OT1/cmr/m/n/10 [[], []] hence never dis-cour-age us to de-sign a set of singly
+-
+ []
 
 
 LaTeX Warning: Command \textcircled invalid in math mode on input line 101.
@@ -1005,138 +953,61 @@ LaTeX Warning: Command \textcircled invalid in math mode on input line 101.
 
 
 LaTeX Warning: Command \textcircled invalid in math mode on input line 101.
-
-
-LaTeX Warning: Citation `PchelinaSSU2020' on page 2 undefined on input line 101
-.
-
-
-LaTeX Warning: Citation `GearyAndersen2014' on page 2 undefined on input line 1
-02.
-
-
-LaTeX Warning: Reference `sect:preliminaries' on page 2 undefined on input line
- 105.
-
-
-LaTeX Warning: Citation `RothemundWinfree2000' on page 2 undefined on input lin
-e 106.
 
 
 Underfull \vbox (badness 2426) has occurred while \output is active []
 
-
-
-LaTeX Warning: Reference `sect:preliminaries' on page 2 undefined on input line
- 111.
-
-
-LaTeX Warning: Reference `sect:detail' on page 2 undefined on input line 112.
-
-
-LaTeX Warning: Reference `sect:discussion' on page 2 undefined on input line 11
-3.
-
-[2]
-
-LaTeX Warning: Reference `eq:OS_CF' on page 3 undefined on input line 225.
-
-
-LaTeX Warning: Citation `GeMeScSe2018' on page 3 undefined on input line 301.
-
-
+ [2]
 Underfull \hbox (badness 1048) in paragraph at lines 301--301
 [][][]\OT1/cmr/m/n/8.5 A video to show how a glider folds can be found
  []
 
-
-LaTeX Warning: Reference `fig:glider' on page 3 undefined on input line 302.
-
-
-LaTeX Warning: Reference `fig:glider' on page 3 undefined on input line 309.
-
-
-LaTeX Warning: Citation `DemaineHOPRSST2018' on page 3 undefined on input line 
-314.
-
-
-LaTeX Warning: Citation `ElonenBachelor2016' on page 3 undefined on input line 
-314.
-
-
-LaTeX Warning: Citation `GeMeScSe2018' on page 3 undefined on input line 314.
-
-
-LaTeX Warning: Citation `HanKim2018' on page 3 undefined on input line 314.
-
-
-LaTeX Warning: Citation `PchelinaSSU2020' on page 3 undefined on input line 314
-.
-
-
-LaTeX Warning: Reference `fig:overflowex2-3' on page 3 undefined on input line 
-315.
-
-
-LaTeX Warning: Reference `fig:overflowex4' on page 3 undefined on input line 31
-5.
-
-
-LaTeX Warning: Citation `GeMeScSe2019' on page 3 undefined on input line 317.
-
-
-LaTeX Warning: Citation `GeMeScSe2018' on page 3 undefined on input line 317.
-
-
-LaTeX Warning: Citation `PchelinaSSU2020' on page 3 undefined on input line 317
-.
-
-<inf-ai_c_2.pdf, id=41, 2042.70894pt x 2486.75069pt>
+<inf-ai_c_2.pdf, id=139, 2042.70894pt x 2486.75069pt>
 File: inf-ai_c_2.pdf Graphic file (type pdf)
 <use inf-ai_c_2.pdf>
 Package pdftex.def Info: inf-ai_c_2.pdf  used on input line 334.
 (pdftex.def)             Requested size: 445.49698pt x 542.30582pt.
-<tglider.pdf, id=42, 118.94438pt x 57.18515pt>
+<tglider.pdf, id=140, 118.94438pt x 57.18515pt>
 File: tglider.pdf Graphic file (type pdf)
 <use tglider.pdf>
 Package pdftex.def Info: tglider.pdf  used on input line 379.
 (pdftex.def)             Requested size: 74.24698pt x 35.69699pt.
-<bglider.pdf, id=43, 118.94438pt x 57.18515pt>
+<bglider.pdf, id=141, 118.94438pt x 57.18515pt>
 File: bglider.pdf Graphic file (type pdf)
 <use bglider.pdf>
 Package pdftex.def Info: bglider.pdf  used on input line 379.
 (pdftex.def)             Requested size: 74.24698pt x 35.69699pt.
-<plane.pdf, id=44, 152.82094pt x 56.43233pt>
+<plane.pdf, id=142, 152.82094pt x 56.43233pt>
 File: plane.pdf Graphic file (type pdf)
 <use plane.pdf>
 Package pdftex.def Info: plane.pdf  used on input line 379.
 (pdftex.def)             Requested size: 74.24698pt x 27.41699pt.
-<spiral.pdf, id=45, 152.82094pt x 57.18515pt>
+<spiral.pdf, id=143, 152.82094pt x 57.18515pt>
 File: spiral.pdf Graphic file (type pdf)
 <use spiral.pdf>
 Package pdftex.def Info: spiral.pdf  used on input line 379.
 (pdftex.def)             Requested size: 74.24698pt x 27.78275pt.
-<horn.pdf, id=46, 107.65219pt x 96.30278pt>
+<horn.pdf, id=144, 107.65219pt x 96.30278pt>
 File: horn.pdf Graphic file (type pdf)
 <use horn.pdf>
 Package pdftex.def Info: horn.pdf  used on input line 379.
 (pdftex.def)             Requested size: 64.35242pt x 57.56902pt.
-<kar.pdf, id=47, 85.06781pt x 115.10805pt>
+<kar.pdf, id=145, 85.06781pt x 115.10805pt>
 File: kar.pdf Graphic file (type pdf)
 <use kar.pdf>
 Package pdftex.def Info: kar.pdf  used on input line 379.
 (pdftex.def)             Requested size: 54.4503pt x 73.67943pt.
-<roof.pdf, id=48, 130.98938pt x 76.74397pt>
+<roof.pdf, id=146, 130.98938pt x 76.74397pt>
 File: roof.pdf Graphic file (type pdf)
 <use roof.pdf>
 Package pdftex.def Info: roof.pdf  used on input line 379.
 (pdftex.def)             Requested size: 74.24698pt x 43.50093pt.
-<fault.pdf, id=49, 152.82094pt x 57.18515pt>
+<fault.pdf, id=147, 152.82094pt x 57.18515pt>
 File: fault.pdf Graphic file (type pdf)
 <use fault.pdf>
 Package pdftex.def Info: fault.pdf  used on input line 379.
 (pdftex.def)             Requested size: 98.99849pt x 37.04424pt.
-<cliff.pdf, id=50, 118.94438pt x 57.18515pt>
+<cliff.pdf, id=148, 118.94438pt x 57.18515pt>
 File: cliff.pdf Graphic file (type pdf)
 <use cliff.pdf>
 Package pdftex.def Info: cliff.pdf  used on input line 379.
@@ -1148,7 +1019,7 @@ LaTeX Warning: Float too large for page by 40.33157pt on input line 383.
 
 pdfTeX warning: pdflatex.exe (file ./Fnt_1.pdf): PDF inclusion: found PDF versi
 on <1.7>, but at most version <1.5> allowed
-<Fnt_1.pdf, id=51, 431.6125pt x 196.735pt>
+<Fnt_1.pdf, id=149, 431.6125pt x 196.735pt>
 File: Fnt_1.pdf Graphic file (type pdf)
 <use Fnt_1.pdf>
 Package pdftex.def Info: Fnt_1.pdf  used on input line 392.
@@ -1162,7 +1033,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 395--396
 
 pdfTeX warning: pdflatex.exe (file ./Fnb_1.pdf): PDF inclusion: found PDF versi
 on <1.7>, but at most version <1.5> allowed
-<Fnb_1.pdf, id=52, 427.5975pt x 196.735pt>
+<Fnb_1.pdf, id=150, 427.5975pt x 196.735pt>
 File: Fnb_1.pdf Graphic file (type pdf)
 <use Fnb_1.pdf>
 Package pdftex.def Info: Fnb_1.pdf  used on input line 399.
@@ -1171,7 +1042,7 @@ Package pdftex.def Info: Fnb_1.pdf  used on input line 399.
 
 pdfTeX warning: pdflatex.exe (file ./F0_1.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-<F0_1.pdf, id=53, 417.56pt x 205.76875pt>
+<F0_1.pdf, id=151, 417.56pt x 205.76875pt>
 File: F0_1.pdf Graphic file (type pdf)
 <use F0_1.pdf>
 Package pdftex.def Info: F0_1.pdf  used on input line 411.
@@ -1185,7 +1056,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
 pdfTeX warning: pdflatex.exe (file ./F1_1.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-<F1_1.pdf, id=54, 398.48875pt x 202.7575pt>
+<F1_1.pdf, id=152, 398.48875pt x 202.7575pt>
 File: F1_1.pdf Graphic file (type pdf)
 <use F1_1.pdf>
 Package pdftex.def Info: F1_1.pdf  used on input line 418.
@@ -1194,7 +1065,7 @@ Package pdftex.def Info: F1_1.pdf  used on input line 418.
 
 pdfTeX warning: pdflatex.exe (file ./Lt_3.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-<Lt_3.pdf, id=55, 522.95375pt x 145.54375pt>
+<Lt_3.pdf, id=153, 522.95375pt x 145.54375pt>
 File: Lt_3.pdf Graphic file (type pdf)
 <use Lt_3.pdf>
 Package pdftex.def Info: Lt_3.pdf  used on input line 436.
@@ -1208,7 +1079,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
 pdfTeX warning: pdflatex.exe (file ./Lbc_3.pdf): PDF inclusion: found PDF versi
 on <1.7>, but at most version <1.5> allowed
-<Lbc_3.pdf, id=56, 540.0175pt x 145.54375pt>
+<Lbc_3.pdf, id=154, 540.0175pt x 145.54375pt>
 File: Lbc_3.pdf Graphic file (type pdf)
 <use Lbc_3.pdf>
 Package pdftex.def Info: Lbc_3.pdf  used on input line 443.
@@ -1217,7 +1088,7 @@ Package pdftex.def Info: Lbc_3.pdf  used on input line 443.
 
 pdfTeX warning: pdflatex.exe (file ./Ltrc_3.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<Ltrc_3.pdf, id=57, 394.47375pt x 306.14375pt>
+<Ltrc_3.pdf, id=155, 394.47375pt x 306.14375pt>
 File: Ltrc_3.pdf Graphic file (type pdf)
 <use Ltrc_3.pdf>
 Package pdftex.def Info: Ltrc_3.pdf  used on input line 453.
@@ -1231,7 +1102,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 456--457
 
 pdfTeX warning: pdflatex.exe (file ./Ltre_3.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<Ltre_3.pdf, id=58, 481.8pt x 241.90375pt>
+<Ltre_3.pdf, id=156, 481.8pt x 241.90375pt>
 File: Ltre_3.pdf Graphic file (type pdf)
 <use Ltre_3.pdf>
 Package pdftex.def Info: Ltre_3.pdf  used on input line 460.
@@ -1240,7 +1111,7 @@ Package pdftex.def Info: Ltre_3.pdf  used on input line 460.
 
 pdfTeX warning: pdflatex.exe (file ./Lbe_3.pdf): PDF inclusion: found PDF versi
 on <1.7>, but at most version <1.5> allowed
-<Lbe_3.pdf, id=59, 555.07375pt x 192.72pt>
+<Lbe_3.pdf, id=157, 555.07375pt x 192.72pt>
 File: Lbe_3.pdf Graphic file (type pdf)
 <use Lbe_3.pdf>
 Package pdftex.def Info: Lbe_3.pdf  used on input line 465.
@@ -1249,7 +1120,7 @@ Package pdftex.def Info: Lbe_3.pdf  used on input line 465.
 
 pdfTeX warning: pdflatex.exe (file ./H00_1.pdf): PDF inclusion: found PDF versi
 on <1.7>, but at most version <1.5> allowed
-<H00_1.pdf, id=60, 406.51875pt x 198.7425pt>
+<H00_1.pdf, id=158, 406.51875pt x 198.7425pt>
 File: H00_1.pdf Graphic file (type pdf)
 <use H00_1.pdf>
 Package pdftex.def Info: H00_1.pdf  used on input line 482.
@@ -1263,7 +1134,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 485--486
 
 pdfTeX warning: pdflatex.exe (file ./H01_1.pdf): PDF inclusion: found PDF versi
 on <1.7>, but at most version <1.5> allowed
-<H01_1.pdf, id=61, 417.56pt x 198.7425pt>
+<H01_1.pdf, id=159, 417.56pt x 198.7425pt>
 File: H01_1.pdf Graphic file (type pdf)
 <use H01_1.pdf>
 Package pdftex.def Info: H01_1.pdf  used on input line 489.
@@ -1272,7 +1143,7 @@ Package pdftex.def Info: H01_1.pdf  used on input line 489.
 
 pdfTeX warning: pdflatex.exe (file ./H10_1.pdf): PDF inclusion: found PDF versi
 on <1.7>, but at most version <1.5> allowed
-<H10_1.pdf, id=62, 406.51875pt x 198.7425pt>
+<H10_1.pdf, id=160, 406.51875pt x 198.7425pt>
 File: H10_1.pdf Graphic file (type pdf)
 <use H10_1.pdf>
 Package pdftex.def Info: H10_1.pdf  used on input line 498.
@@ -1286,7 +1157,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 501--502
 
 pdfTeX warning: pdflatex.exe (file ./H11_1.pdf): PDF inclusion: found PDF versi
 on <1.7>, but at most version <1.5> allowed
-<H11_1.pdf, id=63, 417.56pt x 198.7425pt>
+<H11_1.pdf, id=161, 417.56pt x 198.7425pt>
 File: H11_1.pdf Graphic file (type pdf)
 <use H11_1.pdf>
 Package pdftex.def Info: H11_1.pdf  used on input line 505.
@@ -1295,7 +1166,7 @@ Package pdftex.def Info: H11_1.pdf  used on input line 505.
 
 pdfTeX warning: pdflatex.exe (file ./He1_1.pdf): PDF inclusion: found PDF versi
 on <1.7>, but at most version <1.5> allowed
-<He1_1.pdf, id=64, 428.60126pt x 129.48375pt>
+<He1_1.pdf, id=162, 428.60126pt x 129.48375pt>
 File: He1_1.pdf Graphic file (type pdf)
 <use He1_1.pdf>
 Package pdftex.def Info: He1_1.pdf  used on input line 514.
@@ -1309,7 +1180,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 517--518
 
 pdfTeX warning: pdflatex.exe (file ./Hn_1.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-<Hn_1.pdf, id=65, 433.62pt x 198.7425pt>
+<Hn_1.pdf, id=163, 433.62pt x 198.7425pt>
 File: Hn_1.pdf Graphic file (type pdf)
 <use Hn_1.pdf>
 Package pdftex.def Info: Hn_1.pdf  used on input line 521.
@@ -1318,7 +1189,7 @@ Package pdftex.def Info: Hn_1.pdf  used on input line 521.
 
 pdfTeX warning: pdflatex.exe (file ./Rt_1.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-<Rt_1.pdf, id=66, 541.02126pt x 143.53625pt>
+<Rt_1.pdf, id=164, 541.02126pt x 143.53625pt>
 File: Rt_1.pdf Graphic file (type pdf)
 <use Rt_1.pdf>
 Package pdftex.def Info: Rt_1.pdf  used on input line 536.
@@ -1327,7 +1198,7 @@ Package pdftex.def Info: Rt_1.pdf  used on input line 536.
 
 pdfTeX warning: pdflatex.exe (file ./Rb_1(2).pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<Rb_1(2).pdf, id=67, 526.96875pt x 143.53625pt>
+<Rb_1(2).pdf, id=165, 526.96875pt x 143.53625pt>
 File: Rb_1(2).pdf Graphic file (type pdf)
 <use Rb_1(2).pdf>
 Package pdftex.def Info: Rb_1(2).pdf  used on input line 539.
@@ -1336,7 +1207,7 @@ Package pdftex.def Info: Rb_1(2).pdf  used on input line 539.
 
 pdfTeX warning: pdflatex.exe (file ./Rb_1.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-<Rb_1.pdf, id=68, 526.96875pt x 74.2775pt>
+<Rb_1.pdf, id=166, 526.96875pt x 74.2775pt>
 File: Rb_1.pdf Graphic file (type pdf)
 <use Rb_1.pdf>
 Package pdftex.def Info: Rb_1.pdf  used on input line 541.
@@ -1345,106 +1216,15 @@ Package pdftex.def Info: Rb_1.pdf  used on input line 541.
 
 pdfTeX warning: pdflatex.exe (file ./Rtr_1.pdf): PDF inclusion: found PDF versi
 on <1.7>, but at most version <1.5> allowed
-<Rtr_1.pdf, id=69, 305.14pt x 257.96375pt>
+<Rtr_1.pdf, id=167, 305.14pt x 257.96375pt>
 File: Rtr_1.pdf Graphic file (type pdf)
 <use Rtr_1.pdf>
 Package pdftex.def Info: Rtr_1.pdf  used on input line 546.
 (pdftex.def)             Requested size: 155.92325pt x 131.81955pt.
-
-LaTeX Warning: Reference `subsect:ruleset' on page 3 undefined on input line 56
-8.
-
-
-LaTeX Warning: Citation `GeMeScSe2019' on page 3 undefined on input line 569.
-
-
-LaTeX Warning: Citation `MasudaSekiUbukata2018' on page 3 undefined on input li
-ne 569.
-
-
-LaTeX Warning: Reference `eq:OS_CF' on page 3 undefined on input line 569.
-
 [3]
-
-LaTeX Warning: Reference `fig:formatters' on page 4 undefined on input line 597
-.
-
-
-LaTeX Warning: Reference `eq:OS_CF' on page 4 undefined on input line 598.
-
-
-LaTeX Warning: Reference `fig:brickautomaton' on page 4 undefined on input line
- 600.
-
-
-LaTeX Warning: Citation `GeMeScSe2019' on page 4 undefined on input line 600.
-
-
-LaTeX Warning: Reference `fig:halfadders' on page 4 undefined on input line 620
-.
-
-
-LaTeX Warning: Reference `fig:rightturns' on page 4 undefined on input line 620
-.
-
-
-LaTeX Warning: Reference `fig:formatters' on page 4 undefined on input line 620
-.
-
-
-LaTeX Warning: Reference `fig:leftturns' on page 4 undefined on input line 620.
-
-
-
-LaTeX Warning: Reference `eq:zagencoding' on page 4 undefined on input line 622
-.
-
-
-LaTeX Warning: Reference `fig:rightturns' on page 4 undefined on input line 622
-.
-
-
-LaTeX Warning: Reference `fig:counter1stzig' on page 4 undefined on input line 
-624.
-
-
-LaTeX Warning: Reference `fig:noncoding_seed' on page 4 undefined on input line
- 624.
-
-
-Overfull \hbox (21.14713pt too wide) in paragraph at lines 619--625
-\OT1/cmr/m/n/10 glider-shaped sig-nal for left turn, and suc-ceeded by $[][][][
-]$
- []
-
-
 Overfull \hbox (4.53516pt too wide) in paragraph at lines 619--625
 [][][][][][][][] [] [][][]$ \OT1/cmr/m/n/10 that folds as the mod-
  []
-
-
-LaTeX Warning: Reference `fig:counter1stzag' on page 4 undefined on input line 
-633.
-
-
-LaTeX Warning: Reference `fig:leftturns' on page 4 undefined on input line 634.
-
-
-
-LaTeX Warning: Reference `fig:counter1stzig' on page 4 undefined on input line 
-638.
-
-
-LaTeX Warning: Reference `fig:counter1stzag' on page 4 undefined on input line 
-638.
-
-
-LaTeX Warning: Reference `fig:overflowex1' on page 4 undefined on input line 63
-8.
-
-
-LaTeX Warning: Reference `fig:rightturns' on page 4 undefined on input line 639
-.
 
 [4] [5 <./inf-ai_c_2.pdf> <./tglider.pdf
 
@@ -1485,127 +1265,55 @@ ith page group included in a single page
 >]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-LaTeX Warning: Reference `fig:formatters' on page 6 undefined on input line 647
-.
-
-
-LaTeX Warning: Reference `fig:leftturns' on page 6 undefined on input line 647.
-
-
-
-LaTeX Warning: Reference `fig:rightturns' on page 6 undefined on input line 647
-.
-
-
-LaTeX Warning: Reference `fig:halfadders' on page 6 undefined on input line 649
-.
-
-<CounterEx5_1.pdf, id=174, 1382.91656pt x 162.56627pt>
+<CounterEx5_1.pdf, id=313, 1382.91656pt x 162.56627pt>
 File: CounterEx5_1.pdf Graphic file (type pdf)
 <use CounterEx5_1.pdf>
 Package pdftex.def Info: CounterEx5_1.pdf  used on input line 653.
 (pdftex.def)             Requested size: 445.49698pt x 52.36954pt.
-
-LaTeX Warning: Reference `eq:zagencoding' on page 6 undefined on input line 659
-.
-
-
-LaTeX Warning: Reference `eq:zagencoding' on page 6 undefined on input line 659
-.
-
-<CounterEx11_1.pdf, id=175, 1495.83844pt x 247.50874pt>
+<CounterEx11_1.pdf, id=316, 1495.83844pt x 247.50874pt>
 File: CounterEx11_1.pdf Graphic file (type pdf)
 <use CounterEx11_1.pdf>
 Package pdftex.def Info: CounterEx11_1.pdf  used on input line 667.
 (pdftex.def)             Requested size: 495.0pt x 81.90472pt.
-<CounterEx13_1.pdf, id=176, 1529.715pt x 263.75691pt>
+<CounterEx13_1.pdf, id=317, 1529.715pt x 263.75691pt>
 File: CounterEx13_1.pdf Graphic file (type pdf)
 <use CounterEx13_1.pdf>
 Package pdftex.def Info: CounterEx13_1.pdf  used on input line 679.
 (pdftex.def)             Requested size: 495.0pt x 85.3497pt.
-
-LaTeX Warning: Reference `fig:counter1stzig' on page 6 undefined on input line 
-687.
-
-
-LaTeX Warning: Reference `fig:counter1stzig' on page 6 undefined on input line 
-689.
-
-
-LaTeX Warning: Reference `fig:overflowex1' on page 6 undefined on input line 69
-2.
-
-
-LaTeX Warning: Reference `fig:counter1stzig' on page 6 undefined on input line 
-692.
-
-[6 <./Fnt_1.pdf> <./Fnb_1.pdf> <./F0_1.pdf> <./F1_1.pdf>]
-
-LaTeX Warning: Citation `GeMeScSe2019' on page 7 undefined on input line 698.
-
-
-LaTeX Warning: Reference `fig:overflowex2-3' on page 7 undefined on input line 
-699.
-
-
-LaTeX Warning: Reference `fig:overflowex2-3' on page 7 undefined on input line 
-702.
-
-
-LaTeX Warning: Reference `fig:overflowex4' on page 7 undefined on input line 70
-2.
-
-
-LaTeX Warning: Reference `fig:leftturns' on page 7 undefined on input line 707.
-
-
-
-LaTeX Warning: Reference `fig:overflowex4' on page 7 undefined on input line 70
-7.
-
-
-LaTeX Warning: Reference `eq:zagencoding' on page 7 undefined on input line 713
-.
-
-
-LaTeX Warning: Reference `eq:zagencoding' on page 7 undefined on input line 715
-.
-
-[7 <./Lt_3.pdf> <./Lbc_3.pdf> <./Ltrc_3.pdf> <./Ltre_3.pdf
+ [6 <./Fnt_1.pdf> <./Fnb_1.pdf> <./F0_1.pdf> <./F1_1.pdf>] [7 <./Lt_3.pdf> <./L
+bc_3.pdf> <./Ltrc_3.pdf> <./Ltre_3.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Ltre_3.pdf): PDF inclusion: multiple pdfs 
 with page group included in a single page
 > <./Lbe_3.pdf>]
-<CounterEx14_2.pdf, id=599, 605.26125pt x 278.54062pt>
+<CounterEx14_2.pdf, id=753, 605.26125pt x 278.54062pt>
 File: CounterEx14_2.pdf Graphic file (type pdf)
 <use CounterEx14_2.pdf>
 Package pdftex.def Info: CounterEx14_2.pdf  used on input line 734.
 (pdftex.def)             Requested size: 197.99698pt x 91.1154pt.
-<CounterEx15_2.pdf, id=600, 833.36343pt x 274.77657pt>
+<CounterEx15_2.pdf, id=754, 833.36343pt x 274.77657pt>
 File: CounterEx15_2.pdf Graphic file (type pdf)
 <use CounterEx15_2.pdf>
 Package pdftex.def Info: CounterEx15_2.pdf  used on input line 742.
 (pdftex.def)             Requested size: 247.5pt x 81.60342pt.
-<CounterEx17_3.pdf, id=601, 870.47156pt x 95.9458pt>
+<CounterEx17_3.pdf, id=755, 870.47156pt x 95.9458pt>
 File: CounterEx17_3.pdf Graphic file (type pdf)
 <use CounterEx17_3.pdf>
 Package pdftex.def Info: CounterEx17_3.pdf  used on input line 761.
 (pdftex.def)             Requested size: 222.74849pt x 24.55148pt.
-<CounterEx18_2.pdf, id=602, 926.3799pt x 156.4216pt>
+<CounterEx18_2.pdf, id=756, 926.3799pt x 156.4216pt>
 File: CounterEx18_2.pdf Graphic file (type pdf)
 <use CounterEx18_2.pdf>
 Package pdftex.def Info: CounterEx18_2.pdf  used on input line 775.
 (pdftex.def)             Requested size: 222.74849pt x 37.61116pt.
 
-Overfull \hbox (2.70313pt too wide) in paragraph at lines 876--897
+Overfull \hbox (2.70313pt too wide) in paragraph at lines 875--896
  [] 
  []
 
 [8 <./H00_1.pdf> <./H01_1.pdf> <./H10_1.pdf> <./H11_1.pdf> <./He1_1.pdf> <./Hn_
 1.pdf>]
-Overfull \hbox (2.70313pt too wide) in paragraph at lines 911--925
+Overfull \hbox (2.70313pt too wide) in paragraph at lines 910--924
  [] 
  []
 
@@ -1618,11 +1326,11 @@ pdfTeX warning: pdflatex.exe (file ./CounterEx5_1.pdf): PDF inclusion: multiple
 pdfTeX warning: pdflatex.exe (file ./CounterEx11_1.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >]
-Overfull \hbox (2.70313pt too wide) in paragraph at lines 925--947
+Overfull \hbox (2.70313pt too wide) in paragraph at lines 924--946
  [] 
  []
 
-<zeroBit01.pdf, id=888, 144.9708pt x 75.2376pt>
+<zeroBit01.pdf, id=1037, 144.9708pt x 75.2376pt>
 File: zeroBit01.pdf Graphic file (type pdf)
 <use zeroBit01.pdf>
 Package pdftex.def Info: zeroBit01.pdf  used on input line 961.
@@ -1632,34 +1340,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 964--965
 
  []
 
-<zeroBit05.pdf, id=889, 479.54156pt x 212.1486pt>
+<zeroBit05.pdf, id=1038, 479.54156pt x 212.1486pt>
 File: zeroBit05.pdf Graphic file (type pdf)
 <use zeroBit05.pdf>
 Package pdftex.def Info: zeroBit05.pdf  used on input line 968.
 (pdftex.def)             Requested size: 272.25151pt x 120.44362pt.
-
-LaTeX Warning: Reference `fig:noncoding_seed' on page 10 undefined on input lin
-e 978.
-
-
-LaTeX Warning: Citation `BrChDoKaSe2013' on page 10 undefined on input line 980
-.
-
-
-LaTeX Warning: Citation `LathropLPS2011' on page 10 undefined on input line 980
-.
-
-
-LaTeX Warning: Citation `HanKim2019' on page 10 undefined on input line 984.
-
-
-LaTeX Warning: Citation `OtaSeki2017' on page 10 undefined on input line 984.
-
-
-Overfull \hbox (2.34174pt too wide) in paragraph at lines 980--985
-[]\OT1/cmr/m/n/10 This in-fi-nite counter could be used to sim-u-late count-
- []
-
 [10 <./CounterEx13_1.pdf> <./CounterEx14_2.pdf
 
 pdfTeX warning: pdflatex.exe (file ./CounterEx14_2.pdf): PDF inclusion: multipl
@@ -1677,53 +1362,43 @@ e pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./CounterEx18_2.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >]
-Overfull \hbox (1.04803pt too wide) in paragraph at lines 987--989
+Overfull \hbox (1.04803pt too wide) in paragraph at lines 988--990
 []\OT1/cmr/m/n/8.5 This work is sup-ported in part by KAK-
  []
 
-No file nc2020_3rd.bbl.
-[11
+(./nc2020_3rd.bbl
+Underfull \hbox (badness 1412) in paragraph at lines 23--25
+[]\OT1/cmr/m/n/8.5 Evans, C.G.: Crys-tals that Count! Phys-i-cal Prin-ci-
+ []
 
- <./zeroBit01.pdf> <./zeroBit05.pdf
+) [11 <./zeroBit01.pdf> <./zeroBit05.pdf
 
 pdfTeX warning: pdflatex.exe (file ./zeroBit05.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
 >]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1105.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1105.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1106.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1106.
  (./nc2020_3rd.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1105.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1105.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1106.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1106.
 
+Package rerunfilecheck Info: File `nc2020_3rd.out' has not changed.
+(rerunfilecheck)             Checksum: D2E0D47E45037A90393D26CFA194EC84;209.
 
-
-Package rerunfilecheck Warning: File `nc2020_3rd.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `nc2020_3rd.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D2E0D47E45037A90393D26CFA194EC84;209.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1105.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1106.
  ) 
 Here is how much of TeX's memory you used:
- 18806 strings out of 492609
- 359818 string characters out of 6132818
- 483412 words of memory out of 5000000
- 22312 multiletter control sequences out of 15000+600000
+ 18859 strings out of 492609
+ 360674 string characters out of 6132818
+ 488783 words of memory out of 5000000
+ 22337 multiletter control sequences out of 15000+600000
  20711 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,19n,66p,756b,791s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,19n,66p,757b,791s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/201
 9/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-d
@@ -1744,10 +1419,10 @@ xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2019
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2019/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on nc2020_3rd.pdf (11 pages, 1539050 bytes).
+Output written on nc2020_3rd.pdf (11 pages, 1545923 bytes).
 PDF statistics:
- 1090 PDF objects out of 1200 (max. 8388607)
- 848 compressed objects within 9 object streams
- 40 named destinations out of 1000 (max. 500000)
- 208 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1250 PDF objects out of 1440 (max. 8388607)
+ 968 compressed objects within 10 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
